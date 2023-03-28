@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-06_Update profile without any input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f48024bf-28b2-4902-b8a3-fc8beba4b509</testCaseGuid>
+</TestCaseEntity>

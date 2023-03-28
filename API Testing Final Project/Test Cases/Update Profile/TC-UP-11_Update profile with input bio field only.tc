@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-11_Update profile with input bio field only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c8bf03d-e2d2-4a7f-912d-dd56f282af7e</testCaseGuid>
+</TestCaseEntity>

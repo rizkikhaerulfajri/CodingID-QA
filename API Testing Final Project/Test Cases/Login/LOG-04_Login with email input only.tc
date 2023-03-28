@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOG-04_Login with email input only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c95402b7-0980-4ba8-81cb-311e78a285c1</testCaseGuid>
+</TestCaseEntity>

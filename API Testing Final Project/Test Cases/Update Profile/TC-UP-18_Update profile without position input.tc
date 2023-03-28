@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-18_Update profile without position input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa3894d2-39d5-4043-8056-b801fe4bf3b6</testCaseGuid>
+</TestCaseEntity>

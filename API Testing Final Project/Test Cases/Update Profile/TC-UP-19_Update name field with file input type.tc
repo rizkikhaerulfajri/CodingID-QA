@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-19_Update name field with file input type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0ad2e36-4510-42da-aa57-ef9f624cd6ef</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-28_Update photo field with number character only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdca95be-5660-42c2-9305-196b96e373d3</testCaseGuid>
+</TestCaseEntity>

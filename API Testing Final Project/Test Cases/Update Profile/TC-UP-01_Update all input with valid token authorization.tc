@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-01_Update all input with valid token authorization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40388a7a-9f3f-4887-9f0f-b736031e1df4</testCaseGuid>
+</TestCaseEntity>

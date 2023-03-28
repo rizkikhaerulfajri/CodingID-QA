@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-UP-05_Update profile with invalid token authorization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd63c170-d066-4eaf-8f12-88daf225653e</testCaseGuid>
+</TestCaseEntity>

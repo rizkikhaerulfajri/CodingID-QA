@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGU-19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e0ba5aa-a141-47a4-93b1-bb949ef67416</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Register_KataSandi_Diff_KonfirmasiKataSandi</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_KataSandi</value>
+      <variableId>99088fa0-702d-4e1e-b9ce-ba622cf969d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>invalid_KonfirmasiKataSandi</value>
+      <variableId>57630049-ad26-44e5-94bf-000892c0cf25</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99088fa0-702d-4e1e-b9ce-ba622cf969d0</id>
+      <masked>false</masked>
+      <name>katasandi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57630049-ad26-44e5-94bf-000892c0cf25</id>
+      <masked>false</masked>
+      <name>konfirmasikatasandi</name>
+   </variable>
+</TestCaseEntity>

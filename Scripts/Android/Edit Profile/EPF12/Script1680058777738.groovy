@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Home_Section_Profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Section_Profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile_Button_Settings'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile_Button_Settings_Option_EditProfile'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings_Option_EditProfile'), 0)
 
-Mobile.setText(findTestObject('EditProfile_Field_Phone'), phone, 0)
+Mobile.setText(findTestObject('Android/EditProfile_Field_Phone'), phone, 0)
 
-Mobile.verifyElementNotVisible(findTestObject('EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone'), 1)
+Mobile.verifyElementNotVisible(findTestObject('Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone'), 1)
 
 Mobile.pressBack()
 

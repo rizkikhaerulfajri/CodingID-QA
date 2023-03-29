@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Home_Button_LoginButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login_Hyperlink_Register, Now'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_Register, Now'), 0)
 
-Mobile.setText(findTestObject('Register_Field_WhatsApp'), whatsapp, 0)
+Mobile.setText(findTestObject('Android/Register_Field_WhatsApp'), whatsapp, 0)
 
-Mobile.verifyElementNotVisible(findTestObject('Register_ErrorMsg_WhatsApp number is require_Field_WhatsApp'), 3)
+Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_WhatsApp number is require_Field_WhatsApp'), 3)
 
-Mobile.verifyElementNotVisible(findTestObject('Register_ErrorMsg_WhatsApp number must be 9-13 character_Field_WhatsApp'), 
+Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_WhatsApp number must be 9-13 character_Field_WhatsApp'), 
     3)
 
 Mobile.closeApplication()

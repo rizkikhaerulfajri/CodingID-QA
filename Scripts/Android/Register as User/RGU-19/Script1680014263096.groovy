@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Home_Button_LoginButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login_Hyperlink_Register, Now'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_Register, Now'), 0)
 
-Mobile.setText(findTestObject('Register_Field_KataSandi'), katasandi, 0)
+Mobile.setText(findTestObject('Android/Register_Field_KataSandi'), katasandi, 0)
 
-Mobile.verifyElementNotVisible(findTestObject('Register_ErrorMsg_Password atleast must contain_Field_KataSandi'), 3)
+Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_Password atleast must contain_Field_KataSandi'), 3)
 
-Mobile.setText(findTestObject('Register_Field_KonfirmasiKataSandi'), konfirmasikatasandi, 0)
+Mobile.setText(findTestObject('Android/Register_Field_KonfirmasiKataSandi'), konfirmasikatasandi, 0)
 
-Mobile.waitForElementPresent(findTestObject('Register_ErrorMsg_Password not match_Field_KonfirmasiKataSandi'), 3)
+Mobile.waitForElementPresent(findTestObject('Android/Register_ErrorMsg_Password not match_Field_KonfirmasiKataSandi'), 3)
 
 Mobile.pressBack()
 

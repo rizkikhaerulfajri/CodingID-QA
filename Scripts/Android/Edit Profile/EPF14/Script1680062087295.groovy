@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Home_Section_Profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Section_Profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile_Button_Settings'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile_Button_Settings_Option_EditProfile'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings_Option_EditProfile'), 0)
 
-Mobile.clearText(findTestObject('EditProfile_Field_Phone'), 0)
+Mobile.clearText(findTestObject('Android/EditProfile_Field_Phone'), 0)
 
-Mobile.waitForElementPresent(findTestObject('EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone'), 0)
+Mobile.waitForElementPresent(findTestObject('Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone'), 0)
 
 Mobile.pressBack()
 

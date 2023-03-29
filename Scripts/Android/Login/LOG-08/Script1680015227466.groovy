@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Home_Button_LoginButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login_Field_Email'), 'ppp@g.co', 0)
+Mobile.setText(findTestObject('Object Repository/Android/Login_Field_Email'), 'ppp@g.co', 0)
 
-Mobile.setText(findTestObject('Object Repository/Login_Field_Password'), 'a1234567', 0)
+Mobile.setText(findTestObject('Object Repository/Android/Login_Field_Password'), 'a1234567', 0)
 
-Mobile.tap(findTestObject('Object Repository/Login_Button_Login'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Login_Button_Login'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Login_ErrorMsg_Email not verified_PopUp'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Android/Login_ErrorMsg_Email not verified_PopUp'), 0)
 
 Mobile.closeApplication()
 

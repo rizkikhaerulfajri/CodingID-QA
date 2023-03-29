@@ -109,7 +109,7 @@
       <name>birth_date</name>
    </variables>
    <variables>
-      <defaultValue>'C:\\Users\\ACER\\Pictures\\profile pic.jpg'</defaultValue>
+      <defaultValue>'C:\\Users\\ACER\\Pictures\\ProfilePic.jpg'</defaultValue>
       <description></description>
       <id>08f853ac-8969-4139-9370-09a6bc6d7769</id>
       <masked>false</masked>

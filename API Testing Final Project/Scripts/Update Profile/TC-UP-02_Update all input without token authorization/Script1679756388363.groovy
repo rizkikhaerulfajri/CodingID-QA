@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : 'update name', ('whatsapp') : '1234567890'
-            , ('birth_date') : '1995-05-04', ('photo') : '', ('bio') : 'Software Dev', ('position') : 'mobile dev', ('auth_token') : '']))
+            , ('birth_date') : '1995-05-04', ('photo') : 'C:\\Users\\ACER\\Pictures\\ProfilePic.jpg', ('bio') : 'Software Dev'
+            , ('position') : 'mobile dev', ('auth_token') : '']))
 
 WS.verifyResponseStatusCode(response, 302)
 

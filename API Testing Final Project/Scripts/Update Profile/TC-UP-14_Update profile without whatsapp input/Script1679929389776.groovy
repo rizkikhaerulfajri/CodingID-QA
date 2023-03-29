@@ -28,8 +28,8 @@ String token = parsedJson.success.token
 
 auth_token = token
 
-response = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : '', ('whatsapp') : '1234567890', ('birth_date') : '1995-05-04'
-            , ('photo') : '', ('bio') : 'Software Dev', ('position') : 'mobile dev', ('auth_token') : auth_token]))
+updateProfileResponse = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : 'update name', ('whatsapp') : ''
+            , ('birth_date') : '1995-05-04', ('photo') : '', ('bio') : 'Software Dev', ('position') : 'mobile dev', ('auth_token') : auth_token]))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(updateProfileResponse, 200)
 

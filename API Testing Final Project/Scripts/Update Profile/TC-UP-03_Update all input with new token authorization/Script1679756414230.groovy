@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import groovy.json.JsonSlurper
+import groovy.json.JsonSlurper as JsonSlurper
 
 response = WS.sendRequest(findTestObject('Postman/Login', [('email') : 'cihek19445@hempyl.com', ('password') : 'P@ssw0rd']))
 
@@ -28,8 +28,9 @@ String token = parsedJson.success.token
 
 auth_token = token
 
-updateProfileResponse = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : 'update name', ('whatsapp') : '1234567890', ('birth_date') : '1995-05-04'
-            , ('photo') : '', ('bio') : 'Software Dev', ('position') : 'mobile dev', ('auth_token') : auth_token]))
+updateProfileResponse = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : 'update name', ('whatsapp') : '1234567890'
+            , ('birth_date') : '1995-05-04', ('photo') : 'C:\\Users\\ACER\\Pictures\\profile pic.jpg', ('bio') : 'Software Dev'
+            , ('position') : 'mobile dev', ('auth_token') : auth_token]))
 
 WS.verifyResponseStatusCode(updateProfileResponse, 200)
 

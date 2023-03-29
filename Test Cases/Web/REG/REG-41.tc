@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with values in 'Kata Sandi' and 'Konfirmasi Kata Sandi' less than 8 characters</description>
-   <name>REG-41</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>3366412f-3028-4f91-92e3-4a9a96c7492b</testCaseGuid>
-</TestCaseEntity>

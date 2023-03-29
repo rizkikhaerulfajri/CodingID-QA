@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with empty value in 'Kata Sandi' and 'Konfirmasi Kata Sandi' fields</description>
-   <name>REG-39</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>f3cceeeb-3f95-4cb8-9e1f-92515b4bb0fc</testCaseGuid>
-</TestCaseEntity>

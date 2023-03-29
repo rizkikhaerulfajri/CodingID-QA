@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Register_valid_Email</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>37332145-a56b-4ae7-9b24-6fc6b6f9f2f8</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>mail%40mail.com</data>
+   <data>gmail%40gmail.com</data>
+   <data>lorem%40ipsum.com</data>
+   <data>sir.dolor%40amet.com</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>valid_email</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

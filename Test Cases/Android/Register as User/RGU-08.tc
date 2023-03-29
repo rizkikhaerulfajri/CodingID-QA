@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGU-08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3485d252-25ac-4b60-a6ed-6e80b7d36774</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>355dc73b-c78e-4f1e-94e3-8c547b38dc67</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Register_valid_Email</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>355dc73b-c78e-4f1e-94e3-8c547b38dc67</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_email</value>
+      <variableId>a452c0e1-59d0-4f3d-b39b-cb41a25fef71</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a452c0e1-59d0-4f3d-b39b-cb41a25fef71</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

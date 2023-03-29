@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with total character in the 'Whatsapp' field less than 10 (prefix number)</description>
+   <name>REG-34</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>621ddc27-b264-42be-9423-5ff5309906c5</testCaseGuid>
+</TestCaseEntity>

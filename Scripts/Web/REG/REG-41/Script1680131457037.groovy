@@ -50,7 +50,6 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	
 	println('After URL Validation')
 	
-	//handling server side error
 	WebUI.verifyElementPresent(findTestObject('Object Repository/WEB/Register/Reg_validationError_Password'), 1)
 	WebUI.verifyElementPresent(findTestObject('Object Repository/WEB/Register/Reg_validationError_PasswordConfirm'), 1)
 }

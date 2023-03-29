@@ -45,7 +45,6 @@ WebUI.verifyMatch('https://demo-app.online/daftar', WebUI.getUrl(), false, Failu
 	
 println('After URL Validation')
 	
-//handling server side error
 WebUI.verifyElementPresent(findTestObject('Object Repository/WEB/Register/Reg_validationError_Password'), 1)
 WebUI.verifyElementPresent(findTestObject('Object Repository/WEB/Register/Reg_validationError_PasswordConfirm'), 1)
 

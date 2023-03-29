@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Register_Birthday</name>
+   <name>Register_InvalidEmail</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>bfb0b8ec-e178-43ae-85f6-d6c9924cf5af</dataFileGUID>
-   <dataSourceUrl>C:\Users\rizki\git\CodingID-QA\Data Files\Web\REG_Email.xlsx</dataSourceUrl>
+   <dataFileGUID>fe339c8f-036c-4971-a096-3c69f6208eaf</dataFileGUID>
+   <dataSourceUrl>C:\Users\rizki\git\CodingID-QA\Data Files\Web\REG_InvalidEmail.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

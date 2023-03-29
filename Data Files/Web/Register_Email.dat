@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Register_Birthday</name>
+   <name>Register_Email</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>bfb0b8ec-e178-43ae-85f6-d6c9924cf5af</dataFileGUID>
+   <dataFileGUID>0a5fb6e6-29c8-485c-b7a5-0e50e47ac36c</dataFileGUID>
    <dataSourceUrl>C:\Users\rizki\git\CodingID-QA\Data Files\Web\REG_Email.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

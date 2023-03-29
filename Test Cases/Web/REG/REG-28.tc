@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with invalid e-mail value based on W3C HTML5 specification for input type=&quot;email&quot;</description>
+   <name>REG-28</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>8bbfce76-2da8-49c0-90b1-a16c1eefcec1</testCaseGuid>
+</TestCaseEntity>

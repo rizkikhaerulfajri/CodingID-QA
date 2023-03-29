@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EPF09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5b0dc1b-6a10-456c-9000-95cf6835cd6d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/EditProfile_invalid_Fullname</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>invalid_fullname</value>
+      <variableId>d4ad434a-6e42-4ea2-8a73-6036247a0666</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4ad434a-6e42-4ea2-8a73-6036247a0666</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Search for event with search function
+with event category as the keyword&quot;</description>
+   <name>EP-05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ddc6c24-b51e-4922-9513-b2884379e7d7</testCaseGuid>
+</TestCaseEntity>

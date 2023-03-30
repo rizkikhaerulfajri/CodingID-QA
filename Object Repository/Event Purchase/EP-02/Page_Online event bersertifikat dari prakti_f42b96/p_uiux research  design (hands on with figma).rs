@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_uiux research  design (hands on with figma)</name>
+   <tag></tag>
+   <elementGuidId>84a1d7b6-a0cb-4fa4-9ad5-ac3109aa9a2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ft-event']/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.objType</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f2e37c10-5c6e-4be1-9f66-0a72299e3796</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>objType</value>
+      <webElementGuid>a56dd524-0872-4309-8f7a-fee183930a4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ui/ux research &amp; design (hands on with figma) </value>
+      <webElementGuid>c1e6103c-87a4-4492-bdf8-ce8a085438c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searcning-list&quot;)/div[1]/div[@class=&quot;listSearching&quot;]/div[@id=&quot;rownya&quot;]/a[1]/div[@id=&quot;ft-event&quot;]/p[@class=&quot;objType&quot;]</value>
+      <webElementGuid>8a1fe01b-23cf-4f1b-9ab7-a9450817489a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ft-event']/p</value>
+      <webElementGuid>0f4cfa42-f55f-47eb-b37c-f0ed2060bec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Match'])[1]/following::p[1]</value>
+      <webElementGuid>d8b5a645-ea0f-492c-a533-c0a3b3a1ea6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Akun'])[3]/following::p[1]</value>
+      <webElementGuid>9b568817-5064-44e1-ae09-44be5861346a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[2]/preceding::p[2]</value>
+      <webElementGuid>0759f6b2-f427-43aa-8dc5-f036717beb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='research &amp; design (hands on with figma)']/parent::*</value>
+      <webElementGuid>cd95376c-6c40-4556-8e95-359a4e87bd74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>97ea0da2-7ba8-4eec-b53e-b9ea822e43da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ui/ux research &amp; design (hands on with figma) ' or . = 'ui/ux research &amp; design (hands on with figma) ')]</value>
+      <webElementGuid>41accd06-9ffd-427e-b527-cc13bd75e3dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

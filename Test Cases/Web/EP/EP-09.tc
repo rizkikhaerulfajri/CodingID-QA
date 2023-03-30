@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Open event detail from another event 
+page&quot;</description>
+   <name>EP-09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a287a5bb-fb79-4bb7-9166-d0a7dfb1637d</testCaseGuid>
+</TestCaseEntity>

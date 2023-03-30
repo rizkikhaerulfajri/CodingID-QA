@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_how to kick start your uiux career</name>
+   <tag></tag>
+   <elementGuidId>20df9823-e1da-49d0-8997-0a05cfb46565</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='ft-event']/p)[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>788b7e99-3868-4b96-a5f1-d006e19f887c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>objType</value>
+      <webElementGuid>24501df2-c1c1-4e14-91c3-b05df394c944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>how to kick start your ui/ux career </value>
+      <webElementGuid>fb7fe75f-8bcd-44ae-8870-91c7a6ceef51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searcning-list&quot;)/div[1]/div[@class=&quot;listSearching&quot;]/div[@id=&quot;rownya&quot;]/a[1]/div[@id=&quot;ft-event&quot;]/p[@class=&quot;objType&quot;]</value>
+      <webElementGuid>6cde2dc5-28b7-4cef-87ca-79a57ec82e79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='ft-event']/p)[4]</value>
+      <webElementGuid>a0780fa9-af34-4518-b01f-4341167ce835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[3]/following::p[2]</value>
+      <webElementGuid>bbb73fd0-987f-48d6-ae9e-30fb6162382f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[2]/following::p[4]</value>
+      <webElementGuid>262a5fdd-e59c-4254-8911-6a0cf8c8986b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advance Level'])[1]/preceding::p[3]</value>
+      <webElementGuid>d73dd2a3-97b0-4909-bfad-a7e5e2b80987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='how to kick start your']/parent::*</value>
+      <webElementGuid>b1d98f94-c60e-48a9-97ad-860728f40117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a/div/p</value>
+      <webElementGuid>cb97d13f-9c80-4751-9b9e-bd8aaf22f0e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'how to kick start your ui/ux career ' or . = 'how to kick start your ui/ux career ')]</value>
+      <webElementGuid>84cbc18f-d8b7-4dd0-a123-fa0bf17850e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

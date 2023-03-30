@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Search for event with search function
+with event platform as the keyword&quot;</description>
+   <name>EP-06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc715a13-9c17-45fe-9cdf-fe5393661074</testCaseGuid>
+</TestCaseEntity>

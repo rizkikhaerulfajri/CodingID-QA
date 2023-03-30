@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LOG_01-06,Chrome 111.0.0.0,,,2023-03-30 21:37:51,2023-03-30 21:40:53,3m - 2.524s,FAILED
+,,,,,,,
+Test Cases/Web/LOG/LOG-01,Chrome 111.0.0.0,Log in using a valid credential,Positive,2023-03-30 21:37:51,2023-03-30 21:38:30,38.724s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:37:52,2023-03-30 21:38:00,8.143s,PASSED
+"navigateToUrl(""https://demo-app.online/login"")",Chrome 111.0.0.0,,,2023-03-30 21:38:00,2023-03-30 21:38:13,13.211s,PASSED
+"email = ""burnerforpractice02@gmail.com""",Chrome 111.0.0.0,,,2023-03-30 21:38:13,2023-03-30 21:38:13,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Email""), email)",Chrome 111.0.0.0,,,2023-03-30 21:38:13,2023-03-30 21:38:17,4.439s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Password""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-03-30 21:38:17,2023-03-30 21:38:21,3.672s,PASSED
+"click(findTestObject(""Object Repository/Web/Login/Login_button_Login""))",Chrome 111.0.0.0,,,2023-03-30 21:38:21,2023-03-30 21:38:25,3.495s,PASSED
+delay(5),Chrome 111.0.0.0,,,2023-03-30 21:38:25,2023-03-30 21:38:30,5.070s,PASSED
+"assert getUrl() == ""https://demo-app.online/""",Chrome 111.0.0.0,,,2023-03-30 21:38:30,2023-03-30 21:38:30,0.053s,PASSED
+"emailConfirm = executeJavaScript(""return mail;"", null)",Chrome 111.0.0.0,,,2023-03-30 21:38:30,2023-03-30 21:38:30,0.100s,PASSED
+assert emailConfirm == email,Chrome 111.0.0.0,,,2023-03-30 21:38:30,2023-03-30 21:38:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/LOG/LOG-02,Chrome 111.0.0.0,"Log in using Google API with a 
+registered E-mail having multiple Google
+ account stored in browser",,2023-03-30 21:39:53,2023-03-30 21:40:22,28.691s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:39:53,2023-03-30 21:39:57,3.385s,PASSED
+"navigateToUrl(""https://demo-app.online/login"")",Chrome 111.0.0.0,,,2023-03-30 21:39:57,2023-03-30 21:40:02,5.424s,PASSED
+"click(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Masuk untuk dapatkan akses di Coding.ID/button_Sign-in With Google""))",Chrome 111.0.0.0,,,2023-03-30 21:40:02,2023-03-30 21:40:07,4.768s,PASSED
+"setText(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/input_demo-app.online_identifier""), ""rizkikhaerulfajri@gmail.com"")",Chrome 111.0.0.0,,,2023-03-30 21:40:07,2023-03-30 21:40:10,3.122s,PASSED
+"click(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/span_Berikutnya""))",Chrome 111.0.0.0,,,2023-03-30 21:40:10,2023-03-30 21:40:11,1.546s,PASSED
+"click(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/span_Coba lagi""))",Chrome 111.0.0.0,,,2023-03-30 21:40:11,2023-03-30 21:40:15,3.096s,PASSED
+"setText(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/input_demo-app.online_identifier""), ""rizkikhaerulfajri@gmail.com"")",Chrome 111.0.0.0,,,2023-03-30 21:40:15,2023-03-30 21:40:19,4.186s,PASSED
+"click(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/div_Browser atau aplikasi ini mungkin tidak aman""))",Chrome 111.0.0.0,,,2023-03-30 21:40:19,2023-03-30 21:40:20,1.486s,PASSED
+"click(findTestObject(""Object Repository/WEB/Login/LOG-02/Page_Login - Akun Google/div_Coba gunakan browser lain. Jika Anda su_22138e""))",Chrome 111.0.0.0,,,2023-03-30 21:40:20,2023-03-30 21:40:22,1.644s,FAILED
+,,,,,,,
+Test Cases/Web/LOG/LOG-03,Chrome 111.0.0.0,"Log in using Google API with a 
+registered E-mail having only one Google
+account stored in browser",,2023-03-30 21:40:22,2023-03-30 21:40:22,0.332s,PASSED
+return null,Chrome 111.0.0.0,,,2023-03-30 21:40:22,2023-03-30 21:40:22,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/LOG/LOG-04,Chrome 111.0.0.0,Log in using Google API with an unregistered E-mail having multiple Google account stored in browser,,2023-03-30 21:40:22,2023-03-30 21:40:23,0.646s,PASSED
+return null,Chrome 111.0.0.0,,,2023-03-30 21:40:23,2023-03-30 21:40:23,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/LOG/LOG-06,Chrome 111.0.0.0,Log in using an empty 'E-mail' field,Negative,2023-03-30 21:40:23,2023-03-30 21:40:39,15.803s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:40:23,2023-03-30 21:40:25,2.094s,PASSED
+"navigateToUrl(""https://demo-app.online/login"")",Chrome 111.0.0.0,,,2023-03-30 21:40:25,2023-03-30 21:40:29,3.838s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Email""), """")",Chrome 111.0.0.0,,,2023-03-30 21:40:29,2023-03-30 21:40:32,3.056s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Password""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-03-30 21:40:32,2023-03-30 21:40:35,2.765s,PASSED
+"click(findTestObject(""Object Repository/Web/Login/Login_button_Login""))",Chrome 111.0.0.0,,,2023-03-30 21:40:35,2023-03-30 21:40:37,1.565s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-03-30 21:40:37,2023-03-30 21:40:39,2.010s,PASSED
+"verifyMatch(""https://demo-app.online/login"", getUrl(), false, CONTINUE_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-30 21:40:39,2023-03-30 21:40:39,0.043s,PASSED
+"println(""After URL Validation"")",Chrome 111.0.0.0,,,2023-03-30 21:40:39,2023-03-30 21:40:39,0.005s,PASSED
+"isValid = executeJavaScript(""document.getElementById(""email"").reportValidity();"", null)",Chrome 111.0.0.0,,,2023-03-30 21:40:39,2023-03-30 21:40:39,0.019s,PASSED
+"assert !(isValid) : ""Validation error should be displayed""",Chrome 111.0.0.0,,,2023-03-30 21:40:39,2023-03-30 21:40:39,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/LOG/LOG-05,Chrome 111.0.0.0,"Log in using Google API with an 
+unregistered E-mail having only one
+Google account stored in browser",,2023-03-30 21:40:39,2023-03-30 21:40:53,14.672s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:40:39,2023-03-30 21:40:42,2.363s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:40:42,2023-03-30 21:40:45,3.867s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-05/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""Booster"")",Chrome 111.0.0.0,,,2023-03-30 21:40:45,2023-03-30 21:40:49,3.080s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-05/Page_Online event bersertifikat dari prakti_f42b96/div_Booster Class Be Data Scientist and Mac_43772d""))",Chrome 111.0.0.0,,,2023-03-30 21:40:49,2023-03-30 21:40:52,3.368s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:40:52,2023-03-30 21:40:53,1.401s,PASSED

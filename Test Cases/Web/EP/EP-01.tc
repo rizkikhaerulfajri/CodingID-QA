@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Show more event available with
+ &quot;View More&quot; button</description>
+   <name>EP-01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0697fc4-516b-485a-b5bf-5e88da74f4d6</testCaseGuid>
+</TestCaseEntity>

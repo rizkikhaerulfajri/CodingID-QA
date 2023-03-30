@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Search for event with search function
+with presenter as the keyword&quot;</description>
+   <name>EP-03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8c08127-a8b8-4486-97e7-15f923e63165</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-23_Update bio field with file input type</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7f399a6f-7e17-4609-a300-fc7085d8f8e6</testCaseGuid>
-</TestCaseEntity>

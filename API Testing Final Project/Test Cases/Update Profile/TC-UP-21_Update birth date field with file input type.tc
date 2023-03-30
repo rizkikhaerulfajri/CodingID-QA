@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-21_Update birth date field with file input type</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>08754307-84a2-4c4c-9d34-069e1b3e1d07</testCaseGuid>
-</TestCaseEntity>

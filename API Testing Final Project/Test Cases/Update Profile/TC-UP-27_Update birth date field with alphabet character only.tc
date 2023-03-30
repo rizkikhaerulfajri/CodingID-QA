@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-27_Update birth date field with alphabet character only</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f34dd0a2-fbaa-4233-b094-2af5246d8966</testCaseGuid>
-</TestCaseEntity>

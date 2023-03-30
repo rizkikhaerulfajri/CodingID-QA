@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-07_Update profile with input name field only</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>04856eb1-760d-4b64-9a34-642e77b64208</testCaseGuid>
-</TestCaseEntity>

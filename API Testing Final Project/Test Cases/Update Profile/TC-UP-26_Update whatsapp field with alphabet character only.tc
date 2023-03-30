@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-26_Update whatsapp field with alphabet character only</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fef49057-b277-4abd-8fb3-bcc3ef7287f7</testCaseGuid>
-</TestCaseEntity>

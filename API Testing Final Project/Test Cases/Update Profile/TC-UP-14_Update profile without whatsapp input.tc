@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-14_Update profile without whatsapp input</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>db020bde-7031-4946-bcc5-8d38f8f14b7b</testCaseGuid>
-</TestCaseEntity>

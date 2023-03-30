@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>LOG-03_Login without any input</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>20982689-781e-4078-ba29-af48d63c47f5</testCaseGuid>
-</TestCaseEntity>

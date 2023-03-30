@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-02_Update all input without token authorization</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a5c38f26-0682-4905-889f-99da252c4621</testCaseGuid>
-</TestCaseEntity>

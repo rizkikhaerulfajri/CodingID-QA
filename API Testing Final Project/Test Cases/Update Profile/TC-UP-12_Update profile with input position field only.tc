@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-UP-12_Update profile with input position field only</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ca1ab601-1fb0-4b56-9786-89faf39a9084</testCaseGuid>
-</TestCaseEntity>

@@ -16,4 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
+import com.kms.katalon.core.testobject.RequestObject
+
+response = WS.sendRequest(findTestObject('Postman/Login', [('email') : 'cihek19445@hempyl.com', ('password') : 'P@ssw0rd']))
+
+JsonSlurper slurper = new JsonSlurper()
+
+Map parsedJson = slurper.parseText(response.getResponseText())
+
+String token = parsedJson.success.token
+
+auth_token = token
+
+// Code dibawah ini untuk ubah input type text ke input type file, tapi belum selesai
+//RequestObject updateProfileRequest = findTestObject('Postman/Update Profile')
+//
+//updateProfileRequestBody = updateProfileRequest.getHttpBody()
+//updateProfileRequestBody = updateProfileRequestBody
+//System.out.println(updateProfileRequestBody)
+//
+//updateProfileRequest.setHttpBody(updateProfileRequestBody)
+
+updateProfileResponse = WS.sendRequest(findTestObject('Postman/Update Profile', [('name') : 'update name', ('whatsapp') : '1234567890'
+			, ('birth_date') : '', ('photo') : 'C:\\Users\\ACER\\Pictures\\ProfilePic.jpg', ('bio') : 'Software Dev', ('position') : 'mobile dev'
+			, ('auth_token') : auth_token]))
+
+WS.verifyResponseStatusCode(updateProfileResponse, 200)
 

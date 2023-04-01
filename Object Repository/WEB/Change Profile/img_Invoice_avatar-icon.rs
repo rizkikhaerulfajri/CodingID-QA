@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ChangeProfile_button_uploadButton</name>
+   <name>img_Invoice_avatar-icon</name>
    <tag></tag>
-   <elementGuidId>0d9e3c45-4348-4544-93e1-d6c6e5bb226d</elementGuidId>
+   <elementGuidId>464e882b-348b-4cc5-8e04-e1727753fff9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[3]/section/div/div/div/div/div/div/div/form/div[1]/figure/label/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@src = '/extra-images/icon/camera.png' and @alt = '...']</value>
+         <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/img</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2f55a8f4-cf68-4310-bef2-1898ec00ff3c</webElementGuid>
+      <webElementGuid>298d161f-e65a-4868-8e76-55f6018c0585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/extra-images/icon/camera.png</value>
-      <webElementGuid>a4aa800b-0057-4e71-aeaf-3f4d46e33842</webElementGuid>
+      <webElementGuid>63f2b377-167f-414a-9eb8-a2056d8fa614</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>avatar-icon</value>
-      <webElementGuid>d27f04cd-33ac-484e-a97f-9a8434b9ee90</webElementGuid>
+      <webElementGuid>6ee12efb-c897-464a-9207-06e329d17e31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +46,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>...</value>
-      <webElementGuid>3ecd70ae-c7c4-46b7-b350-b98b45cbbe93</webElementGuid>
+      <webElementGuid>7fe71e79-bfd5-45a7-9cfe-c0cd4a49f21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;author-box-center&quot;]/figure[@class=&quot;avatar mr-2 avatar-xl&quot;]/label[1]/img[@class=&quot;avatar-icon&quot;]</value>
-      <webElementGuid>a2d33c53-a73c-4304-aedf-cddc92d74068</webElementGuid>
+      <webElementGuid>a426a081-8d1b-4261-b009-879bec86e95e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/input</value>
-      <webElementGuid>df8accad-05fc-4a42-9bef-2cd02786c05c</webElementGuid>
+      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/img</value>
+      <webElementGuid>f0e5f752-86f8-411f-9f14-fcc26d1707e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='...']</value>
-      <webElementGuid>3df8a303-e81c-44c2-b991-af2fc465e641</webElementGuid>
+      <webElementGuid>9038b7da-7f72-48d1-8668-18385b003340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/img</value>
-      <webElementGuid>472b448d-5bab-4d57-ae53-52c7826fadd3</webElementGuid>
+      <webElementGuid>be6e2b4c-7d06-4a8b-9da4-03f1e3ae82d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/extra-images/icon/camera.png' and @alt = '...']</value>
-      <webElementGuid>1da53d35-19cf-4526-9cc3-3854631429ba</webElementGuid>
+      <webElementGuid>b249a82a-5e01-4a1c-aa3b-d5814a1d5f38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

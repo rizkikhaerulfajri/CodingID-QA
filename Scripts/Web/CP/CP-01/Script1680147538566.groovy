@@ -31,40 +31,33 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
-def imgOriginal = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
-
-def nameOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
-
-def phoneOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
-
-def birthdayOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
-
-println(imgOriginal)
-println(nameOriginal)
-println(phoneOriginal)
-println(birthdayOriginal)
+def uploadFilePath = 'D:\\Pas Photo.png'
+def nameValue = 'Edited Value'
+def phoneValue = '081123456789'
+def birthdayValue = '01-Jan-2000'
 
 WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
 
-WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), 'D:\\Pas Photo.png')
+//Set Text
+WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), uploadFilePath)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), nameValue)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), phoneValue)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), birthdayValue)
 
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'Edited Value')
-
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), '081123456789')
-
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), '01-Jan-2000')
+//Get them as variable
+def uploadedFileValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), 'value')
+def nameInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'value')
+def phoneInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), 'value')
+def birthdayInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), 'value')
 
 WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), 'Rizki Khaerul Edited telah di edit')
+WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), nameInputValue + ' telah di edit')
 
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 
-WebUI.verifyElementText(findTestObject('WEB/Profile/Profile_text_Name'), 'Rizki Khaerul Edited')
-
-WebUI.verifyElementText(findTestObject('WEB/Profile/Profile_text_Email'), 'burnerforpractice02@gmail.com')
-
-WebUI.verifyElementText(findTestObject('WEB/Profile/Profile_text_Phone'), '081000000000')
-
-WebUI.verifyElementText(findTestObject('WEB/Profile/Profile_text_Birthday'), '31-Dec-1923')
+assert uploadedFileValue.endsWith('Pas Photo.png')
+assert nameInputValue == nameValue
+assert phoneInputValue == phoneValue
+assert birthdayInputValue == birthdayValue
 

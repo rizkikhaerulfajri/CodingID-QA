@@ -16,17 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.net.URLDecoder
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/login')
-
 WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-
 WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-
 WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-
 WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
@@ -46,6 +43,7 @@ WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDa
 
 //Get them as variable
 def uploadedFileValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), 'value')
+def decodedUploadedFileValue = URLDecoder.decode(uploadedFileValue, 'UTF-8')
 def nameInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'value')
 def phoneInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), 'value')
 def birthdayInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), 'value')
@@ -56,7 +54,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Pro
 
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 
-assert uploadedFileValue.endsWith('Pas Photo.png')
+assert decodedUploadedFileValue.endsWith('Pas Photo.png')
 assert nameInputValue == nameValue
 assert phoneInputValue == phoneValue
 assert birthdayInputValue == birthdayValue

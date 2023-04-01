@@ -16,49 +16,60 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.exception.StepFailedException
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.configuration.RunConfiguration
+import java.io.File
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/login')
-
 WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-
 WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-
 WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-
 WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
-//Original values in the profile
-def imgOriginal = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
-def nameOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
-def phoneOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
-def birthdayOriginal = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
+String uploadFilePath = "/Include/Resources/"
+String uploadFileName = "cat01.jpeg"
+File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
+def inputImage = file.toString()
+def inputName = 'Edited Value'
+def inputPhone = '081123456789'
+def inputBirthday = '01-Jan-2000'
 
-//New values for changeProfile
-def uploadFilePath = 'D:\\Pas Photo.png'
-def nameValue = 'Edited Value'
-def phoneValue = '081123456789'
-def birthdayValue = '01-Jan-2000'
+//Get original profile attributes as variable
+def originalProfileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
+def originalDecodedProfileImage = URLDecoder.decode(originalProfileImage, 'UTF-8')
+def originalNameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
+def originalPhoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
+def originalBirthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
 
 WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
 
-WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), uploadFilePath)
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), nameValue)
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), phoneValue)
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), birthdayValue)
+//Set Text
+WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), inputImage)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), inputName)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), inputPhone)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), inputBirthday)
 
 WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Cancel'))
+WebUI.delay(2)
 
-def imgOriginalAfter = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
-def nameOriginalAfter = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
-def phoneOriginalAfter = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
-def birthdayOriginalAfter = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
+//Get profile attributes as variable
+def profileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
+def decodedProfileImage = URLDecoder.decode(profileImage, 'UTF-8')
+def nameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
+def phoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
+def birthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
 
-assert imgOriginalAfter.endsWith('Pas%20Photo.png')
-assert nameOriginalAfter == nameValue
-assert phoneOriginalAfter == phoneValue
-assert birthdayOriginalAfter == birthdayValue
+//Edit success notification
+assert WebUI.verifyElementNotPresent(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), 2) : 'Profile was updated, not cancelled'
 
+assert decodedProfileImage == originalDecodedProfileImage : 'Updated photo does not match the uploaded one'
+assert nameProfile == originalNameProfile : 'Updated Name does not match the inputted one'
+assert phoneProfile == originalPhoneProfile : 'Updated Phone Number does not match the inputted one'
+assert birthdayProfile == originalBirthdayProfile : 'Updated Birthday does not match the inputted one'

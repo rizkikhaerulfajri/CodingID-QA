@@ -36,29 +36,36 @@ WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 String uploadFilePath = "/Include/Resources/"
 String uploadFileName = "testUpload.txt"
 File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
+def inputImage = file.toString()
+def inputName = 'Edited Value'
+def inputPhone = '081123456789'
+def inputBirthday = '01-Jan-2000'
 
-def absolutePath = file.toString()	
-def nameValue = 'Edited Value'
-def phoneValue = '081123456789'
-def birthdayValue = '01-Jan-2000'
-	
 WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
-	
-//Upload File
-WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), absolutePath)
-	
-//Get them as variable
-def uploadedFileValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), 'value')
-def decodedUploadedFileValue = URLDecoder.decode(uploadedFileValue, 'UTF-8')
-	
-WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Save'))
 
+//Set Text
+WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), inputImage)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), inputName)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), inputPhone)
+WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), inputBirthday)
+
+def nameInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'value')
+WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Save'))
 WebUI.delay(2)
 
-assert WebUI.getUrl() == 'https://demo-app.online/' : 'Not redirected to profile after saving change'
-	
+//Get profile attributes as variable
+def profileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
+def decodedProfileImage = URLDecoder.decode(profileImage, 'UTF-8')
+def nameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
+def phoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
+def birthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
+
+//Edit success notification
 WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), nameInputValue + ' telah di edit')
-	
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
-	
-assert decodedUploadedFileValue.endsWith(uploadFileName) : 'Updated photo is not match with the uploaded one'
+
+assert decodedProfileImage.endsWith(uploadFileName) : 'Updated photo does not match the uploaded one'
+assert nameProfile == inputName : 'Updated Name does not match the inputted one'
+assert phoneProfile == inputPhone : 'Updated Phone Number does not match the inputted one'
+assert birthdayProfile == inputBirthday : 'Updated Birthday does not match the inputted one'
+

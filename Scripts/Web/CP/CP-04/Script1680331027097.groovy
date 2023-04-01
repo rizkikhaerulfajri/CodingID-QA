@@ -26,62 +26,50 @@ import java.io.File
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/login')
-
 WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-
 WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-
 WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-
 WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
 def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Photo")
-boolean hasError = true
 
 for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	String uploadFilePath = "/Include/Resources/"
 	String uploadFileName = testData.getValue("photo", i)
 	File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
-	//String absolutePath = file.toString().replace('/', '\\')
-	def absolutePath = file.toString()
-	
-	// Check if the file exists and has proper read permissions
-	if (!file.exists()) {
-	    System.out.println("File does not exist at path: " + absolutePath);
-	} else if (!file.canRead()) {
-	    System.out.println("File does not have proper read permissions: " + absolutePath);
-	}
-	
-	def nameValue = 'Edited Value'
-	def phoneValue = '081123456789'
-	def birthdayValue = '01-Jan-2000'
+	def inputImage = file.toString()
+	def inputName = 'Edited Value'
+	def inputPhone = '081123456789'
+	def inputBirthday = '01-Jan-2000'
 	
 	WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
 	
 	//Set Text
-	WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), absolutePath)
-	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), nameValue)
-	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), phoneValue)
-	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), birthdayValue)
+	WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), inputImage)
+	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), inputName)
+	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), inputPhone)
+	WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), inputBirthday)
 	
-	//Get them as variable
-	def uploadedFileValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), 'value')
-	def decodedUploadedFileValue = URLDecoder.decode(uploadedFileValue, 'UTF-8')
 	def nameInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'value')
-	def phoneInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), 'value')
-	def birthdayInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), 'value')
-	
 	WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Save'))
+	WebUI.delay(2)
 	
+	//Get profile attributes as variable
+	def profileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
+	def decodedProfileImage = URLDecoder.decode(profileImage, 'UTF-8')
+	def nameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
+	def phoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
+	def birthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
+	
+	//Edit success notification
 	WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), nameInputValue + ' telah di edit')
-	
 	WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 	
-	assert decodedUploadedFileValue.endsWith(uploadFileName)
-	assert nameInputValue == nameValue
-	assert phoneInputValue == phoneValue
-	assert birthdayInputValue == birthdayValue
+	assert decodedProfileImage.endsWith(uploadFileName) : 'Updated photo does not match the uploaded one'
+	assert nameProfile == inputName : 'Updated Name does not match the inputted one'
+	assert phoneProfile == inputPhone : 'Updated Phone Number does not match the inputted one'
+	assert birthdayProfile == inputBirthday : 'Updated Birthday does not match the inputted one'
 }
 

@@ -37,9 +37,12 @@ String uploadFilePath = "/Include/Resources/"
 String uploadFileName = "cat01.jpeg"
 File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
 def inputImage = file.toString()
-def inputName = 'Edited Value'
+def inputName = 'Edited Value'.trim()
 def inputPhone = '081123456789'
 def inputBirthday = '01-Jan-2000'
+
+//Needed for edit success notification
+def originalNameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name')).trim()
 
 //Get original profile attributes as variable
 def originalProfileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
@@ -62,7 +65,7 @@ def phoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'
 def birthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
 
 //Edit success notification
-WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), nameInputValue + ' telah di edit')
+WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), originalNameProfile + ' telah di edit')
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 
 assert decodedProfileImage == originalDecodedProfileImage : 'Updated photo does not match the uploaded one'

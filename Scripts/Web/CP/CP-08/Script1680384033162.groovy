@@ -37,10 +37,13 @@ String uploadFilePath = "/Include/Resources/"
 String uploadFileName = "big pic.png"
 File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
 def absolutePath = file.toString()	
-def nameValue = 'Edited Value'
+def nameValue = 'Edited Value'.trim()
 def phoneValue = '081123456789'
 def birthdayValue = '01-Jan-2000'
 	
+//Needed for edit success notification
+def originalNameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name')).trim()
+
 WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
 	
 //Upload File
@@ -57,7 +60,7 @@ WebUI.delay(2)
 
 assert WebUI.getUrl() == 'https://demo-app.online/dashboard/profile' : 'Not redirected to profile after saving change'
 	
-WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), nameInputValue + ' telah di edit')
+WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), originalNameProfile + ' telah di edit')
 	
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 

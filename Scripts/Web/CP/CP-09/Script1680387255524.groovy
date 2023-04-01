@@ -33,14 +33,14 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
-def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Photo")
+def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Name")
 
 for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	String uploadFilePath = "/Include/Resources/"
-	String uploadFileName = testData.getValue("photo", i)
+	String uploadFileName = "cat01.jpeg"
 	File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
 	def inputImage = file.toString()
-	def inputName = 'Edited Value'.trim()
+	def inputName = testData.getValue("Name", i).toString().trim()
 	def inputPhone = '081123456789'
 	def inputBirthday = '01-Jan-2000'
 	

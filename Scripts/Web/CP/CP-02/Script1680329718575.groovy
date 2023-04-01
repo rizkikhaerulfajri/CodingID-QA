@@ -37,7 +37,7 @@ String uploadFilePath = "/Include/Resources/"
 String uploadFileName = "cat01.jpeg"
 File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
 def inputImage = file.toString()
-def inputName = 'Edited Value'
+def inputName = 'Edited Value'.trim()
 def inputPhone = '081123456789'
 def inputBirthday = '01-Jan-2000'
 

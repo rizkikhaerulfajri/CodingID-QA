@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>ChangeProfile_Name</name>
+   <name>ChangeProfile_Phone</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>f63e095c-849c-42ff-9777-16f63c88bccb</dataFileGUID>
-   <dataSourceUrl>Data Files/Web/CP_Name.xlsx</dataSourceUrl>
+   <dataFileGUID>03b2f1ec-4395-4d8b-9301-be92d8a8768d</dataFileGUID>
+   <dataSourceUrl>Data Files/Web/CP_Phone.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

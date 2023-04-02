@@ -33,7 +33,7 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
-def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Phone")
+def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_PhoneCountryCode")
 
 for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	String uploadFilePath = "/Include/Resources/"

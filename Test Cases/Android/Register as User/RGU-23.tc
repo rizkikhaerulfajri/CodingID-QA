@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Register a new account with invalid inputs</description>
-   <name>RGU-23</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>b8eb98a4-aa0c-4050-a2b8-2028280c8ce1</testCaseGuid>
-</TestCaseEntity>

@@ -21,7 +21,7 @@ Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
 Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_RegisterNow'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_Register, Now'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Register_Field_TanggalLahir'), 0, FailureHandling.STOP_ON_FAILURE)
 

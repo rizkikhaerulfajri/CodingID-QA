@@ -19,16 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Section_Profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_RegisterNow'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Register_Field_TanggalLahir'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Android/Profile_Button_Settings_Option_EditProfile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Register_Calendar_Cancel'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Register_ErrorMsg_Birthday cant be empty_Field_TanggalLahir'), 
-    0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/EditProfile_Button_SaveDisabled'), 0)
 
 Mobile.closeApplication()
 

@@ -107,7 +107,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680188776836</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680451238751</id>
+//=======
+			//<id>1680188776836</id>
+//>>>>>>> master
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -116,7 +120,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680188776851</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680451238756</id>
+//=======
+//			<id>1680188776851</id>
+//>>>>>>> master
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -125,7 +133,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680212258938</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680457603531</id>
+//=======
+//			<id>1680212258938</id>
+//>>>>>>> master
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -134,7 +146,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680212258953</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680457603564</id>
+//=======
+//			<id>1680212258953</id>
+//>>>>>>> master
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -143,7 +159,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680228669454</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680457837430</id>
+//=======
+//			<id>1680228669454</id>
+//>>>>>>> master
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -152,7 +172,29 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1680228669470</id>
+//<<<<<<< Feature-AndroidRizki
+			<id>1680457837439</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1680458571451</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1680458571461</id>
+//=======
+//			<id>1680228669470</id>
+//>>>>>>> master
 			<name></name>
 			<type>6</type>
 			<matcher>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with different values in 'Kata Sandi' and 'Konfirmasi Kata Sandi'</description>
-   <name>REG-42</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>c758d18a-ca19-403c-8d69-4c685c6e921f</testCaseGuid>
-</TestCaseEntity>

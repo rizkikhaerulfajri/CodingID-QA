@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Change the photo using a relatively huge filesize</description>
-   <name>CP-08</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>86be2a0b-01db-40ff-b4bf-dec728f6dbcd</testCaseGuid>
-</TestCaseEntity>

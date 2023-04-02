@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify changes made with page refresh or any URL change before saving any changes</description>
-   <name>CP-34</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>c3c32267-784b-45a3-8232-90ce46e5e14d</testCaseGuid>
-</TestCaseEntity>

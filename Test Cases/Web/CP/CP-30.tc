@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Change 'Birthday' field value with invalid format</description>
-   <name>CP-30</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>2088f547-2ad5-4ca8-bc71-9286cd0dfe1b</testCaseGuid>
-</TestCaseEntity>

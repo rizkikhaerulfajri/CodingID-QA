@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify inaccessibility of the Log in page when a user is already logged in</description>
-   <name>LOG-12</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>42f35f4e-18e9-46b6-99f0-9e6d24729380</testCaseGuid>
-</TestCaseEntity>

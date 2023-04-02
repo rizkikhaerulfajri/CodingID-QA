@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with white space value in the 'Nama' field</description>
-   <name>REG-13</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>e45cd6a3-45c8-49fe-96a8-d13e2cdc48ea</testCaseGuid>
-</TestCaseEntity>

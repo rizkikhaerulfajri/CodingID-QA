@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Change 'Phone' field value with total character more than 12 (prefix number)</description>
-   <name>CP-21</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a1d07d11-603d-4824-b612-e83a0f0b9424</testCaseGuid>
-</TestCaseEntity>

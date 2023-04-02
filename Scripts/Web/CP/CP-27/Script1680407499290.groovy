@@ -22,52 +22,40 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration
 import java.io.File
+import java.text.SimpleDateFormat
 
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo-app.online/login')
-WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-WebUI.delay(2)
-
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
-String uploadFilePath = "/Include/Resources/"
-String uploadFileName = "cat01.jpeg"
-File file = new File(RunConfiguration.getProjectDir(), uploadFilePath + uploadFileName)
-def inputImage = file.toString()
-def inputName = 'Edited Value'.trim()
-def inputPhone = '081123456789'
-def inputBirthday = '01-Jan-2000'
+def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Birthday")
 
-//Needed for edit success notification
+def inputBirthday = "18-FEB-1997".toString().trim()
+	
+//Needed post edit
 def originalNameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name')).trim()
-
+def originalBirthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday')).trim()
+	
 WebUI.click(findTestObject('WEB/Profile/Profile_button_EditProfile'))
-
+	
 //Set Text
-WebUI.uploadFile(findTestObject('WEB/Change Profile/ChangeProfile_button_uploadButton'), inputImage)
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), inputName)
-WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Phone'), inputPhone)
 WebUI.setText(findTestObject('WEB/Change Profile/ChangeProfile_inputText_BirthDay'), inputBirthday)
-
+	
+def nameInputValue = WebUI.getAttribute(findTestObject('WEB/Change Profile/ChangeProfile_inputText_Name'), 'value')
 WebUI.click(findTestObject('WEB/Change Profile/ChangeProfile_button_Save'))
 WebUI.delay(2)
-
+	
 //Get profile attributes as variable
-def profileImage = WebUI.getAttribute(findTestObject('WEB/Profile/Profile_img_profilePhoto'), 'src')
-def decodedProfileImage = URLDecoder.decode(profileImage, 'UTF-8')
-def nameProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Name'))
-def phoneProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Phone'))
 def birthdayProfile = WebUI.getText(findTestObject('WEB/Profile/Profile_text_Birthday'))
-
+	
 //Edit success notification
 WebUI.verifyElementText(findTestObject('Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif'), originalNameProfile + ' telah di edit')
 WebUI.click(findTestObject('Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif'))
 
-assert decodedProfileImage.endsWith(uploadFileName) : 'Updated photo does not match the uploaded one'
-assert nameProfile == inputName : 'Updated Name does not match the inputted one'
-assert phoneProfile == inputPhone : 'Updated Phone Number does not match the inputted one'
-assert birthdayProfile == inputBirthday : 'Updated Birthday does not match the inputted one'
+// Create a SimpleDateFormat object with the input format
+def inputFormat = new SimpleDateFormat("dd-MMM-yyyy")
+def outputFormat = new SimpleDateFormat("dd-MMM-yyyy")
+def inputDate = inputFormat.parse(inputBirthday)
+def outputDateString = outputFormat.format(inputDate)
+
+assert birthdayProfile == outputDateString : 'Updated Birthday does not match the input'
 

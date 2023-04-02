@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change 'Birthday' field value with uppercase character</description>
+   <name>CP-27</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>e409fcf0-d7f0-45b9-b052-8b3ed3613149</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Change 'Birthday' field value with white spaces</description>
+   <description>Verify that Date Picker in 'Birthday' field is working correctly with the oldest age possible</description>
    <name>CP-25</name>
-   <tag>Negative</tag>
+   <tag>Positive</tag>
    <comment></comment>
-   <testCaseGuid>b2918b6f-6ebd-4373-b4fc-5d3dc02cdffa</testCaseGuid>
+   <testCaseGuid>1b658af9-1fd8-48b1-8505-e892da93e289</testCaseGuid>
 </TestCaseEntity>

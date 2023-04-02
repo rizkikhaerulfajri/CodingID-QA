@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Change 'Birthday' field value with lower case character</description>
+   <description>Change 'Birthday' field with an empty value</description>
    <name>CP-26</name>
    <tag>Negative</tag>
    <comment></comment>
-   <testCaseGuid>94f80f7e-aaec-402f-a390-752de118ea92</testCaseGuid>
+   <testCaseGuid>a4f4bf6d-1cfb-4b80-a8c8-a4e580b65922</testCaseGuid>
 </TestCaseEntity>

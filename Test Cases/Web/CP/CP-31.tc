@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change 'Birthday' field value with age less than 6</description>
+   <name>CP-31</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>affb17fe-fa9e-4b09-a1c2-4e039297cb7a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that 'Fullname' field is working correctly with valid inputs</description>
+   <name>CP-09</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>f82e8843-c0c1-4919-a814-694b4c119e93</testCaseGuid>
+</TestCaseEntity>

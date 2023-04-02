@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with empty space value in 'Kata Sandi' and 'Konfirmasi Kata Sandi' fields</description>
+   <name>REG-40</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>82357543-da63-4a7e-9197-a87471dd6831</testCaseGuid>
+</TestCaseEntity>

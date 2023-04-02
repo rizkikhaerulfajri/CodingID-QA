@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log in using an empty 'E-mail' field</description>
+   <name>LOG-06</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>ebe79728-6440-4762-91ca-08db0603e28c</testCaseGuid>
+</TestCaseEntity>

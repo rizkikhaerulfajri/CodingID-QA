@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that 'Birthday' field is working correctly with valid inputs</description>
+   <name>CP-23</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>ba936427-b28c-441c-be70-80849593cccd</testCaseGuid>
+</TestCaseEntity>

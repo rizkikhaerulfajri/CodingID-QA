@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit Profile wihout changing anything</description>
+   <name>EPF20</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>fa534c26-8b9f-4523-9468-34feb51c4b0a</testCaseGuid>
+</TestCaseEntity>

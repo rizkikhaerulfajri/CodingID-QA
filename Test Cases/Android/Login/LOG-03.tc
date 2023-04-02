@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check function of &quot;Sign in with Google&quot; button</description>
+   <name>LOG-03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54501872-1630-4cd6-9971-53d0782d89c5</testCaseGuid>
+</TestCaseEntity>

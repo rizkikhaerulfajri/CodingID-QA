@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with a valid email and password combination</description>
+   <name>LOG-09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb99b995-bd8e-49fb-aa5c-315802500622</testCaseGuid>
+</TestCaseEntity>

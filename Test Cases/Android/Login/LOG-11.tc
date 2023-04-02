@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login using an Google account that has been registered</description>
+   <name>LOG-11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f52d842-38e7-4ac2-8c9b-adce6ffddc45</testCaseGuid>
+</TestCaseEntity>

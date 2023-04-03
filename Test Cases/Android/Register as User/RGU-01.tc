@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Input &quot;Nama&quot; field with valid format data</description>
-   <name>RGU-01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>25e281f3-9f5a-462b-8acb-8efd240d86f1</testCaseGuid>
-</TestCaseEntity>

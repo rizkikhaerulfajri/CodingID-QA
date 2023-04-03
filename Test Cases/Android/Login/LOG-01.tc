@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check the Reveal Password function in the &quot;Password&quot; field</description>
-   <name>LOG-01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>aa51dd47-bf7e-4629-ab45-3ca98bf4b5b8</testCaseGuid>
-</TestCaseEntity>

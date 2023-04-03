@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check function of &quot;Login&quot; button</description>
-   <name>LOG-04</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e99609a5-38e0-4486-9141-0d67bdf68f54</testCaseGuid>
-</TestCaseEntity>

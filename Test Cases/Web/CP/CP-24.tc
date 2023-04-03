@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Date Picker in 'Birthday' field is working correctly with the youngest age possible</description>
+   <name>CP-24</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>dd4abd6a-cfab-4549-96e3-9522a665c3c8</testCaseGuid>
+</TestCaseEntity>

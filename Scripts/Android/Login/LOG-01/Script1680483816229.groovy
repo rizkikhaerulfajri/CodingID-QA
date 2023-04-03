@@ -31,7 +31,7 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Android/Login_Button_RevealPassword'), 0)
 
-Mobile.waitForElementPresent(findTestObject('New Obj/Login_Field_Password_Filled_apaaja'), 0)
+Mobile.waitForElementPresent(findTestObject('Android/Login_Field_Password_Filled_apaaja'), 0)
 
 Mobile.hideKeyboard()
 

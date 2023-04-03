@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with age more than 100 in the 'Tanggal Lahir' field</description>
+   <name>REG-22</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>d95916d0-06e9-4a01-9dc0-6d4b04a8905f</testCaseGuid>
+</TestCaseEntity>

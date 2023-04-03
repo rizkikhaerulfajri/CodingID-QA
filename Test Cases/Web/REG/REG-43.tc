@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with unchecked 'Syarat dan Ketentuan' checkbox</description>
+   <name>REG-43</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>fa96857e-7185-43f5-aefb-3127b869c889</testCaseGuid>
+</TestCaseEntity>

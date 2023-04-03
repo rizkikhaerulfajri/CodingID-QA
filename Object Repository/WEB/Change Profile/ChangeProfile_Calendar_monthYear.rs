@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ChangeProfile_Calendar_monthYear</name>
+   <tag></tag>
+   <elementGuidId>8aaeed61-1354-4e24-8a1a-1a71bf9807c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>th.month</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID'])[2]/following::th[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;light light-sidebar theme-white&quot;]/div[@class=&quot;daterangepicker ltr single auto-apply opensright show-calendar&quot;]/div[@class=&quot;drp-calendar left single&quot;]/div[@class=&quot;calendar-table&quot;]/table[@class=&quot;table-condensed&quot;]/thead[1]/tr[1]/th[@class=&quot;month&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>f4e3e50f-4842-457b-96f7-a361d4c14670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>629dc5c6-3c10-4874-b32a-b77ea0f5b0b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>month</value>
+      <webElementGuid>64a6c215-4113-4bdf-86ad-413dc647f952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dec 2016</value>
+      <webElementGuid>611e7b8d-e27c-48f1-ab74-60843001e346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light light-sidebar theme-white&quot;]/div[@class=&quot;daterangepicker ltr single auto-apply opensright show-calendar&quot;]/div[@class=&quot;drp-calendar left single&quot;]/div[@class=&quot;calendar-table&quot;]/table[@class=&quot;table-condensed&quot;]/thead[1]/tr[1]/th[@class=&quot;month&quot;]</value>
+      <webElementGuid>6bbdfada-b302-4680-9d9c-18c3f4a7c72c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID'])[2]/following::th[2]</value>
+      <webElementGuid>31c465fd-c74b-4dfd-8d4d-53567777371a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::th[2]</value>
+      <webElementGuid>f7f3f341-8165-4c83-8e9b-e4ad1c8b350e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Su'])[1]/preceding::th[2]</value>
+      <webElementGuid>73a2222b-c340-4c51-a252-5a5eb8252569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mo'])[1]/preceding::th[3]</value>
+      <webElementGuid>cc1ebb5e-c0c8-45c9-a1ba-bb4f0b9b290f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dec 2016']/parent::*</value>
+      <webElementGuid>10fb199f-6105-426d-a449-40b0cad2110c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/table/thead/tr/th[2]</value>
+      <webElementGuid>d3bb403e-f3ff-4f2d-b3f4-34618ef48b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Dec 2016' or . = 'Dec 2016')]</value>
+      <webElementGuid>e045b6e1-de91-43f7-ab75-ed917324aa6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

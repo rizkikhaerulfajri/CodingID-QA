@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change 'Birthday' field with an empty value</description>
+   <name>CP-26</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>a4f4bf6d-1cfb-4b80-a8c8-a4e580b65922</testCaseGuid>
+</TestCaseEntity>

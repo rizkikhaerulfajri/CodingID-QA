@@ -12565,9 +12565,8 @@ EPF20.run(EPF20:20)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2023-04-03T10:18:01</date>
   <millis>1680491881679</millis>
@@ -12616,3 +12615,4 @@ EPF20.run(EPF20:20)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

@@ -50,20 +50,14 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	
 	WebUI.delay(2)
 	
-	if (WebUI.getUrl().equals('https://demo-app.online/email/verify')) {
-		hasError = false
-	} else {
-		//handling client side error
-		try {
-			def isValid = WebUI.executeJavaScript('document.getElementById("whatsapp").reportValidity();', null)
-			assert !isValid : 'Validation error should be displayed'
-		} catch (AssertionError e) {
-			KeywordUtil.markFailed("Validation error not displayed")
-			hasError = true
-		}
+	// Call the reportValidity() function on the input element and capture the return value
+	if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
+		def isValid = WebUI.executeJavaScript('document.getElementById("whatsapp").reportValidity();', null)
+		// Check that the return value is false using an assertion
+		assert !isValid : 'Validation error should be displayed'
 	}
-	
-	if (!hasError) {
-		KeywordUtil.markFailed("Valid input detected. Fail the case")
-	}
+			
+	WebUI.delay(2)
+		
+	assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')
 }

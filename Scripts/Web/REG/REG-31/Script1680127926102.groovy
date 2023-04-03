@@ -39,17 +39,16 @@ WebUI.check(findTestObject('Object Repository/Web/Register/Reg_Checkbox_SyaratDa
 
 WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 
-WebUI.delay(5)
-
-WebUI.verifyMatch('https://demo-app.online/daftar', WebUI.getUrl(), false, FailureHandling.CONTINUE_ON_FAILURE)
-
-println('After verification')
-
 // Call the reportValidity() function on the input element and capture the return value
-def isValid = WebUI.executeJavaScript('document.getElementById("whatsapp").reportValidity();', null)
-
-// Check that the return value is false using an assertion
-assert !isValid : 'Validation error should be displayed'
+if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
+	def isValid = WebUI.executeJavaScript('document.getElementById("whatsapp").reportValidity();', null)
+	// Check that the return value is false using an assertion
+	assert !isValid : 'Validation error should be displayed'
+}
+		
+WebUI.delay(2)
+	
+assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')
 
 
 

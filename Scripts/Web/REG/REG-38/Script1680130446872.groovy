@@ -44,16 +44,18 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	
 	WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	// Call the reportValidity() function on the input element and capture the return value
 	if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
-		def isValid = WebUI.executeJavaScript('document.getElementById("whatsapp").reportValidity();', null)
+		def isValidPassword = WebUI.executeJavaScript('document.getElementById("password").reportValidity();', null)
+		def isValidPasswordConfirm = WebUI.executeJavaScript('document.getElementById("password-confirm").reportValidity();', null)
 		// Check that the return value is false using an assertion
-		assert !isValid : 'Validation error should be displayed'
+		assert !isValidPassword : 'Validation error should be displayed'
+		assert !isValidPasswordConfirm : 'Validation error should be displayed'
 	}
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	assert WebUI.getUrl() == 'https://demo-app.online/email/verify'
 }

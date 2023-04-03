@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Register_Invalid_Email</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>37332145-a56b-4ae7-9b24-6fc6b6f9f2f8</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>dumpatgmaildotcom</data>
+   <data>%40%40%40%40%40%40%40%40</data>
+   <data>1234567890</data>
+   <data>Lorem+ipsum+dolor+sit+amet+consectetur+adipisicing+elit.+Ut+reprehenderit+quis%2C+architecto+eius+dicta+unde+sint+nostrum+sed+magnam%2C+eaque+repudiandae+laborum%2C+temporibus+porro+nesciunt+distinctio+qui+vero+corporis+deleniti+voluptate.+Corporis+repellendus+sint%2C+ut+officia+at+ea%2C+eius+voluptatem+quod+suscipit+id+expedita+optio+tenetur+maxime+nostrum+consequatur+iure+nobis+cum+aut+odio+libero+ipsam+dolores+rem%3F+Debitis+eaque%2C+quaerat%2C+laboriosam+unde+pariatur+aliquam+officiis+recusandae+voluptates%2C+molestiae+repellat+sint+facilis+quidem+eos+corrupti%3F+Cum+similique+obcaecati+neque+minima+modi+porro+deserunt%2C+dolores+doloremque+numquam+voluptatum+nostrum+itaque+at+inventore+quaerat+hic+quam+ipsam+voluptates+tempora+sunt%2C+quisquam+aperiam+ex+eaque%3F+Architecto+quos+nisi+accusantium+velit+aut+similique+veritatis+amet+odit+sint+quidem%2C+dolorem+ratione+alias+harum%21+Vel+illum+provident+accusamus+ea+eligendi+inventore+hic%2C+corrupti+cupiditate%2C+eum+at+rem.+Illo+temporibus+eum+unde+quidem+vel+soluta+velit+dolore+rerum+harum+officiis+perferendis+ipsa+totam+itaque+dolorem%2C+voluptatem+id+dolor+repudiandae+iste+culpa.+Corrupti+corporis%2C+nesciunt+est+facere%2C+vitae+consectetur+incidunt+consequuntur%2C+nostrum+officiis+ab+dolor+autem%21+Eos+iure+suscipit+incidunt+a+id+nemo+quaerat+aut+mollitia+pariatur.+Amet+ipsum+pariatur+sapiente+ducimus+aspernatur+mollitia+nostrum+eaque%2C+iusto+dicta+earum+officia%2C+odit+itaque+perferendis+aut+fugit+neque+dolorem+voluptate+saepe%3F+Reprehenderit+labore+tempora+dolorum+consequuntur%2C+nostrum+ducimus+quas+iusto+assumenda+aspernatur+ipsum+saepe+tenetur+architecto+vel+quasi+sint+earum+eaque+consequatur+explicabo%3F+Repellat%2C+consequatur+illum%2C+est+laborum+a+nobis+nam+vero+omnis+officiis+dolor+sequi%2C+nihil+ipsam+ab+assumenda+suscipit+numquam+commodi+fugit+neque+reiciendis+adipisci+animi+delectus+ducimus+voluptas%21+Quis+accusantium+doloribus+aspernatur.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>invalid_email</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

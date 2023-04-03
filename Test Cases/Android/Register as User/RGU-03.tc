@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input &quot;Nama&quot; field with empty data</description>
+   <name>RGU-03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4556850-1ce8-487f-8048-202359e90a41</testCaseGuid>
+</TestCaseEntity>

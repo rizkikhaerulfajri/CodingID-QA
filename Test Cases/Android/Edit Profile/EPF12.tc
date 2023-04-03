@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EPF12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97672630-50e4-4975-8435-a2a589bfe639</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bac08d3f-5236-4b49-8410-8792a7739409</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/EditProfile_valid_Phone</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>bac08d3f-5236-4b49-8410-8792a7739409</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_phone</value>
+      <variableId>12c715f3-b0be-4be9-8d04-6922331e849d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12c715f3-b0be-4be9-8d04-6922331e849d</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>

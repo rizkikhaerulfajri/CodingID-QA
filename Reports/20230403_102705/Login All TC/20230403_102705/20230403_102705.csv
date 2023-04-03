@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login All TC,,,,2023-04-03 10:27:07,2023-04-03 10:29:50,2m - 42.929s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-01,,"Check the Reveal Password function in the ""Password"" field",,2023-04-03 10:27:07,2023-04-03 10:27:32,25.285s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:27:07,2023-04-03 10:27:22,14.299s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:27:22,2023-04-03 10:27:25,3.269s,PASSED
+"tap(findTestObject(""Android/Login_Field_Email""), 0)",,,,2023-04-03 10:27:25,2023-04-03 10:27:26,1.498s,PASSED
+hideKeyboard(),,,,2023-04-03 10:27:26,2023-04-03 10:27:27,0.791s,PASSED
+"setEncryptedText(findTestObject(""Android/Login_Field_Password""), ""7joVKksfSVM="", 0)",,,,2023-04-03 10:27:27,2023-04-03 10:27:29,1.293s,PASSED
+hideKeyboard(),,,,2023-04-03 10:27:29,2023-04-03 10:27:29,0.453s,PASSED
+"tap(findTestObject(""Android/Login_Button_RevealPassword""), 0)",,,,2023-04-03 10:27:29,2023-04-03 10:27:30,1.083s,PASSED
+"waitForElementPresent(findTestObject(""New Obj/Login_Field_Password_Filled_apaaja""), 0)",,,,2023-04-03 10:27:30,2023-04-03 10:27:31,1.072s,PASSED
+hideKeyboard(),,,,2023-04-03 10:27:31,2023-04-03 10:27:31,0.313s,PASSED
+pressBack(),,,,2023-04-03 10:27:31,2023-04-03 10:27:32,0.232s,PASSED
+closeApplication(),,,,2023-04-03 10:27:32,2023-04-03 10:27:32,0.654s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-02,,"Check function of ""Sign in with Apple ID"" button",,2023-04-03 10:27:32,2023-04-03 10:27:52,19.139s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:27:33,2023-04-03 10:27:43,9.928s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:27:43,2023-04-03 10:27:44,1.490s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login With Apple ID""), 0)",,,,2023-04-03 10:27:44,2023-04-03 10:27:46,1.391s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/AppleIDWindow_Login""), 0)",,,,2023-04-03 10:27:46,2023-04-03 10:27:50,4.604s,PASSED
+pressBack(),,,,2023-04-03 10:27:50,2023-04-03 10:27:51,0.518s,PASSED
+pressBack(),,,,2023-04-03 10:27:51,2023-04-03 10:27:51,0.310s,PASSED
+closeApplication(),,,,2023-04-03 10:27:51,2023-04-03 10:27:52,0.424s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-04,,"Check function of ""Login"" button",,2023-04-03 10:27:52,2023-04-03 10:28:10,18.509s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:27:52,2023-04-03 10:28:02,10.009s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:28:02,2023-04-03 10:28:03,1.246s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login""), 0)",,,,2023-04-03 10:28:03,2023-04-03 10:28:05,1.873s,PASSED
+"waitForElementPresent(findTestObject(""Android/Login_ErrorMsg_InvalidCredentials""), 0)",,,,2023-04-03 10:28:05,2023-04-03 10:28:09,3.687s,PASSED
+"tap(findTestObject(""Object Repository/Android/Login_ErrorMsg_InvalidCredentials_BtnOk""), 0)",,,,2023-04-03 10:28:09,2023-04-03 10:28:09,0.262s,PASSED
+pressBack(),,,,2023-04-03 10:28:09,2023-04-03 10:28:10,0.720s,PASSED
+closeApplication(),,,,2023-04-03 10:28:10,2023-04-03 10:28:10,0.333s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-05,,Login with a valid email and password combination,,2023-04-03 10:28:10,2023-04-03 10:28:31,21.139s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:28:11,2023-04-03 10:28:21,10.167s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:28:21,2023-04-03 10:28:22,1.501s,PASSED
+"setText(findTestObject(""Android/Login_Field_Email""), ""pooyutre203@gmail.com"", 0)",,,,2023-04-03 10:28:22,2023-04-03 10:28:24,1.763s,PASSED
+"setEncryptedText(findTestObject(""Android/Login_Field_Password""), ""gR0Nb1R4MGJzAGnAbnpVZA=="", 0)",,,,2023-04-03 10:28:24,2023-04-03 10:28:25,1.534s,PASSED
+switchToNative(),,,,2023-04-03 10:28:25,2023-04-03 10:28:26,0.117s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login""), 0)",,,,2023-04-03 10:28:26,2023-04-03 10:28:27,0.951s,PASSED
+"waitForElementPresent(findTestObject(""Android/Home_Button_Cart""), 3, CONTINUE_ON_FAILURE)",,,,2023-04-03 10:28:27,2023-04-03 10:28:31,4.412s,PASSED
+closeApplication(),,,,2023-04-03 10:28:31,2023-04-03 10:28:31,0.227s,PASSED
+,,,,,,,
+Test Cases/Logout,,,,2023-04-03 10:28:31,2023-04-03 10:28:48,16.482s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:28:32,2023-04-03 10:28:41,9.849s,PASSED
+"tap(findTestObject(""Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:28:41,2023-04-03 10:28:43,1.482s,PASSED
+"tap(findTestObject(""Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:28:43,2023-04-03 10:28:44,1.139s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Logout""), 0)",,,,2023-04-03 10:28:44,2023-04-03 10:28:45,1.118s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Android/Profile_Button_Login Here (Pre Login)""), 0)",,,,2023-04-03 10:28:45,2023-04-03 10:28:47,2.283s,PASSED
+pressBack(),,,,2023-04-03 10:28:47,2023-04-03 10:28:48,0.171s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-06,,Login with an invalid email and or password,,2023-04-03 10:28:48,2023-04-03 10:29:08,20.082s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:28:48,2023-04-03 10:28:58,10.181s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:28:58,2023-04-03 10:29:00,1.466s,PASSED
+"setText(findTestObject(""Android/Login_Field_Email""), ""pooyutre203@gmail.com"", 0)",,,,2023-04-03 10:29:00,2023-04-03 10:29:02,2.004s,PASSED
+"setEncryptedText(findTestObject(""Android/Login_Field_Password""), ""qsMa34VCJB3iRZrQ7Ygp+A=="", 0)",,,,2023-04-03 10:29:02,2023-04-03 10:29:03,1.616s,PASSED
+switchToNative(),,,,2023-04-03 10:29:03,2023-04-03 10:29:04,0.111s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login""), 0)",,,,2023-04-03 10:29:04,2023-04-03 10:29:05,0.943s,PASSED
+"waitForElementPresent(findTestObject(""Android/Login_ErrorMsg_InvalidCredentials""), 0)",,,,2023-04-03 10:29:05,2023-04-03 10:29:06,1.905s,PASSED
+"tap(findTestObject(""Android/Login_ErrorMsg_InvalidCredentials_BtnOk""), 0)",,,,2023-04-03 10:29:06,2023-04-03 10:29:07,0.277s,PASSED
+pressBack(),,,,2023-04-03 10:29:07,2023-04-03 10:29:07,0.784s,PASSED
+closeApplication(),,,,2023-04-03 10:29:07,2023-04-03 10:29:08,0.283s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-07,,Login with an empty email and or password,,2023-04-03 10:29:08,2023-04-03 10:29:28,19.905s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:29:08,2023-04-03 10:29:18,9.668s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:29:18,2023-04-03 10:29:20,2.202s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login""), 0)",,,,2023-04-03 10:29:20,2023-04-03 10:29:23,3.026s,PASSED
+"waitForElementPresent(findTestObject(""Android/Login_ErrorMsg_InvalidCredentials""), 0)",,,,2023-04-03 10:29:23,2023-04-03 10:29:26,2.656s,PASSED
+"tap(findTestObject(""Android/Login_ErrorMsg_InvalidCredentials_BtnOk""), 0)",,,,2023-04-03 10:29:26,2023-04-03 10:29:26,0.361s,PASSED
+pressBack(),,,,2023-04-03 10:29:26,2023-04-03 10:29:27,0.668s,PASSED
+closeApplication(),,,,2023-04-03 10:29:27,2023-04-03 10:29:28,0.696s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-08,,,,2023-04-03 10:29:28,2023-04-03 10:29:50,22.072s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:29:28,2023-04-03 10:29:41,13.051s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 10:29:41,2023-04-03 10:29:43,2.330s,PASSED
+"setText(findTestObject(""Object Repository/Android/Login_Field_Email""), ""ppp@g.co"", 0)",,,,2023-04-03 10:29:43,2023-04-03 10:29:44,0.827s,PASSED
+"setText(findTestObject(""Object Repository/Android/Login_Field_Password""), ""a1234567"", 0)",,,,2023-04-03 10:29:44,2023-04-03 10:29:46,1.599s,PASSED
+"tap(findTestObject(""Object Repository/Android/Login_Button_Login""), 0)",,,,2023-04-03 10:29:46,2023-04-03 10:29:47,1.045s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/Login_ErrorMsg_Email not verified_PopUp""), 0)",,,,2023-04-03 10:29:47,2023-04-03 10:29:48,1.479s,PASSED
+"tap(findTestObject(""Object Repository/Android/Login_ErrorMsg_Email not verified_BtnCancel""), 0)",,,,2023-04-03 10:29:48,2023-04-03 10:29:49,0.242s,PASSED
+pressBack(),,,,2023-04-03 10:29:49,2023-04-03 10:29:49,0.755s,PASSED
+closeApplication(),,,,2023-04-03 10:29:49,2023-04-03 10:29:50,0.339s,PASSED

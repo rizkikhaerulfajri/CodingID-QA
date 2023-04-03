@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGU-15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55e2ef68-0b90-482e-ac57-dcc60b077680</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7337b993-7501-4661-ab63-d2b32cc8c67f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/Register_invalid_KataSandi</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7337b993-7501-4661-ab63-d2b32cc8c67f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>invalid_KataSandi</value>
+      <variableId>0b813bbe-e6cc-4da6-b6ae-a8ffb4613ef6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b813bbe-e6cc-4da6-b6ae-a8ffb4613ef6</id>
+      <masked>false</masked>
+      <name>katasandi</name>
+   </variable>
+</TestCaseEntity>

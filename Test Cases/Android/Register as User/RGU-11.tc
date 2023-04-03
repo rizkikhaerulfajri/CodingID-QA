@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGU-11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7059ee5d-f316-402f-9f1e-7551e93e58b5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b17dc561-c6a0-4d04-9265-d20085ce9bd7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/Register_valid_WhatsApp</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b17dc561-c6a0-4d04-9265-d20085ce9bd7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_whatsapp</value>
+      <variableId>31aa7600-4564-4920-a80a-eac9e580eb62</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31aa7600-4564-4920-a80a-eac9e580eb62</id>
+      <masked>false</masked>
+      <name>whatsapp</name>
+   </variable>
+</TestCaseEntity>

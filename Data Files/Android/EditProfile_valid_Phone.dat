@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>EditProfile_valid_Phone</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>37332145-a56b-4ae7-9b24-6fc6b6f9f2f8</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>123456789</data>
+   <data>08123456789</data>
+   <data>9876543210</data>
+   <data>021123456789</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>valid_phone</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGU-08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66e27dc3-f8db-488c-87c4-d092d2aeba9a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>355dc73b-c78e-4f1e-94e3-8c547b38dc67</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/Register_valid_Email</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>355dc73b-c78e-4f1e-94e3-8c547b38dc67</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_email</value>
+      <variableId>796a44e1-1242-4288-b367-5eec9d2c0b60</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>796a44e1-1242-4288-b367-5eec9d2c0b60</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

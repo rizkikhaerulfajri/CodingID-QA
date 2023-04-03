@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EPF09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f99a195-8b05-4b1a-95a1-389aeef232ba</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/EditProfile_invalid_Fullname</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>invalid_fullname</value>
+      <variableId>966a53bc-2861-4617-95a3-9a4b935b28cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>966a53bc-2861-4617-95a3-9a4b935b28cd</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

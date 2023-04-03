@@ -23,14 +23,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration
 import java.io.File
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo-app.online/login')
-WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-WebUI.delay(2)
-
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
 def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Name")

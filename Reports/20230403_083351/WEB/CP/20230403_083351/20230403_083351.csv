@@ -1,0 +1,437 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CP,Chrome 111.0.0.0,,,2023-04-03 08:34:09,2023-04-03 08:43:55,9m - 46.101s,ERROR
+,,,,,,,
+Test Cases/Web/LOG/LOG-01,Chrome 111.0.0.0,Log in using a valid credential,Positive,2023-04-03 08:34:09,2023-04-03 08:34:23,13.972s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:34:10,2023-04-03 08:34:12,2.449s,PASSED
+"navigateToUrl(""https://demo-app.online/login"")",Chrome 111.0.0.0,,,2023-04-03 08:34:12,2023-04-03 08:34:15,2.617s,PASSED
+"email = ""burnerforpractice02@gmail.com""",Chrome 111.0.0.0,,,2023-04-03 08:34:15,2023-04-03 08:34:15,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Email""), email)",Chrome 111.0.0.0,,,2023-04-03 08:34:15,2023-04-03 08:34:16,1.130s,PASSED
+"setText(findTestObject(""Object Repository/Web/Login/Login_inputText_Password""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:34:16,2023-04-03 08:34:16,0.679s,PASSED
+"click(findTestObject(""Object Repository/Web/Login/Login_button_Login""))",Chrome 111.0.0.0,,,2023-04-03 08:34:16,2023-04-03 08:34:18,1.639s,PASSED
+delay(5),Chrome 111.0.0.0,,,2023-04-03 08:34:18,2023-04-03 08:34:23,5.031s,PASSED
+"assert getUrl() == ""https://demo-app.online/""",Chrome 111.0.0.0,,,2023-04-03 08:34:23,2023-04-03 08:34:23,0.016s,PASSED
+"emailConfirm = executeJavaScript(""return mail;"", null)",Chrome 111.0.0.0,,,2023-04-03 08:34:23,2023-04-03 08:34:23,0.033s,PASSED
+assert emailConfirm == email,Chrome 111.0.0.0,,,2023-04-03 08:34:23,2023-04-03 08:34:23,0.002s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-01,Chrome 111.0.0.0,Change every field with valid inputs,Positive,2023-04-03 08:34:23,2023-04-03 08:34:34,11.264s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:34:23,2023-04-03 08:34:24,0.741s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.001s,PASSED
+"uploadFileName = ""cat01.jpeg""",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.001s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.002s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.002s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.001s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.001s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:24,0.001s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:34:24,2023-04-03 08:34:25,0.680s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:34:25,2023-04-03 08:34:26,0.690s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:34:26,2023-04-03 08:34:26,0.636s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:34:26,2023-04-03 08:34:27,0.767s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:34:27,2023-04-03 08:34:28,0.686s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:34:28,2023-04-03 08:34:29,0.967s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:34:29,2023-04-03 08:34:30,1.757s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:34:30,2023-04-03 08:34:32,2.012s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:34:32,2023-04-03 08:34:33,0.342s,PASSED
+"decodedProfileImage = URLDecoder.decode(profileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:34:33,2023-04-03 08:34:33,0.006s,PASSED
+"nameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:34:33,2023-04-03 08:34:33,0.325s,PASSED
+"phoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:34:33,2023-04-03 08:34:33,0.328s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:34:33,2023-04-03 08:34:34,0.339s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.323s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.346s,PASSED
+"assert decodedProfileImage.endsWith(uploadFileName) : ""Updated photo does not match the uploaded one""",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.001s,PASSED
+"assert nameProfile == inputName : ""Updated Name does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.001s,PASSED
+"assert phoneProfile == inputPhone : ""Updated Phone Number does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.000s,PASSED
+"assert birthdayProfile == inputBirthday : ""Updated Birthday does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:34,2023-04-03 08:34:34,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-02,Chrome 111.0.0.0,Cancel changes made in Change Profile process,Positive,2023-04-03 08:34:34,2023-04-03 08:34:45,10.714s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.301s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.001s,PASSED
+"uploadFileName = ""cat01.jpeg""",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.001s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.000s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.000s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.000s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:35,0.000s,PASSED
+"originalProfileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:34:35,2023-04-03 08:34:36,0.611s,PASSED
+"originalDecodedProfileImage = URLDecoder.decode(originalProfileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:34:36,2023-04-03 08:34:36,0.001s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:34:36,2023-04-03 08:34:36,0.529s,PASSED
+"originalPhoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:34:36,2023-04-03 08:34:36,0.311s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:34:36,2023-04-03 08:34:37,0.330s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:34:37,2023-04-03 08:34:38,0.740s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:34:38,2023-04-03 08:34:38,0.622s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:34:38,2023-04-03 08:34:39,0.771s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:34:39,2023-04-03 08:34:40,0.661s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:34:40,2023-04-03 08:34:41,0.939s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Cancel""))",Chrome 111.0.0.0,,,2023-04-03 08:34:41,2023-04-03 08:34:41,0.843s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:34:41,2023-04-03 08:34:43,2.007s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:34:43,2023-04-03 08:34:44,0.315s,PASSED
+"decodedProfileImage = URLDecoder.decode(profileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:34:44,2023-04-03 08:34:44,0.001s,PASSED
+"nameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:34:44,2023-04-03 08:34:44,0.321s,PASSED
+"phoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:34:44,2023-04-03 08:34:44,0.322s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:34:44,2023-04-03 08:34:45,0.310s,PASSED
+"assert verifyElementNotPresent(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), 2) : ""Profile was updated, not cancelled""",Chrome 111.0.0.0,,,2023-04-03 08:34:45,2023-04-03 08:34:45,0.425s,PASSED
+"assert decodedProfileImage == originalDecodedProfileImage : ""Updated photo does not match the uploaded one""",Chrome 111.0.0.0,,,2023-04-03 08:34:45,2023-04-03 08:34:45,0.001s,PASSED
+"assert nameProfile == originalNameProfile : ""Updated Name does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:45,2023-04-03 08:34:45,0.000s,PASSED
+"assert phoneProfile == originalPhoneProfile : ""Updated Phone Number does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:45,2023-04-03 08:34:45,0.000s,PASSED
+"assert birthdayProfile == originalBirthdayProfile : ""Updated Birthday does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:34:45,2023-04-03 08:34:45,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-03,Chrome 111.0.0.0,Save changes without making any change to any field,Negative,2023-04-03 08:34:45,2023-04-03 08:34:45,0.371s,ERROR
+,,,,,,,
+Test Cases/Web/CP/CP-04,Chrome 111.0.0.0,Verify 'photo' upload feature is working correctly with valid inputs,Positive,2023-04-03 08:34:45,2023-04-03 08:35:37,51.969s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:34:46,2023-04-03 08:34:46,0.313s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Photo"")",Chrome 111.0.0.0,,,2023-04-03 08:34:46,2023-04-03 08:34:47,0.625s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:34:47,2023-04-03 08:35:37,50.733s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-05,Chrome 111.0.0.0,"Change the photo using a file with unsupported format (Anything except JPG, PNG, GIF, BMP, WEbP)",Negative,2023-04-03 08:35:37,2023-04-03 08:36:18,40.446s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.393s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.001s,PASSED
+"uploadFileName = ""testUpload.txt""",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.000s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.001s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.000s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.000s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:38,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:35:38,2023-04-03 08:35:39,0.613s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:35:39,2023-04-03 08:35:39,0.631s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:35:39,2023-04-03 08:35:40,0.715s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:35:40,2023-04-03 08:35:41,0.641s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:35:41,2023-04-03 08:35:41,0.638s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:35:41,2023-04-03 08:35:42,0.922s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:35:42,2023-04-03 08:35:43,0.531s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:35:43,2023-04-03 08:35:45,1.892s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:35:45,2023-04-03 08:35:47,2.003s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:35:47,2023-04-03 08:36:18,31.156s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-06,Chrome 111.0.0.0,"Change the photo using a file with unsupported format (Anything except JPG, PNG, GIF, BMP, WEbP) but renamed to a supported one",Negative,2023-04-03 08:36:18,2023-04-03 08:36:59,40.673s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:36:18,2023-04-03 08:36:19,0.385s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+"uploadFileName = ""testUpload.jpg""",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.001s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:19,0.614s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:36:19,2023-04-03 08:36:20,0.880s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:36:20,2023-04-03 08:36:21,1.216s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:36:21,2023-04-03 08:36:22,0.651s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:36:22,2023-04-03 08:36:23,0.640s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:36:23,2023-04-03 08:36:24,0.942s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:36:24,2023-04-03 08:36:24,0.434s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:36:24,2023-04-03 08:36:25,1.399s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:36:25,2023-04-03 08:36:27,2.010s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:36:27,2023-04-03 08:36:59,31.169s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-07,Chrome 111.0.0.0,Change the photo using a file with a relatively long filename,Negative,2023-04-03 08:36:59,2023-04-03 08:37:10,11.725s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.416s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.001s,PASSED
+"uploadFileName = ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.jpg""",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:36:59,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:36:59,2023-04-03 08:37:00,0.573s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:37:00,2023-04-03 08:37:01,0.814s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:37:01,2023-04-03 08:37:01,0.615s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:37:01,2023-04-03 08:37:02,0.894s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:37:02,2023-04-03 08:37:03,0.668s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:37:03,2023-04-03 08:37:04,0.980s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:37:04,2023-04-03 08:37:04,0.439s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:37:04,2023-04-03 08:37:06,2.119s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:37:06,2023-04-03 08:37:08,2.013s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:37:08,2023-04-03 08:37:09,0.313s,PASSED
+"decodedProfileImage = URLDecoder.decode(profileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:37:09,2023-04-03 08:37:09,0.000s,PASSED
+"nameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:37:09,2023-04-03 08:37:09,0.304s,PASSED
+"phoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:37:09,2023-04-03 08:37:09,0.316s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:37:09,2023-04-03 08:37:10,0.317s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:37:10,2023-04-03 08:37:10,0.307s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:37:10,2023-04-03 08:37:10,0.332s,PASSED
+"assert decodedProfileImage.endsWith(uploadFileName) : ""Updated photo does not match the uploaded one""",Chrome 111.0.0.0,,,2023-04-03 08:37:10,2023-04-03 08:37:10,0.001s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-08,Chrome 111.0.0.0,Change the photo using a relatively huge filesize,Negative,2023-04-03 08:37:10,2023-04-03 08:37:30,19.278s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.368s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.001s,PASSED
+"uploadFileName = ""big pic.png""",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.000s,PASSED
+absolutePath = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.000s,PASSED
+"nameValue = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.001s,PASSED
+"phoneValue = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.000s,PASSED
+"birthdayValue = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:11,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:37:11,2023-04-03 08:37:12,0.582s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:37:12,2023-04-03 08:37:12,0.835s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), absolutePath)",Chrome 111.0.0.0,,,2023-04-03 08:37:12,2023-04-03 08:37:13,0.563s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:37:13,2023-04-03 08:37:13,0.309s,PASSED
+"phoneInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:37:13,2023-04-03 08:37:14,0.311s,PASSED
+"birthdayInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:37:14,2023-04-03 08:37:14,0.307s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:37:14,2023-04-03 08:37:28,13.673s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:37:28,2023-04-03 08:37:30,2.010s,PASSED
+"assert getUrl() == ""https://demo-app.online/dashboard/profile"" : ""Not redirected to profile after saving change""",Chrome 111.0.0.0,,,2023-04-03 08:37:30,2023-04-03 08:37:30,0.008s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-09,Chrome 111.0.0.0,Verify that 'Fullname' field is working correctly with valid inputs,Positive,2023-04-03 08:37:30,2023-04-03 08:38:30,1m - 0.389s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:37:30,2023-04-03 08:37:30,0.400s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Name"")",Chrome 111.0.0.0,,,2023-04-03 08:37:30,2023-04-03 08:37:30,0.032s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:37:30,2023-04-03 08:38:30,59.634s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-14,Chrome 111.0.0.0,Verify that 'Phone' field is working correctly with valid inputs (number prefix),Positive,2023-04-03 08:38:30,2023-04-03 08:39:21,50.679s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:38:30,2023-04-03 08:38:31,0.321s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Phone"")",Chrome 111.0.0.0,,,2023-04-03 08:38:31,2023-04-03 08:38:31,0.033s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:38:31,2023-04-03 08:39:21,49.997s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-15,Chrome 111.0.0.0,Verify that 'Phone' field is working correctly with valid inputs (+ prefix),Positive,2023-04-03 08:39:21,2023-04-03 08:40:01,40.149s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:39:21,2023-04-03 08:39:21,0.342s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_PhoneCountryCode"")",Chrome 111.0.0.0,,,2023-04-03 08:39:21,2023-04-03 08:39:21,0.028s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:39:21,2023-04-03 08:40:01,39.473s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-19,Chrome 111.0.0.0,Change 'Phone' field value with total character less than 10 (prefix number),Negative,2023-04-03 08:40:01,2023-04-03 08:40:10,9.585s,FAILED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:40:01,2023-04-03 08:40:02,0.378s,PASSED
+"inputPhone = ""081324387""",Chrome 111.0.0.0,,,2023-04-03 08:40:02,2023-04-03 08:40:02,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:40:02,2023-04-03 08:40:02,0.576s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:40:02,2023-04-03 08:40:03,0.985s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:40:03,2023-04-03 08:40:04,1.222s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:40:04,2023-04-03 08:40:05,0.320s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:40:05,2023-04-03 08:40:06,1.284s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:40:06,2023-04-03 08:40:08,2.005s,PASSED
+"assert getUrl() == ""https://demo-app.online/dashboard/profile/edit""",Chrome 111.0.0.0,,,2023-04-03 08:40:08,2023-04-03 08:40:08,0.009s,PASSED
+"assert verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_validationError_Name""), 1) : ""Validation error does not appear""",Chrome 111.0.0.0,,,2023-04-03 08:40:08,2023-04-03 08:40:10,2.421s,FAILED
+,,,,,,,
+Test Cases/Web/CP/CP-20,Chrome 111.0.0.0,Change 'Phone' field value with total character less than 10 (prefix +),Negative,2023-04-03 08:40:10,2023-04-03 08:40:17,6.999s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:40:11,2023-04-03 08:40:11,0.424s,PASSED
+"inputPhone = ""+62813243872""",Chrome 111.0.0.0,,,2023-04-03 08:40:11,2023-04-03 08:40:11,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:40:11,2023-04-03 08:40:12,0.658s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:40:12,2023-04-03 08:40:13,0.879s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:40:13,2023-04-03 08:40:14,1.181s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:40:14,2023-04-03 08:40:14,0.324s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:40:14,2023-04-03 08:40:15,0.891s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:40:15,2023-04-03 08:40:17,2.015s,PASSED
+"assert getUrl() == ""https://demo-app.online/dashboard/profile/edit""",Chrome 111.0.0.0,,,2023-04-03 08:40:17,2023-04-03 08:40:17,0.007s,PASSED
+"assert verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_validationError_Phone""), 1) : ""Validation error does not appear""",Chrome 111.0.0.0,,,2023-04-03 08:40:17,2023-04-03 08:40:17,0.314s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-21,Chrome 111.0.0.0,Change 'Phone' field value with total character more than 12 (prefix number),,2023-04-03 08:40:17,2023-04-03 08:40:24,6.527s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:40:18,2023-04-03 08:40:18,0.344s,PASSED
+"inputPhone = ""08132438726710""",Chrome 111.0.0.0,,,2023-04-03 08:40:18,2023-04-03 08:40:18,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:40:18,2023-04-03 08:40:19,0.603s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:40:19,2023-04-03 08:40:19,0.675s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:40:19,2023-04-03 08:40:20,1.175s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:40:20,2023-04-03 08:40:21,0.312s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:40:21,2023-04-03 08:40:22,0.863s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:40:22,2023-04-03 08:40:24,2.001s,PASSED
+"assert getUrl() == ""https://demo-app.online/dashboard/profile/edit""",Chrome 111.0.0.0,,,2023-04-03 08:40:24,2023-04-03 08:40:24,0.009s,PASSED
+"assert verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_validationError_Phone""), 1) : ""Validation error does not appear""",Chrome 111.0.0.0,,,2023-04-03 08:40:24,2023-04-03 08:40:24,0.311s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-22,Chrome 111.0.0.0,Change 'Phone' field value with total character more than 12 (prefix +),Negative,2023-04-03 08:40:24,2023-04-03 08:40:31,6.838s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:40:24,2023-04-03 08:40:25,0.350s,PASSED
+"inputPhone = ""+628132438726710""",Chrome 111.0.0.0,,,2023-04-03 08:40:25,2023-04-03 08:40:25,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:40:25,2023-04-03 08:40:25,0.604s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:40:25,2023-04-03 08:40:26,0.908s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:40:26,2023-04-03 08:40:27,1.183s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:40:27,2023-04-03 08:40:28,0.324s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:40:28,2023-04-03 08:40:28,0.856s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:40:28,2023-04-03 08:40:30,2.009s,PASSED
+"assert getUrl() == ""https://demo-app.online/dashboard/profile/edit""",Chrome 111.0.0.0,,,2023-04-03 08:40:30,2023-04-03 08:40:30,0.005s,PASSED
+"assert verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_validationError_Phone""), 1) : ""Validation error does not appear""",Chrome 111.0.0.0,,,2023-04-03 08:40:30,2023-04-03 08:40:31,0.310s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-23,Chrome 111.0.0.0,Verify that 'Birthday' field is working correctly with valid inputs,Positive,2023-04-03 08:40:31,2023-04-03 08:41:06,34.896s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:40:31,2023-04-03 08:40:32,0.419s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:40:32,2023-04-03 08:40:32,0.033s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:40:32,2023-04-03 08:41:06,34.055s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-24,Chrome 111.0.0.0,Verify that Date Picker in 'Birthday' field is working correctly with the youngest age possible,Positive,2023-04-03 08:41:06,2023-04-03 08:42:06,1m - 0.274s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:41:06,2023-04-03 08:41:06,0.455s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:41:06,2023-04-03 08:41:07,0.526s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:41:07,2023-04-03 08:41:08,0.656s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar""))",Chrome 111.0.0.0,,,2023-04-03 08:41:08,2023-04-03 08:41:08,0.650s,PASSED
+"month = getText(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_monthYearDupe""))",Chrome 111.0.0.0,,,2023-04-03 08:41:08,2023-04-03 08:41:09,0.540s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), ""01-Jan-2015"")",Chrome 111.0.0.0,,,2023-04-03 08:41:09,2023-04-03 08:41:09,0.705s,PASSED
+"while (verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_nextButton""), 0, OPTIONAL))",Chrome 111.0.0.0,,,2023-04-03 08:41:09,2023-04-03 08:42:00,50.828s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_SelectedDateFirstRow""))",Chrome 111.0.0.0,,,2023-04-03 08:42:00,2023-04-03 08:42:01,0.344s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:01,2023-04-03 08:42:01,0.538s,PASSED
+"birthdayInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:01,2023-04-03 08:42:01,0.316s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:42:01,2023-04-03 08:42:03,1.475s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:42:03,2023-04-03 08:42:05,2.003s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:42:05,2023-04-03 08:42:05,0.319s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:42:05,2023-04-03 08:42:06,0.308s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:42:06,2023-04-03 08:42:06,0.335s,PASSED
+"assert birthdayProfile == birthdayInputValue : ""Updated Birthday does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:42:06,2023-04-03 08:42:06,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-25,Chrome 111.0.0.0,Verify that Date Picker in 'Birthday' field is working correctly with the oldest age possible,Positive,2023-04-03 08:42:06,2023-04-03 08:42:47,41.220s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:42:06,2023-04-03 08:42:07,0.581s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:42:07,2023-04-03 08:42:08,0.645s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:42:08,2023-04-03 08:42:08,0.783s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar""))",Chrome 111.0.0.0,,,2023-04-03 08:42:08,2023-04-03 08:42:09,0.694s,PASSED
+"month = getText(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_monthYearDupe""))",Chrome 111.0.0.0,,,2023-04-03 08:42:09,2023-04-03 08:42:09,0.443s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), ""01-Jan-1924"")",Chrome 111.0.0.0,,,2023-04-03 08:42:09,2023-04-03 08:42:10,0.770s,PASSED
+"while (verifyElementPresent(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_prevButton""), 0, OPTIONAL))",Chrome 111.0.0.0,,,2023-04-03 08:42:10,2023-04-03 08:42:42,32.001s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_Calendar_SelectedDateLastRow""))",Chrome 111.0.0.0,,,2023-04-03 08:42:42,2023-04-03 08:42:43,0.360s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:43,2023-04-03 08:42:43,0.435s,PASSED
+"birthdayInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:43,2023-04-03 08:42:43,0.314s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:42:43,2023-04-03 08:42:44,0.886s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:42:44,2023-04-03 08:42:46,2.001s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:42:46,2023-04-03 08:42:47,0.322s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:42:47,2023-04-03 08:42:47,0.309s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:42:47,2023-04-03 08:42:47,0.334s,PASSED
+"assert birthdayProfile == birthdayInputValue : ""Updated Birthday does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:42:47,2023-04-03 08:42:47,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-26,Chrome 111.0.0.0,Change 'Birthday' field with an empty value,Negative,2023-04-03 08:42:47,2023-04-03 08:42:55,7.586s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:42:47,2023-04-03 08:42:48,0.355s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:42:48,2023-04-03 08:42:48,0.030s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:42:48,2023-04-03 08:42:48,0.001s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:42:48,2023-04-03 08:42:48,0.638s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:42:48,2023-04-03 08:42:49,0.319s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:42:49,2023-04-03 08:42:49,0.652s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:42:49,2023-04-03 08:42:51,1.188s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:51,2023-04-03 08:42:51,0.309s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:42:51,2023-04-03 08:42:52,0.805s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:42:52,2023-04-03 08:42:54,2.002s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:42:54,2023-04-03 08:42:54,0.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:42:54,2023-04-03 08:42:54,0.328s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:42:54,2023-04-03 08:42:55,0.338s,PASSED
+"assert !(birthdayProfile == inputBirthday) : ""Updated Birthday matches the invalid input""",Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:55,0.000s,PASSED
+"assert originalBirthdayProfile == birthdayProfile : ""Birthday value should have stayed as it was""",Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:55,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-27,Chrome 111.0.0.0,Change 'Birthday' field value with white spaces,Negative,2023-04-03 08:42:55,2023-04-03 08:43:03,8.216s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:55,0.306s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:55,0.029s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:55,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:42:55,2023-04-03 08:42:56,0.586s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:42:56,2023-04-03 08:42:56,0.527s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:42:56,2023-04-03 08:42:57,0.643s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:42:57,2023-04-03 08:42:59,1.748s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:42:59,2023-04-03 08:42:59,0.313s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:42:59,2023-04-03 08:43:00,0.805s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:00,2023-04-03 08:43:02,2.010s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:02,2023-04-03 08:43:02,0.315s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:02,2023-04-03 08:43:03,0.305s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:03,2023-04-03 08:43:03,0.344s,PASSED
+"assert !(birthdayProfile == inputBirthday) : ""Updated Birthday matches the invalid input""",Chrome 111.0.0.0,,,2023-04-03 08:43:03,2023-04-03 08:43:03,0.000s,PASSED
+"assert originalBirthdayProfile == birthdayProfile : ""Birthday value should have stayed as it was""",Chrome 111.0.0.0,,,2023-04-03 08:43:03,2023-04-03 08:43:03,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-28,Chrome 111.0.0.0,Change 'Birthday' field value with lower case character,Negative,2023-04-03 08:43:03,2023-04-03 08:43:12,8.974s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:03,2023-04-03 08:43:04,0.631s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:43:04,2023-04-03 08:43:04,0.032s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:43:04,2023-04-03 08:43:04,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:04,2023-04-03 08:43:04,0.575s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:05,2023-04-03 08:43:05,0.539s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:05,2023-04-03 08:43:06,0.782s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:06,2023-04-03 08:43:07,1.227s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:43:07,2023-04-03 08:43:08,0.535s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:43:08,2023-04-03 08:43:09,1.372s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:09,2023-04-03 08:43:11,2.013s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:11,2023-04-03 08:43:11,0.315s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:11,2023-04-03 08:43:12,0.310s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.339s,PASSED
+inputFormat = new java.text.SimpleDateFormat(dd-MMM-yyyy),Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.007s,PASSED
+outputFormat = new java.text.SimpleDateFormat(dd-MMM-yyyy),Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.001s,PASSED
+inputDate = inputFormat.parse(inputBirthday),Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.001s,PASSED
+outputDateString = outputFormat.format(inputDate),Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.000s,PASSED
+"assert birthdayProfile == outputDateString : ""Updated Birthday does not match the input""",Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-29,Chrome 111.0.0.0,Change 'Birthday' field value with uppercase character,Negative,2023-04-03 08:43:12,2023-04-03 08:43:20,7.944s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:12,2023-04-03 08:43:13,0.326s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:43:13,2023-04-03 08:43:13,0.032s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:43:13,2023-04-03 08:43:13,0.001s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:13,2023-04-03 08:43:13,0.587s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:13,2023-04-03 08:43:14,0.537s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:14,2023-04-03 08:43:14,0.652s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:14,2023-04-03 08:43:16,1.234s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:43:16,2023-04-03 08:43:16,0.452s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:43:16,2023-04-03 08:43:17,0.830s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:17,2023-04-03 08:43:19,2.015s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:19,2023-04-03 08:43:19,0.314s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:19,2023-04-03 08:43:20,0.310s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.342s,PASSED
+inputFormat = new java.text.SimpleDateFormat(dd-MMM-yyyy),Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.000s,PASSED
+outputFormat = new java.text.SimpleDateFormat(dd-MMM-yyyy),Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.000s,PASSED
+inputDate = inputFormat.parse(inputBirthday),Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.000s,PASSED
+outputDateString = outputFormat.format(inputDate),Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.000s,PASSED
+"assert birthdayProfile == outputDateString : ""Updated Birthday does not match the input""",Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-30,Chrome 111.0.0.0,Change 'Birthday' field value with invalid format,Negative,2023-04-03 08:43:20,2023-04-03 08:43:28,7.617s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:20,0.314s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:43:20,2023-04-03 08:43:21,0.028s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:43:21,2023-04-03 08:43:21,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:21,2023-04-03 08:43:21,0.591s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:21,2023-04-03 08:43:22,0.527s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:22,2023-04-03 08:43:22,0.618s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:22,2023-04-03 08:43:23,1.104s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:43:23,2023-04-03 08:43:24,0.315s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:43:24,2023-04-03 08:43:25,0.846s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:25,2023-04-03 08:43:27,2.010s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:27,2023-04-03 08:43:27,0.336s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:27,2023-04-03 08:43:27,0.321s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:27,2023-04-03 08:43:28,0.337s,PASSED
+"assert !(birthdayProfile == inputBirthday) : ""Updated Birthday matches the invalid input""",Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:28,0.000s,PASSED
+"assert originalBirthdayProfile == birthdayProfile : ""Birthday value should have stayed as it was""",Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:28,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-31,Chrome 111.0.0.0,Change 'Birthday' field value with age less than 6,Negative,2023-04-03 08:43:28,2023-04-03 08:43:36,8.526s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:28,0.380s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:28,0.039s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:28,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:28,2023-04-03 08:43:29,0.574s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:29,2023-04-03 08:43:29,0.536s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:29,2023-04-03 08:43:30,0.631s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:30,2023-04-03 08:43:32,1.703s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:43:32,2023-04-03 08:43:32,0.434s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:43:32,2023-04-03 08:43:33,0.843s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:33,2023-04-03 08:43:35,2.016s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:35,2023-04-03 08:43:35,0.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:35,2023-04-03 08:43:36,0.309s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.338s,PASSED
+"assert !(birthdayProfile == inputBirthday) : ""Updated Birthday matches the invalid input""",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.000s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""dd-MMM-yyyy"")",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.012s,PASSED
+"inputDate = LocalDate.parse(birthdayProfile, formatter)",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.010s,PASSED
+currentDate = LocalDate.now(),Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.001s,PASSED
+"years = YEARS.between(inputDate, currentDate)",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.005s,PASSED
+"assert years >= 6 : ""The input date is not older than 6 years.""",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-32,Chrome 111.0.0.0,Change 'Birthday' field value with age more than 100,Negative,2023-04-03 08:43:36,2023-04-03 08:43:45,8.535s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:36,2023-04-03 08:43:37,0.338s,PASSED
+"testData = findTestData(""Data Files/Web/ChangeProfile_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:43:37,2023-04-03 08:43:37,0.031s,PASSED
+inputBirthday = toString().trim(),Chrome 111.0.0.0,,,2023-04-03 08:43:37,2023-04-03 08:43:37,0.000s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:37,2023-04-03 08:43:38,1.195s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday"")).trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:38,2023-04-03 08:43:38,0.327s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:38,2023-04-03 08:43:39,0.627s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:39,2023-04-03 08:43:40,1.254s,PASSED
+"nameInputValue = getAttribute(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:43:40,2023-04-03 08:43:41,0.523s,PASSED
+"click(findTestObject(""WEB/Change Profile/ChangeProfile_button_Save""))",Chrome 111.0.0.0,,,2023-04-03 08:43:41,2023-04-03 08:43:42,0.889s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:42,2023-04-03 08:43:44,2.003s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:44,2023-04-03 08:43:44,0.318s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), originalNameProfile + "" telah di edit"")",Chrome 111.0.0.0,,,2023-04-03 08:43:44,2023-04-03 08:43:44,0.305s,PASSED
+"click(findTestObject(""Object Repository/WEB/Change Profile/Profile_button_ChangeSuccessNotif""))",Chrome 111.0.0.0,,,2023-04-03 08:43:44,2023-04-03 08:43:45,0.345s,PASSED
+"assert !(birthdayProfile == inputBirthday) : ""Updated Birthday matches the invalid input""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""dd-MMM-yyyy"")",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.001s,PASSED
+"inputDate = LocalDate.parse(birthdayProfile, formatter)",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.001s,PASSED
+currentDate = LocalDate.now(),Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.001s,PASSED
+"years = YEARS.between(inputDate, currentDate)",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"assert years <= 100 : ""The input date is not younger than 100 years.""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/CP/CP-34,Chrome 111.0.0.0,Verify changes made with page refresh or any URL change before saving any changes,Negative,2023-04-03 08:43:45,2023-04-03 08:43:55,10.404s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.299s,PASSED
+"uploadFilePath = ""/Include/Resources/""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"uploadFileName = ""cat01.jpeg""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"file = new java.io.File(com.kms.katalon.core.configuration.RunConfiguration.getProjectDir(), (uploadFilePath + uploadFileName))",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+inputImage = file.toString(),Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"inputName = ""Edited Value"".trim()",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"inputPhone = ""081123456789""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"inputBirthday = ""01-Jan-2000""",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:45,0.000s,PASSED
+"originalProfileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:43:45,2023-04-03 08:43:46,0.604s,PASSED
+"originalDecodedProfileImage = URLDecoder.decode(originalProfileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:43:46,2023-04-03 08:43:46,0.001s,PASSED
+"originalNameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:43:46,2023-04-03 08:43:46,0.551s,PASSED
+"originalPhoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:43:46,2023-04-03 08:43:47,0.324s,PASSED
+"originalBirthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:47,2023-04-03 08:43:47,0.345s,PASSED
+"click(findTestObject(""WEB/Profile/Profile_button_EditProfile""))",Chrome 111.0.0.0,,,2023-04-03 08:43:47,2023-04-03 08:43:48,0.682s,PASSED
+"uploadFile(findTestObject(""WEB/Change Profile/ChangeProfile_button_uploadButton""), inputImage)",Chrome 111.0.0.0,,,2023-04-03 08:43:48,2023-04-03 08:43:48,0.633s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Name""), inputName)",Chrome 111.0.0.0,,,2023-04-03 08:43:48,2023-04-03 08:43:49,0.906s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_Phone""), inputPhone)",Chrome 111.0.0.0,,,2023-04-03 08:43:49,2023-04-03 08:43:50,0.642s,PASSED
+"setText(findTestObject(""WEB/Change Profile/ChangeProfile_inputText_BirthDay""), inputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:43:50,2023-04-03 08:43:51,1.096s,PASSED
+"navigateToUrl(""https://demo-app.online/dashboard/profile"")",Chrome 111.0.0.0,,,2023-04-03 08:43:51,2023-04-03 08:43:51,0.323s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:43:51,2023-04-03 08:43:53,2.003s,PASSED
+"profileImage = getAttribute(findTestObject(""WEB/Profile/Profile_img_profilePhoto""), ""src"")",Chrome 111.0.0.0,,,2023-04-03 08:43:53,2023-04-03 08:43:54,0.317s,PASSED
+"decodedProfileImage = URLDecoder.decode(profileImage, ""UTF-8"")",Chrome 111.0.0.0,,,2023-04-03 08:43:54,2023-04-03 08:43:54,0.000s,PASSED
+"nameProfile = getText(findTestObject(""WEB/Profile/Profile_text_Name""))",Chrome 111.0.0.0,,,2023-04-03 08:43:54,2023-04-03 08:43:54,0.318s,PASSED
+"phoneProfile = getText(findTestObject(""WEB/Profile/Profile_text_Phone""))",Chrome 111.0.0.0,,,2023-04-03 08:43:54,2023-04-03 08:43:54,0.310s,PASSED
+"birthdayProfile = getText(findTestObject(""WEB/Profile/Profile_text_Birthday""))",Chrome 111.0.0.0,,,2023-04-03 08:43:54,2023-04-03 08:43:55,0.340s,PASSED
+"assert verifyElementNotPresent(findTestObject(""Object Repository/WEB/Change Profile/Profile_p_ChangeSuccessNotif""), 2) : ""Profile was updated, not cancelled""",Chrome 111.0.0.0,,,2023-04-03 08:43:55,2023-04-03 08:43:55,0.333s,PASSED
+"assert decodedProfileImage == originalDecodedProfileImage : ""Updated photo does not match the uploaded one""",Chrome 111.0.0.0,,,2023-04-03 08:43:55,2023-04-03 08:43:55,0.001s,PASSED
+"assert nameProfile == originalNameProfile : ""Updated Name does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:43:55,2023-04-03 08:43:55,0.000s,PASSED
+"assert phoneProfile == originalPhoneProfile : ""Updated Phone Number does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:43:55,2023-04-03 08:43:55,0.000s,PASSED
+"assert birthdayProfile == originalBirthdayProfile : ""Updated Birthday does not match the inputted one""",Chrome 111.0.0.0,,,2023-04-03 08:43:55,2023-04-03 08:43:55,0.000s,PASSED

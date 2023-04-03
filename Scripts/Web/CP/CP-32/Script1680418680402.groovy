@@ -27,7 +27,6 @@ import java.time.Period
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
-WebUI.openBrowser('')
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
 def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Birthday")

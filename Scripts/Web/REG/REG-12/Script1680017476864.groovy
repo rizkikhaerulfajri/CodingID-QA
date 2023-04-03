@@ -47,5 +47,5 @@ if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
 	
 WebUI.delay(2)
 
-assert WebUI.getUrl() == 'https://demo-app.online/email/verify'
+assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')
 

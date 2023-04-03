@@ -23,7 +23,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration
 import java.io.File
 
-WebUI.openBrowser('')
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
 def testData = TestDataFactory.findTestData("Data Files/Web/ChangeProfile_Birthday")

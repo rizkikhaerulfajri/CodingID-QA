@@ -23,14 +23,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration
 import java.io.File
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo-app.online/login')
-WebUI.setText(findTestObject('Object Repository/WEB/Login/Login_inputText_Email'), 'burnerforpractice02@gmail.com')
-WebUI.setText(findTestObject('WEB/Login/Login_inputText_Password'), 'testingtesting')
-WebUI.click(findTestObject('WEB/Login/Login_button_Login'))
-WebUI.delay(2)
-
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile')
 
 def inputPhone = '081324387'
@@ -49,6 +41,6 @@ WebUI.delay(2)
 
 //Assert that the page stays in the edit page and validation error appeared
 assert WebUI.getUrl() == 'https://demo-app.online/dashboard/profile/edit'
-assert WebUI.verifyElementPresent(findTestObject('WEB/Change Profile/ChangeProfile_validationError_Name'), 1) : 'Validation error does not appear'
+assert WebUI.verifyElementPresent(findTestObject('WEB/Change Profile/ChangeProfile_validationError_Phone'), 1) : 'Validation error does not appear'
 
 

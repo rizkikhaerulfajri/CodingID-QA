@@ -1,0 +1,218 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Profile All TC,,,,2023-04-03 09:59:08,2023-04-03 10:05:54,6m - 45.529s,PASSED
+,,,,,,,
+Test Cases/Android/Login/LOG-05,,Login with a valid email and password combination,,2023-04-03 09:59:09,2023-04-03 09:59:34,25.211s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 09:59:09,2023-04-03 09:59:22,13.001s,PASSED
+"tap(findTestObject(""Android/Home_Button_LoginButton""), 0)",,,,2023-04-03 09:59:22,2023-04-03 09:59:24,1.841s,PASSED
+"setText(findTestObject(""Android/Login_Field_Email""), ""pooyutre203@gmail.com"", 0)",,,,2023-04-03 09:59:24,2023-04-03 09:59:26,2.308s,PASSED
+"setEncryptedText(findTestObject(""Android/Login_Field_Password""), ""gR0Nb1R4MGJzAGnAbnpVZA=="", 0)",,,,2023-04-03 09:59:26,2023-04-03 09:59:28,1.543s,PASSED
+switchToNative(),,,,2023-04-03 09:59:28,2023-04-03 09:59:28,0.132s,PASSED
+"tap(findTestObject(""Android/Login_Button_Login""), 0)",,,,2023-04-03 09:59:28,2023-04-03 09:59:29,0.960s,PASSED
+"waitForElementPresent(findTestObject(""Android/Home_Button_Cart""), 3, CONTINUE_ON_FAILURE)",,,,2023-04-03 09:59:29,2023-04-03 09:59:33,4.711s,PASSED
+closeApplication(),,,,2023-04-03 09:59:33,2023-04-03 09:59:34,0.345s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF08,,,,2023-04-03 09:59:34,2023-04-03 09:59:53,18.913s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 09:59:34,2023-04-03 09:59:44,10.097s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 09:59:44,2023-04-03 09:59:45,0.816s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 09:59:45,2023-04-03 09:59:46,0.888s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 09:59:46,2023-04-03 09:59:47,1.146s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 09:59:47,2023-04-03 09:59:50,2.869s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 1)",,,,2023-04-03 09:59:50,2023-04-03 09:59:51,1.168s,PASSED
+pressBack(),,,,2023-04-03 09:59:51,2023-04-03 09:59:51,0.202s,PASSED
+pressBack(),,,,2023-04-03 09:59:51,2023-04-03 09:59:52,1.172s,PASSED
+closeApplication(),,,,2023-04-03 09:59:52,2023-04-03 09:59:53,0.323s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF08,,,,2023-04-03 09:59:53,2023-04-03 10:00:13,19.709s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 09:59:53,2023-04-03 10:00:04,10.837s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:00:04,2023-04-03 10:00:05,1.204s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:00:05,2023-04-03 10:00:06,1.261s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:00:06,2023-04-03 10:00:07,1.056s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:00:07,2023-04-03 10:00:10,2.702s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 1)",,,,2023-04-03 10:00:10,2023-04-03 10:00:11,1.093s,PASSED
+pressBack(),,,,2023-04-03 10:00:11,2023-04-03 10:00:11,0.204s,PASSED
+pressBack(),,,,2023-04-03 10:00:11,2023-04-03 10:00:12,1.059s,PASSED
+closeApplication(),,,,2023-04-03 10:00:12,2023-04-03 10:00:13,0.276s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF08,,,,2023-04-03 10:00:13,2023-04-03 10:00:32,19.618s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:00:13,2023-04-03 10:00:23,10.615s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:00:23,2023-04-03 10:00:24,1.169s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:00:24,2023-04-03 10:00:26,1.987s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:00:26,2023-04-03 10:00:27,0.280s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:00:27,2023-04-03 10:00:29,2.738s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 1)",,,,2023-04-03 10:00:29,2023-04-03 10:00:31,1.174s,PASSED
+pressBack(),,,,2023-04-03 10:00:31,2023-04-03 10:00:31,0.186s,PASSED
+pressBack(),,,,2023-04-03 10:00:31,2023-04-03 10:00:32,1.149s,PASSED
+closeApplication(),,,,2023-04-03 10:00:32,2023-04-03 10:00:32,0.278s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF08,,,,2023-04-03 10:00:32,2023-04-03 10:00:53,20.938s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:00:32,2023-04-03 10:00:44,11.969s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:00:44,2023-04-03 10:00:45,1.219s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:00:45,2023-04-03 10:00:47,1.208s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:00:47,2023-04-03 10:00:48,1.212s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:00:48,2023-04-03 10:00:50,2.584s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 1)",,,,2023-04-03 10:00:50,2023-04-03 10:00:52,1.137s,PASSED
+pressBack(),,,,2023-04-03 10:00:52,2023-04-03 10:00:52,0.170s,PASSED
+pressBack(),,,,2023-04-03 10:00:52,2023-04-03 10:00:53,1.146s,PASSED
+closeApplication(),,,,2023-04-03 10:00:53,2023-04-03 10:00:53,0.285s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF09,,,,2023-04-03 10:00:53,2023-04-03 10:01:14,20.393s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:00:53,2023-04-03 10:01:05,11.378s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:01:05,2023-04-03 10:01:06,1.187s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:01:06,2023-04-03 10:01:07,0.990s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:01:07,2023-04-03 10:01:08,1.132s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:01:08,2023-04-03 10:01:11,2.833s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 0)",,,,2023-04-03 10:01:11,2023-04-03 10:01:12,1.114s,PASSED
+pressBack(),,,,2023-04-03 10:01:12,2023-04-03 10:01:12,0.202s,PASSED
+pressBack(),,,,2023-04-03 10:01:12,2023-04-03 10:01:13,1.027s,PASSED
+closeApplication(),,,,2023-04-03 10:01:13,2023-04-03 10:01:14,0.333s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF09,,,,2023-04-03 10:01:14,2023-04-03 10:01:34,19.991s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:01:14,2023-04-03 10:01:24,10.865s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:01:24,2023-04-03 10:01:26,1.324s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:01:26,2023-04-03 10:01:27,1.150s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:01:27,2023-04-03 10:01:28,1.080s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:01:28,2023-04-03 10:01:31,2.779s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 0)",,,,2023-04-03 10:01:31,2023-04-03 10:01:32,1.226s,PASSED
+pressBack(),,,,2023-04-03 10:01:32,2023-04-03 10:01:32,0.203s,PASSED
+pressBack(),,,,2023-04-03 10:01:32,2023-04-03 10:01:33,1.092s,PASSED
+closeApplication(),,,,2023-04-03 10:01:33,2023-04-03 10:01:34,0.262s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF09,,,,2023-04-03 10:01:34,2023-04-03 10:01:53,19.810s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:01:34,2023-04-03 10:01:45,10.995s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:01:45,2023-04-03 10:01:46,1.207s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:01:46,2023-04-03 10:01:47,1.241s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:01:47,2023-04-03 10:01:48,1.075s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:01:48,2023-04-03 10:01:51,2.697s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 0)",,,,2023-04-03 10:01:51,2023-04-03 10:01:52,0.966s,PASSED
+pressBack(),,,,2023-04-03 10:01:52,2023-04-03 10:01:52,0.155s,PASSED
+pressBack(),,,,2023-04-03 10:01:52,2023-04-03 10:01:53,1.184s,PASSED
+closeApplication(),,,,2023-04-03 10:01:53,2023-04-03 10:01:53,0.279s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF09,,,,2023-04-03 10:01:53,2023-04-03 10:02:13,19.383s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:01:53,2023-04-03 10:02:04,10.531s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:02:04,2023-04-03 10:02:05,1.261s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:02:05,2023-04-03 10:02:06,1.118s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:02:06,2023-04-03 10:02:07,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Android/EditProfile_Field_Fullname""), fullname, 0)",,,,2023-04-03 10:02:07,2023-04-03 10:02:10,2.770s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 0)",,,,2023-04-03 10:02:10,2023-04-03 10:02:11,1.081s,PASSED
+pressBack(),,,,2023-04-03 10:02:11,2023-04-03 10:02:11,0.175s,PASSED
+pressBack(),,,,2023-04-03 10:02:11,2023-04-03 10:02:12,1.095s,PASSED
+closeApplication(),,,,2023-04-03 10:02:12,2023-04-03 10:02:13,0.272s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF10,,,,2023-04-03 10:02:13,2023-04-03 10:02:30,17.487s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:02:13,2023-04-03 10:02:23,9.523s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:02:23,2023-04-03 10:02:24,1.246s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:02:24,2023-04-03 10:02:25,0.830s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:02:25,2023-04-03 10:02:26,1.056s,PASSED
+"clearText(findTestObject(""Android/EditProfile_Field_Fullname""), 0)",,,,2023-04-03 10:02:26,2023-04-03 10:02:28,1.933s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-03 10:02:28,2023-04-03 10:02:29,1.030s,PASSED
+pressBack(),,,,2023-04-03 10:02:29,2023-04-03 10:02:29,0.156s,PASSED
+pressBack(),,,,2023-04-03 10:02:29,2023-04-03 10:02:30,1.140s,PASSED
+closeApplication(),,,,2023-04-03 10:02:30,2023-04-03 10:02:30,0.291s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF12,,,,2023-04-03 10:02:30,2023-04-03 10:02:49,19.044s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:02:30,2023-04-03 10:02:40,9.879s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:02:40,2023-04-03 10:02:42,1.277s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:02:42,2023-04-03 10:02:43,0.904s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:02:43,2023-04-03 10:02:44,1.065s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:02:44,2023-04-03 10:02:47,3.027s,PASSED
+"verifyElementNotVisible(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1)",,,,2023-04-03 10:02:47,2023-04-03 10:02:48,1.114s,PASSED
+pressBack(),,,,2023-04-03 10:02:48,2023-04-03 10:02:48,0.171s,PASSED
+pressBack(),,,,2023-04-03 10:02:48,2023-04-03 10:02:49,1.112s,PASSED
+closeApplication(),,,,2023-04-03 10:02:49,2023-04-03 10:02:49,0.269s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF12,,,,2023-04-03 10:02:49,2023-04-03 10:03:08,19.154s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:02:49,2023-04-03 10:02:59,9.985s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:02:59,2023-04-03 10:03:01,1.717s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:03:01,2023-04-03 10:03:02,0.877s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:03:02,2023-04-03 10:03:03,1.065s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:03:03,2023-04-03 10:03:06,2.804s,PASSED
+"verifyElementNotVisible(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1)",,,,2023-04-03 10:03:06,2023-04-03 10:03:07,1.123s,PASSED
+pressBack(),,,,2023-04-03 10:03:07,2023-04-03 10:03:07,0.173s,PASSED
+pressBack(),,,,2023-04-03 10:03:07,2023-04-03 10:03:08,1.079s,PASSED
+closeApplication(),,,,2023-04-03 10:03:08,2023-04-03 10:03:08,0.326s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF12,,,,2023-04-03 10:03:08,2023-04-03 10:03:30,21.284s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:03:08,2023-04-03 10:03:20,11.462s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:03:20,2023-04-03 10:03:21,1.095s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:03:21,2023-04-03 10:03:22,1.064s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:03:22,2023-04-03 10:03:23,1.017s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:03:23,2023-04-03 10:03:27,3.979s,PASSED
+"verifyElementNotVisible(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1)",,,,2023-04-03 10:03:27,2023-04-03 10:03:28,1.091s,PASSED
+pressBack(),,,,2023-04-03 10:03:28,2023-04-03 10:03:28,0.174s,PASSED
+pressBack(),,,,2023-04-03 10:03:28,2023-04-03 10:03:29,1.064s,PASSED
+closeApplication(),,,,2023-04-03 10:03:29,2023-04-03 10:03:30,0.331s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF12,,,,2023-04-03 10:03:30,2023-04-03 10:03:52,21.865s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:03:30,2023-04-03 10:03:40,10.374s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:03:40,2023-04-03 10:03:41,1.141s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:03:41,2023-04-03 10:03:43,1.506s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:03:43,2023-04-03 10:03:44,1.116s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:03:44,2023-04-03 10:03:48,4.434s,PASSED
+"verifyElementNotVisible(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1)",,,,2023-04-03 10:03:48,2023-04-03 10:03:50,1.264s,PASSED
+pressBack(),,,,2023-04-03 10:03:50,2023-04-03 10:03:50,0.359s,PASSED
+pressBack(),,,,2023-04-03 10:03:50,2023-04-03 10:03:51,1.203s,PASSED
+closeApplication(),,,,2023-04-03 10:03:51,2023-04-03 10:03:52,0.462s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF13,,,,2023-04-03 10:03:52,2023-04-03 10:04:17,24.926s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:03:52,2023-04-03 10:04:07,15.350s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:04:07,2023-04-03 10:04:09,1.528s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:04:09,2023-04-03 10:04:10,1.067s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:04:10,2023-04-03 10:04:11,1.028s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:04:11,2023-04-03 10:04:14,2.849s,PASSED
+"if (waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone""), 1))",,,,2023-04-03 10:04:14,2023-04-03 10:04:15,0.996s,PASSED
+pressBack(),,,,2023-04-03 10:04:15,2023-04-03 10:04:15,0.186s,PASSED
+pressBack(),,,,2023-04-03 10:04:15,2023-04-03 10:04:16,1.081s,PASSED
+closeApplication(),,,,2023-04-03 10:04:16,2023-04-03 10:04:17,0.456s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF13,,,,2023-04-03 10:04:17,2023-04-03 10:04:37,20.340s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:04:17,2023-04-03 10:04:28,11.424s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:04:28,2023-04-03 10:04:29,1.285s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:04:29,2023-04-03 10:04:30,0.963s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:04:30,2023-04-03 10:04:31,1.106s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:04:31,2023-04-03 10:04:34,2.787s,PASSED
+"if (waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone""), 1))",,,,2023-04-03 10:04:34,2023-04-03 10:04:35,1.150s,PASSED
+pressBack(),,,,2023-04-03 10:04:35,2023-04-03 10:04:35,0.187s,PASSED
+pressBack(),,,,2023-04-03 10:04:35,2023-04-03 10:04:37,1.123s,PASSED
+closeApplication(),,,,2023-04-03 10:04:37,2023-04-03 10:04:37,0.307s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF13,,,,2023-04-03 10:04:37,2023-04-03 10:04:57,20.049s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:04:37,2023-04-03 10:04:47,10.441s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:04:47,2023-04-03 10:04:48,1.118s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:04:48,2023-04-03 10:04:49,0.896s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:04:49,2023-04-03 10:04:50,1.060s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:04:50,2023-04-03 10:04:53,2.536s,PASSED
+"if (waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone""), 1))",,,,2023-04-03 10:04:53,2023-04-03 10:04:55,2.470s,PASSED
+pressBack(),,,,2023-04-03 10:04:55,2023-04-03 10:04:56,0.157s,PASSED
+pressBack(),,,,2023-04-03 10:04:56,2023-04-03 10:04:57,1.088s,PASSED
+closeApplication(),,,,2023-04-03 10:04:57,2023-04-03 10:04:57,0.272s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF13,,,,2023-04-03 10:04:57,2023-04-03 10:05:18,20.984s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:04:57,2023-04-03 10:05:07,10.105s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:05:07,2023-04-03 10:05:09,1.409s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:05:09,2023-04-03 10:05:09,0.968s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:05:09,2023-04-03 10:05:11,1.022s,PASSED
+"setText(findTestObject(""Android/EditProfile_Field_Phone""), phone, 0)",,,,2023-04-03 10:05:11,2023-04-03 10:05:13,2.631s,PASSED
+"if (waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone""), 1) || waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone""), 1))",,,,2023-04-03 10:05:13,2023-04-03 10:05:16,3.240s,PASSED
+pressBack(),,,,2023-04-03 10:05:16,2023-04-03 10:05:17,0.174s,PASSED
+pressBack(),,,,2023-04-03 10:05:17,2023-04-03 10:05:18,1.062s,PASSED
+closeApplication(),,,,2023-04-03 10:05:18,2023-04-03 10:05:18,0.364s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF14,,,,2023-04-03 10:05:18,2023-04-03 10:05:38,20.156s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:05:18,2023-04-03 10:05:30,11.989s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:05:30,2023-04-03 10:05:31,1.306s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:05:31,2023-04-03 10:05:33,1.124s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:05:33,2023-04-03 10:05:34,1.007s,PASSED
+"clearText(findTestObject(""Android/EditProfile_Field_Phone""), 0)",,,,2023-04-03 10:05:34,2023-04-03 10:05:36,2.018s,PASSED
+"waitForElementPresent(findTestObject(""Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-03 10:05:36,2023-04-03 10:05:37,0.982s,PASSED
+pressBack(),,,,2023-04-03 10:05:37,2023-04-03 10:05:37,0.154s,PASSED
+pressBack(),,,,2023-04-03 10:05:37,2023-04-03 10:05:38,1.076s,PASSED
+closeApplication(),,,,2023-04-03 10:05:38,2023-04-03 10:05:38,0.300s,PASSED
+,,,,,,,
+Test Cases/Android/Edit Profile/EPF20,,Edit Profile wihout changing anything,Negative,2023-04-03 10:05:38,2023-04-03 10:05:54,15.612s,PASSED
+"startExistingApplication(""com.codingid.codingidhive.betastaging"")",,,,2023-04-03 10:05:38,2023-04-03 10:05:48,9.599s,PASSED
+"tap(findTestObject(""Object Repository/Android/Home_Section_Profile""), 0)",,,,2023-04-03 10:05:48,2023-04-03 10:05:49,1.334s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings""), 0)",,,,2023-04-03 10:05:49,2023-04-03 10:05:50,1.158s,PASSED
+"tap(findTestObject(""Object Repository/Android/Profile_Button_Settings_Option_EditProfile""), 0)",,,,2023-04-03 10:05:50,2023-04-03 10:05:52,1.079s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/EditProfile_Button_SaveDisabled""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-03 10:05:52,2023-04-03 10:05:53,1.986s,PASSED
+closeApplication(),,,,2023-04-03 10:05:53,2023-04-03 10:05:54,0.251s,PASSED

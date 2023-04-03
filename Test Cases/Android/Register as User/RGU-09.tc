@@ -4,7 +4,7 @@
    <name>RGU-09</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c8744393-76aa-4715-adee-1d4eaca9ec83</testCaseGuid>
+   <testCaseGuid>c74fc31c-c4b5-4eee-8760-69e8e90d8bca</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>acae3bee-7873-4ac4-a9be-8f1695cc6c9c</id>
@@ -18,12 +18,12 @@
       <testDataLinkId>acae3bee-7873-4ac4-a9be-8f1695cc6c9c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>invalid_email</value>
-      <variableId>d6a0c428-2dc9-4629-8863-f7beb8ffbd0d</variableId>
+      <variableId>b57995e2-04c5-43e2-8906-2cbe2f160f8e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d6a0c428-2dc9-4629-8863-f7beb8ffbd0d</id>
+      <id>b57995e2-04c5-43e2-8906-2cbe2f160f8e</id>
       <masked>false</masked>
       <name>email</name>
    </variable>

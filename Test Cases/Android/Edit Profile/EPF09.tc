@@ -4,7 +4,7 @@
    <name>EPF09</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b5b0dc1b-6a10-456c-9000-95cf6835cd6d</testCaseGuid>
+   <testCaseGuid>8f99a195-8b05-4b1a-95a1-389aeef232ba</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</id>
@@ -12,18 +12,18 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/EditProfile_invalid_Fullname</testDataId>
+      <testDataId>Data Files/Android/EditProfile_invalid_Fullname</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>dfb93b8f-fa0b-4e3f-833a-2e052f9d2952</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>invalid_fullname</value>
-      <variableId>d4ad434a-6e42-4ea2-8a73-6036247a0666</variableId>
+      <variableId>966a53bc-2861-4617-95a3-9a4b935b28cd</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d4ad434a-6e42-4ea2-8a73-6036247a0666</id>
+      <id>966a53bc-2861-4617-95a3-9a4b935b28cd</id>
       <masked>false</masked>
       <name>fullname</name>
    </variable>

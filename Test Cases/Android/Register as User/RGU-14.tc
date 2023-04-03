@@ -4,7 +4,7 @@
    <name>RGU-14</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>39e9ec45-c0ef-4e31-b56d-ee73b00c1849</testCaseGuid>
+   <testCaseGuid>964ed4d5-5d67-4b02-90cb-8e00f169fff9</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>9ff08e0d-db1f-417b-85be-939e693553d0</id>
@@ -18,12 +18,12 @@
       <testDataLinkId>9ff08e0d-db1f-417b-85be-939e693553d0</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>valid_KataSandi</value>
-      <variableId>49db96a5-f128-489e-bc01-9dc625391fa9</variableId>
+      <variableId>13c6961c-2377-4e80-bafd-9c97d5d8e5ca</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>49db96a5-f128-489e-bc01-9dc625391fa9</id>
+      <id>13c6961c-2377-4e80-bafd-9c97d5d8e5ca</id>
       <masked>false</masked>
       <name>katasandi</name>
    </variable>

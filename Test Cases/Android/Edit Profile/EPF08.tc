@@ -4,7 +4,7 @@
    <name>EPF08</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>975717ec-c4f7-4118-93c4-756b96b994d9</testCaseGuid>
+   <testCaseGuid>bd827590-db15-4db2-86b8-aff396b77461</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>50654c53-38e0-4133-8066-69e09e9e8851</id>
@@ -12,18 +12,18 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/EditProfile_valid_Fullname</testDataId>
+      <testDataId>Data Files/Android/EditProfile_valid_Fullname</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>50654c53-38e0-4133-8066-69e09e9e8851</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>valid_fullname</value>
-      <variableId>057ff330-3a4d-430c-985c-ef06bb9e0051</variableId>
+      <variableId>25f62ee4-ae70-4145-bf21-40bfc0151d7f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>057ff330-3a4d-430c-985c-ef06bb9e0051</id>
+      <id>25f62ee4-ae70-4145-bf21-40bfc0151d7f</id>
       <masked>false</masked>
       <name>fullname</name>
    </variable>

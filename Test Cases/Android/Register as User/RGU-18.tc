@@ -4,7 +4,7 @@
    <name>RGU-18</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>59f0d3d5-0c65-4957-a975-c640208678f8</testCaseGuid>
+   <testCaseGuid>3f157b9e-8084-4613-880a-2b661278f329</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</id>
@@ -18,25 +18,25 @@
       <testDataLinkId>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>valid_KataSandi</value>
-      <variableId>aee2079e-046e-4ae7-b4ab-2ccf9ca57ba6</variableId>
+      <variableId>f2c13afd-8382-4ffc-87ec-faa187daa9ae</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>de5d4ae5-cc38-4b35-a94d-67206b5a44e1</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>valid_KonfirmasiKataSandi</value>
-      <variableId>ffd32c2c-a87f-404b-b280-b49da03d6700</variableId>
+      <variableId>ae08284b-cf8f-48f4-b37b-16df4a08d718</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>aee2079e-046e-4ae7-b4ab-2ccf9ca57ba6</id>
+      <id>f2c13afd-8382-4ffc-87ec-faa187daa9ae</id>
       <masked>false</masked>
       <name>katasandi</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ffd32c2c-a87f-404b-b280-b49da03d6700</id>
+      <id>ae08284b-cf8f-48f4-b37b-16df4a08d718</id>
       <masked>false</masked>
       <name>konfirmasikatasandi</name>
    </variable>

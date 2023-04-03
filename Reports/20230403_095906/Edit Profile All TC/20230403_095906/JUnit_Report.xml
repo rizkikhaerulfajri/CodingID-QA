@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Profile All TC" time="405.529" tests="20" failures="0" errors="0">
+   <testsuite name="Edit Profile All TC" tests="20" failures="0" errors="0" time="405.529" skipped="0" timestamp="2023-04-03 09:59:08" hostname="pooyu - ADS" id="Test Suites/Edit Profile All TC">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pooyu\\Katalon Studio\\CodingID-QA\\Reports\\20230403_095906\\Edit Profile All TC\\20230403_095906"/>
+         <property name="logFiles" value="C:\\Users\\pooyu\\Katalon Studio\\CodingID-QA\\Reports\\20230403_095906\\Edit Profile All TC\\20230403_095906\\appium.log, C:\\Users\\pooyu\\Katalon Studio\\CodingID-QA\\Reports\\20230403_095906\\Edit Profile All TC\\20230403_095906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pooyu - ADS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Android/Login/LOG-05" time="25.211" classname="Test Cases/Android/Login/LOG-05" status="PASSED">
+         <system-out><![CDATA[2023-04-03 09:59:09 - [TEST_CASE][PASSED] - Test Cases/Android/Login/LOG-05: Test Cases/Android/Login/LOG-05
+
+2023-04-03 09:59:09 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 09:59:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 09:59:10 - [MESSAGE][INFO] - Appium server started on port 60,473
+
+2023-04-03 09:59:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 09:59:22 - [TEST_STEP][PASSED] - tap(findTestObject("Android/Home_Button_LoginButton"), 0): Tapped on element 'Object Repository/Android/Home_Button_LoginButton'
+
+2023-04-03 09:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Button_LoginButton'
+
+2023-04-03 09:59:24 - [TEST_STEP][PASSED] - setText(findTestObject("Android/Login_Field_Email"), "pooyutre203@gmail.com", 0): Text 'pooyutre203@gmail.com' has been set to element 'Object Repository/Android/Login_Field_Email'
+
+2023-04-03 09:59:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:26 - [MESSAGE][PASSED] - Text 'pooyutre203@gmail.com' has been set to element 'Object Repository/Android/Login_Field_Email'
+
+2023-04-03 09:59:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android/Login_Field_Password"), "gR0Nb1R4MGJzAGnAbnpVZA==", 0): Encrypted text 'gR0Nb1R4MGJzAGnAbnpVZA==' has been set to element 'Object Repository/Android/Login_Field_Password'
+
+2023-04-03 09:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:28 - [MESSAGE][PASSED] - Encrypted text 'gR0Nb1R4MGJzAGnAbnpVZA==' has been set to element 'Object Repository/Android/Login_Field_Password'
+
+2023-04-03 09:59:28 - [TEST_STEP][PASSED] - switchToNative(): Switching the driver to NATIVE mode successfully
+
+2023-04-03 09:59:28 - [MESSAGE][PASSED] - Switching the driver to NATIVE mode successfully
+
+2023-04-03 09:59:28 - [TEST_STEP][PASSED] - tap(findTestObject("Android/Login_Button_Login"), 0): Tapped on element 'Object Repository/Android/Login_Button_Login'
+
+2023-04-03 09:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login_Button_Login'
+
+2023-04-03 09:59:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Android/Home_Button_Cart"), 3, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/Home_Button_Cart' is present
+
+2023-04-03 09:59:33 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Home_Button_Cart' is present
+
+2023-04-03 09:59:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 09:59:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF08" time="18.913" classname="Test Cases/Android/Edit Profile/EPF08" status="PASSED">
+         <system-out><![CDATA[2023-04-03 09:59:34 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF08: Test Cases/Android/Edit Profile/EPF08
+
+2023-04-03 09:59:34 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 09:59:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 09:59:35 - [MESSAGE][INFO] - Appium server started on port 60,674
+
+2023-04-03 09:59:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 09:59:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 09:59:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 09:59:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 09:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 09:59:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 09:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 09:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'Ari Dwi Saputra' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 09:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 09:59:50 - [MESSAGE][PASSED] - Text 'Ari Dwi Saputra' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 09:59:50 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 09:59:51 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 09:59:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 09:59:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 09:59:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 09:59:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 09:59:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 09:59:53 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF08" time="19.709" classname="Test Cases/Android/Edit Profile/EPF08" status="PASSED">
+         <system-out><![CDATA[2023-04-03 09:59:53 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF08: Test Cases/Android/Edit Profile/EPF08
+
+2023-04-03 09:59:53 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 09:59:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 09:59:54 - [MESSAGE][INFO] - Appium server started on port 60,888
+
+2023-04-03 10:00:04 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'Kak Imus' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:10 - [MESSAGE][PASSED] - Text 'Kak Imus' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:10 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:11 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:11 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:00:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF08" time="19.618" classname="Test Cases/Android/Edit Profile/EPF08" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:00:13 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF08: Test Cases/Android/Edit Profile/EPF08
+
+2023-04-03 10:00:13 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:00:14 - [MESSAGE][INFO] - Appium server started on port 61,086
+
+2023-04-03 10:00:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'Kak Rizky' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:29 - [MESSAGE][PASSED] - Text 'Kak Rizky' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:29 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:31 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:32 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:00:32 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF08" time="20.938" classname="Test Cases/Android/Edit Profile/EPF08" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:00:32 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF08: Test Cases/Android/Edit Profile/EPF08
+
+2023-04-03 10:00:32 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:00:33 - [MESSAGE][INFO] - Appium server started on port 61,283
+
+2023-04-03 10:00:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:00:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:00:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'Lorem Ipsum Sir Dolor Amet' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:00:50 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Sir Dolor Amet' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:00:50 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:52 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' not found
+
+2023-04-03 10:00:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:00:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:00:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:00:53 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF09" time="20.393" classname="Test Cases/Android/Edit Profile/EPF09" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:00:53 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF09: Test Cases/Android/Edit Profile/EPF09
+
+2023-04-03 10:00:53 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:00:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:00:54 - [MESSAGE][INFO] - Appium server started on port 61,481
+
+2023-04-03 10:01:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text '@r! Dw! $@putr@' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:11 - [MESSAGE][PASSED] - Text '@r! Dw! $@putr@' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 0): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:12 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:13 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:01:14 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF09" time="19.991" classname="Test Cases/Android/Edit Profile/EPF09" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:01:14 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF09: Test Cases/Android/Edit Profile/EPF09
+
+2023-04-03 10:01:14 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:14 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:01:15 - [MESSAGE][INFO] - Appium server started on port 61,686
+
+2023-04-03 10:01:24 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'K@k !mu5' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:31 - [MESSAGE][PASSED] - Text 'K@k !mu5' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 0): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:32 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:33 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:01:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF09" time="19.81" classname="Test Cases/Android/Edit Profile/EPF09" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:01:34 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF09: Test Cases/Android/Edit Profile/EPF09
+
+2023-04-03 10:01:34 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:01:35 - [MESSAGE][INFO] - Appium server started on port 61,885
+
+2023-04-03 10:01:45 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:01:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:01:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'K@k R!zky' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:51 - [MESSAGE][PASSED] - Text 'K@k R!zky' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:01:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 0): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:01:52 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:01:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:01:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:01:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:01:53 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF09" time="19.383" classname="Test Cases/Android/Edit Profile/EPF09" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:01:53 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF09: Test Cases/Android/Edit Profile/EPF09
+
+2023-04-03 10:01:53 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:01:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:01:55 - [MESSAGE][INFO] - Appium server started on port 62,090
+
+2023-04-03 10:02:04 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/EditProfile_Field_Fullname"), fullname, 0): Text 'L0r3m !p5um S!r D0|0r 4m3t' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:10 - [MESSAGE][PASSED] - Text 'L0r3m !p5um S!r D0|0r 4m3t' has been set to element 'Object Repository/Android/EditProfile_Field_Fullname'
+
+2023-04-03 10:02:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 0): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:02:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:11 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:02:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:11 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:02:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF10" time="17.487" classname="Test Cases/Android/Edit Profile/EPF10" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:02:13 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF10: Test Cases/Android/Edit Profile/EPF10
+
+2023-04-03 10:02:13 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:02:14 - [MESSAGE][INFO] - Appium server started on port 62,285
+
+2023-04-03 10:02:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Android/EditProfile_Field_Fullname"), 0): Element 'Object Repository/Android/EditProfile_Field_Fullname' text is cleared
+
+2023-04-03 10:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:28 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_Field_Fullname' text is cleared
+
+2023-04-03 10:02:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:02:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:29 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Cannot be empty and must be alphabetically_Field_Fullname' is present
+
+2023-04-03 10:02:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:02:30 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF12" time="19.044" classname="Test Cases/Android/Edit Profile/EPF12" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:02:30 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF12: Test Cases/Android/Edit Profile/EPF12
+
+2023-04-03 10:02:30 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:02:32 - [MESSAGE][INFO] - Appium server started on port 62,481
+
+2023-04-03 10:02:40 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:02:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:02:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:02:47 - [MESSAGE][PASSED] - Text '123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:02:47 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:02:48 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:02:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:02:49 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:02:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:02:49 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF12" time="19.154" classname="Test Cases/Android/Edit Profile/EPF12" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:02:49 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF12: Test Cases/Android/Edit Profile/EPF12
+
+2023-04-03 10:02:49 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:49 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:02:51 - [MESSAGE][INFO] - Appium server started on port 62,677
+
+2023-04-03 10:02:59 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:02:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:02:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:03:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '08123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:06 - [MESSAGE][PASSED] - Text '08123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:06 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:07 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:07 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:07 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:08 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:03:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF12" time="21.284" classname="Test Cases/Android/Edit Profile/EPF12" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:03:08 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF12: Test Cases/Android/Edit Profile/EPF12
+
+2023-04-03 10:03:08 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:03:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:03:10 - [MESSAGE][INFO] - Appium server started on port 62,873
+
+2023-04-03 10:03:20 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:03:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:03:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:03:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '9876543210' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:27 - [MESSAGE][PASSED] - Text '9876543210' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:27 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:28 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:29 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:03:30 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF12" time="21.865" classname="Test Cases/Android/Edit Profile/EPF12" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:03:30 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF12: Test Cases/Android/Edit Profile/EPF12
+
+2023-04-03 10:03:30 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:03:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:03:31 - [MESSAGE][INFO] - Appium server started on port 63,083
+
+2023-04-03 10:03:40 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:03:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:03:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:03:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '021123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:03:48 - [MESSAGE][PASSED] - Text '021123456789' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:03:48 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:50 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' not found
+
+2023-04-03 10:03:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:03:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:03:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:03:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF13" time="24.926" classname="Test Cases/Android/Edit Profile/EPF13" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:03:52 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF13: Test Cases/Android/Edit Profile/EPF13
+
+2023-04-03 10:03:52 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:03:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:03:54 - [MESSAGE][INFO] - Appium server started on port 63,290
+
+2023-04-03 10:04:07 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text 'abc' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:14 - [MESSAGE][PASSED] - Text 'abc' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone"), 1)): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' is present
+
+2023-04-03 10:04:15 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' is present
+
+2023-04-03 10:04:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:04:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF13" time="20.34" classname="Test Cases/Android/Edit Profile/EPF13" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:04:17 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF13: Test Cases/Android/Edit Profile/EPF13
+
+2023-04-03 10:04:17 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:04:18 - [MESSAGE][INFO] - Appium server started on port 63,498
+
+2023-04-03 10:04:28 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text 'abcdefghijklmn' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:34 - [MESSAGE][PASSED] - Text 'abcdefghijklmn' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone"), 1)): Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' is present
+
+2023-04-03 10:04:35 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone' is present
+
+2023-04-03 10:04:35 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:35 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:35 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:37 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:04:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF13" time="20.049" classname="Test Cases/Android/Edit Profile/EPF13" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:04:37 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF13: Test Cases/Android/Edit Profile/EPF13
+
+2023-04-03 10:04:37 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:04:38 - [MESSAGE][INFO] - Appium server started on port 63,700
+
+2023-04-03 10:04:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:04:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:04:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '!@#$%^&*' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:04:53 - [MESSAGE][PASSED] - Text '!@#$%^&*' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:04:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone"), 1)): Element 'Object Repository/Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone' is present
+
+2023-04-03 10:04:54 - [MESSAGE][WARNING] - Object Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone not found
+
+2023-04-03 10:04:55 - [MESSAGE][WARNING] - Object Object Repository/Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone not found
+
+2023-04-03 10:04:55 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone' is present
+
+2023-04-03 10:04:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:04:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:04:57 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:04:57 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF13" time="20.984" classname="Test Cases/Android/Edit Profile/EPF13" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:04:57 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF13: Test Cases/Android/Edit Profile/EPF13
+
+2023-04-03 10:04:57 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:04:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:04:58 - [MESSAGE][INFO] - Appium server started on port 63,897
+
+2023-04-03 10:05:07 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:05:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Android/EditProfile_Field_Phone"), phone, 0): Text '12345678' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:05:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:13 - [MESSAGE][PASSED] - Text '12345678' has been set to element 'Object Repository/Android/EditProfile_Field_Phone'
+
+2023-04-03 10:05:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone"), 1) || waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone"), 1)): Object Object Repository/Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone not found
+
+2023-04-03 10:05:14 - [MESSAGE][WARNING] - Object Object Repository/Android/EditProfile_ErrorMsg_Number consist of 9-13_Field_Phone not found
+
+2023-04-03 10:05:15 - [MESSAGE][WARNING] - Object Object Repository/Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone not found
+
+2023-04-03 10:05:16 - [MESSAGE][WARNING] - Object Object Repository/Android/EditProfile_ErrorMsg_WhatsApp must be numeric_Field_Phone not found
+
+2023-04-03 10:05:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:05:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:05:17 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:05:18 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:05:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:05:18 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF14" time="20.156" classname="Test Cases/Android/Edit Profile/EPF14" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:05:18 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF14: Test Cases/Android/Edit Profile/EPF14
+
+2023-04-03 10:05:18 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:05:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:05:19 - [MESSAGE][INFO] - Appium server started on port 64,094
+
+2023-04-03 10:05:30 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:05:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:34 - [TEST_STEP][PASSED] - clearText(findTestObject("Android/EditProfile_Field_Phone"), 0): Element 'Object Repository/Android/EditProfile_Field_Phone' text is cleared
+
+2023-04-03 10:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:36 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_Field_Phone' text is cleared
+
+2023-04-03 10:05:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone' is present
+
+2023-04-03 10:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:37 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_ErrorMsg_WhatsApp number is required_Field_Phone' is present
+
+2023-04-03 10:05:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:05:37 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:05:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-03 10:05:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-03 10:05:38 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:05:38 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Edit Profile/EPF20" time="15.612" classname="Test Cases/Android/Edit Profile/EPF20" status="PASSED">
+         <system-out><![CDATA[2023-04-03 10:05:38 - [TEST_CASE][PASSED] - Test Cases/Android/Edit Profile/EPF20: Test Cases/Android/Edit Profile/EPF20
+
+2023-04-03 10:05:38 - [TEST_STEP][PASSED] - startExistingApplication("com.codingid.codingidhive.betastaging"): Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:05:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-04-03 10:05:40 - [MESSAGE][INFO] - Appium server started on port 64,289
+
+2023-04-03 10:05:48 - [MESSAGE][PASSED] - Starting app with application ID: 'com.codingid.codingidhive.betastaging'
+
+2023-04-03 10:05:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Home_Section_Profile"), 0): Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Home_Section_Profile'
+
+2023-04-03 10:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings'
+
+2023-04-03 10:05:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Profile_Button_Settings_Option_EditProfile"), 0): Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Profile_Button_Settings_Option_EditProfile'
+
+2023-04-03 10:05:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/EditProfile_Button_SaveDisabled"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/EditProfile_Button_SaveDisabled' is exist
+
+2023-04-03 10:05:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-03 10:05:53 - [MESSAGE][PASSED] - Element 'Object Repository/Android/EditProfile_Button_SaveDisabled' is exist
+
+2023-04-03 10:05:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-03 10:05:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-03 09:59:08 - [TEST_SUITE][PASSED] - Edit Profile All TC: Test Cases/Android/Edit Profile/EPF20]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login using an Apple ID account that has not been registered</description>
-   <name>LOG-10</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2ff37d2a-17cc-4834-acdc-5bc08e77b5d4</testCaseGuid>
-</TestCaseEntity>

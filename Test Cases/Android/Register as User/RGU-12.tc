@@ -4,7 +4,7 @@
    <name>RGU-12</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a75dbc47-a188-43dd-a333-dec3fd9e221b</testCaseGuid>
+   <testCaseGuid>13d14c5b-9b46-4bc9-a3c3-fbb00e5f51bd</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>d2143d5d-c77c-422e-8b7b-525397a89981</id>
@@ -18,12 +18,12 @@
       <testDataLinkId>d2143d5d-c77c-422e-8b7b-525397a89981</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>invalid_whatsapp</value>
-      <variableId>130dd325-6e02-48e1-9321-2e35fe5f058f</variableId>
+      <variableId>e49c564a-6992-4846-ad0a-14cfd488758f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>130dd325-6e02-48e1-9321-2e35fe5f058f</id>
+      <id>e49c564a-6992-4846-ad0a-14cfd488758f</id>
       <masked>false</masked>
       <name>whatsapp</name>
    </variable>

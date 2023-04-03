@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login using an Google account that has wrong password</description>
-   <name>LOG-12</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0df6d754-5168-42a0-a4e4-3ea9169d7162</testCaseGuid>
-</TestCaseEntity>

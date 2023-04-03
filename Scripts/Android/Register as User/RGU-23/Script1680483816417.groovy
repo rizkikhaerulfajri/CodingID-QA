@@ -68,4 +68,11 @@ Mobile.setText(findTestObject('Object Repository/Android/Register_rev_KataSandiK
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/Android_rev_DaftarDisabled'), 0)
 
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
 Mobile.closeApplication()
+

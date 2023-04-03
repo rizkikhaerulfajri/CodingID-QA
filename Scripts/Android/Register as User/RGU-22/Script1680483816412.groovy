@@ -72,4 +72,11 @@ Mobile.tap(findTestObject('Object Repository/Android/Register_rev_ButtonDaftar')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/Register_rev_RegisteredEmailConfirm'), 'Email sudah terdaftar')
 
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
 Mobile.closeApplication()
+

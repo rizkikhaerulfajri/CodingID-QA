@@ -21,7 +21,24 @@ Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
 Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Android/Login_Hyperlink_RegisterNow (Fix)'), 0)
+//Mobile.tap(findTestObject('Android/Login_Hyperlink_RegisterNow (Fix)'), 0)
+
+String textViewContent = Mobile.getAttribute(findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now'),
+	'text', 1)
+
+println(textViewContent)
+
+TestObject element = findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now')
+
+// Swipe at the 1/3 part of the element from the right
+int startX = Mobile.getElementLeftPosition(element, 0) + ((Mobile.getElementWidth(element, 0) * 2) / 3)
+
+int endX = Mobile.getElementLeftPosition(element, 0) + (Mobile.getElementWidth(element, 0) / 3)
+
+int y = Mobile.getElementTopPosition(element, 0) + (Mobile.getElementHeight(element, 0) / 2)
+
+Mobile.swipe(startX, y, endX, y)
+
 
 Mobile.setText(findTestObject('Android/Register_Field_Email'), email, 0)
 

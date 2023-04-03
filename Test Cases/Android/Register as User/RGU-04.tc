@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check the function of &quot;Calendar&quot; button in the &quot;Tanggal Lahir&quot; field</description>
-   <name>RGU-04</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ae905d8e-a21d-4dfe-a8b4-fbeb4a5ae824</testCaseGuid>
-</TestCaseEntity>

@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Register_Invalid_Email</testDataId>
+      <testDataId>Data Files/Android/Register_Invalid_Email</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>acae3bee-7873-4ac4-a9be-8f1695cc6c9c</testDataLinkId>

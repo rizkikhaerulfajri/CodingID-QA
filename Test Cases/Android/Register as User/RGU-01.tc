@@ -5,4 +5,26 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b56f1f36-1e24-4fad-87d3-587e7b576b64</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8775e9da-c7ca-4239-be8f-ddea5cf743c2</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Android/EditProfile_valid_Fullname</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8775e9da-c7ca-4239-be8f-ddea5cf743c2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>valid_fullname</value>
+      <variableId>f0056b7d-27d9-4d7c-bf67-fe3a87d4610c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0056b7d-27d9-4d7c-bf67-fe3a87d4610c</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
 </TestCaseEntity>

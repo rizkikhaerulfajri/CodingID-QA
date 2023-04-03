@@ -17,25 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('G:\\My Drive\\Bootcamp\\[Coding.id] QA PT Nawa Data Solution\\Final Project\\Demo_APP_CodingID_1.0.apk', 
-    true)
+Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
-Mobile.tap(findTestObject('Object Repository/Android/Register as User/RGU-01/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Register as User/RGU-01/android.view.ViewGroup'), 0)
+String textViewContent = Mobile.getAttribute(findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now'), 
+    'text', 1)
 
-Mobile.hideKeyboard()
+println(textViewContent)
 
-Mobile.closeApplication()
+TestObject element = findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now')
 
-Mobile.startApplication('G:\\My Drive\\Bootcamp\\[Coding.id] QA PT Nawa Data Solution\\Final Project\\Demo_APP_CodingID_1.0.apk', 
-    true)
+// Swipe at the 1/3 part of the element from the right
+int startX = Mobile.getElementLeftPosition(element, 0) + ((Mobile.getElementWidth(element, 0) * 2) / 3)
 
-Mobile.tap(findTestObject('Object Repository/Android/Register as User/RGU-01/android.widget.Button'), 0)
+int endX = Mobile.getElementLeftPosition(element, 0) + (Mobile.getElementWidth(element, 0) / 3)
 
-Mobile.switchToNative()
+int y = Mobile.getElementTopPosition(element, 0) + (Mobile.getElementHeight(element, 0) / 2)
 
-Mobile.switchToNative()
+Mobile.swipe(startX, y, endX, y)
+
+Mobile.setText(findTestObject('Android/Register_Field_Nama'), nama, 0)
+
+Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_NameCantBeEmpty_Field_Nama'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_NameMustBeAlphabethic_Field_Nama'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 
 Mobile.closeApplication()
 

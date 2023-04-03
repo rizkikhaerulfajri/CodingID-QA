@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Input &quot;Tanggal Lahir&quot; field with valid format data</description>
-   <name>RGU-05</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>40011a97-3295-404a-8b7c-fd6bc2238bd0</testCaseGuid>
-</TestCaseEntity>

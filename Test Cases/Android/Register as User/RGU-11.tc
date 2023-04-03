@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Register_valid_WhatsApp</testDataId>
+      <testDataId>Data Files/Android/Register_valid_WhatsApp</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>b17dc561-c6a0-4d04-9265-d20085ce9bd7</testDataLinkId>

@@ -21,14 +21,35 @@ Mobile.startExistingApplication('com.codingid.codingidhive.betastaging')
 
 Mobile.tap(findTestObject('Object Repository/Android/Home_Button_LoginButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_RegisterNow'), 0)
+//Mobile.tap(findTestObject('Object Repository/Android/Login_Hyperlink_RegisterNow'), 0)
+String textViewContent = Mobile.getAttribute(findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now'), 
+    'text', 1)
+
+println(textViewContent)
+
+TestObject element = findTestObject('Object Repository/Android/android.widget.TextView - Dont have an account yet Register, now')
+
+// Swipe at the 1/3 part of the element from the right
+int startX = Mobile.getElementLeftPosition(element, 0) + ((Mobile.getElementWidth(element, 0) * 2) / 3)
+
+int endX = Mobile.getElementLeftPosition(element, 0) + (Mobile.getElementWidth(element, 0) / 3)
+
+int y = Mobile.getElementTopPosition(element, 0) + (Mobile.getElementHeight(element, 0) / 2)
+
+Mobile.swipe(startX, y, endX, y)
 
 Mobile.setText(findTestObject('Android/Register_Field_WhatsApp'), 'a', 0)
 
-Mobile.waitForElementPresent(findTestObject('Android/Register_ErrorMsg_WhatsApp number is require_Field_WhatsApp'), 3)
+Mobile.waitForElementPresent(findTestObject('Android/Register_ErrorMsg_WhatsApp number is require_Field_WhatsApp'), 3, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyElementNotVisible(findTestObject('Android/Register_ErrorMsg_WhatsApp number must be 9-13 character_Field_WhatsApp'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 
 Mobile.closeApplication()
 

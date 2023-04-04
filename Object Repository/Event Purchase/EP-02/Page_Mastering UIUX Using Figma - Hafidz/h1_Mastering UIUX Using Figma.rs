@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Mastering UIUX Using Figma</name>
+   <tag></tag>
+   <elementGuidId>09c33d0a-1fd2-49dd-adf0-1ef747cf5d04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='titleEventDetail']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#titleEventDetail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>f6e65292-f362-4534-a76e-8f7822815a6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>titleEventDetail</value>
+      <webElementGuid>789c2b8d-e3b5-4793-8385-f429bdd31731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mastering UI/UX Using Figma</value>
+      <webElementGuid>06dac8e1-e90c-48df-b8d9-a94d78b76f4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;titleEventDetail&quot;)</value>
+      <webElementGuid>8d261a02-1db6-4f24-ba69-cb8c9693bb10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h1[@id='titleEventDetail']</value>
+      <webElementGuid>dc25dc44-5228-4efd-a9a2-24b0fd263b7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='eventDetailBlock']/h1</value>
+      <webElementGuid>6d0a5ea8-e1a2-487e-84be-03eb00cbf23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mastering UI/UX Using Figma'])[1]/following::h1[1]</value>
+      <webElementGuid>aefe538a-abde-49ec-95fd-64d792c84a24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Events'])[1]/following::h1[1]</value>
+      <webElementGuid>d3356b05-f6d4-47d4-a250-5de8e8efb2c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='prototype'])[1]/preceding::h1[1]</value>
+      <webElementGuid>436644c1-2cf2-4f19-a124-243c109c8bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='feedback'])[1]/preceding::h1[1]</value>
+      <webElementGuid>6da57bb0-69ed-4b81-8ae4-8363298bb08e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>f7283982-bd51-4a27-9b8d-adc70cea7b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[@id = 'titleEventDetail' and (text() = 'Mastering UI/UX Using Figma' or . = 'Mastering UI/UX Using Figma')]</value>
+      <webElementGuid>7ec3d927-4395-4dc4-bba0-98f2598905e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

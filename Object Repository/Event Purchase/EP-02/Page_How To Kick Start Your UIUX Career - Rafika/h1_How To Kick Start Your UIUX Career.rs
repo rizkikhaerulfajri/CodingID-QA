@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_How To Kick Start Your UIUX Career</name>
+   <tag></tag>
+   <elementGuidId>ca6537a7-51b2-4d8c-ac56-6ebad5efac6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='titleEventDetail']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#titleEventDetail</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>df7e00c6-5b9f-4b25-998b-427181f8ea8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>titleEventDetail</value>
+      <webElementGuid>f73db4c7-7b81-4a55-b50a-40c7a827953f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>How To Kick Start Your UI/UX Career</value>
+      <webElementGuid>d5bdec66-5db2-4ac2-8351-c26e30dc2a9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;titleEventDetail&quot;)</value>
+      <webElementGuid>167d89d7-c231-4517-ae61-e8d91a386f9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h1[@id='titleEventDetail']</value>
+      <webElementGuid>6005e2d7-c21a-46f7-8821-e0e0cdd40790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='eventDetailBlock']/h1</value>
+      <webElementGuid>cbb5da38-d475-4697-ade5-62e73b436af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How To Kick Start Your UI/UX Career'])[1]/following::h1[1]</value>
+      <webElementGuid>792f80b7-82aa-47f3-9e68-78cf6a32648b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to Events'])[1]/following::h1[1]</value>
+      <webElementGuid>dc80759b-3a3a-4628-939b-770428b02c4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rafika Alifia'])[1]/preceding::h1[1]</value>
+      <webElementGuid>30b4d9f8-2899-4718-9aa9-fe8e3d3abab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Framework &amp; Digital Enabler UI/UX PT Nawa Data Solutions'])[1]/preceding::h1[1]</value>
+      <webElementGuid>6caab27a-0a39-4db1-b383-73c9bf4e4347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>30c64400-5080-47cd-9c9b-5a59bd85135e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[@id = 'titleEventDetail' and (text() = 'How To Kick Start Your UI/UX Career' or . = 'How To Kick Start Your UI/UX Career')]</value>
+      <webElementGuid>9164c5f0-bc68-4ff0-9662-001f62ea4f5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

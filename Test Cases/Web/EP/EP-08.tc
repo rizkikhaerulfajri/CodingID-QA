@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open event detail from /event page</description>
+   <name>EP-08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8586c2a-5fc6-4148-bae8-f711d376efa0</testCaseGuid>
+</TestCaseEntity>

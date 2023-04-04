@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_day 2 data wrangling with python</name>
+   <tag></tag>
+   <elementGuidId>036571e8-3599-46ca-ab0b-34c7fc021b84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ft-event']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ft-event</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a15cb3a9-efd0-478e-a3ec-4832bf5b6d2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-8 col-sm-12 col-xs-12 col-12</value>
+      <webElementGuid>87eb9e06-26a4-466c-a68d-488200f89f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ft-event</value>
+      <webElementGuid>acd130ae-cd29-40ea-8f00-8ed95d1f3ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            day 2: data wrangling with python 
+                        </value>
+      <webElementGuid>6b2c2621-bb36-413e-a6a0-3858b5b8f027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ft-event&quot;)</value>
+      <webElementGuid>200bb07b-6bc5-4262-94c6-78c7c4f557db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='ft-event']</value>
+      <webElementGuid>32fc83c4-2032-4e23-b095-a5f2d895d3cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rownya']/a/div</value>
+      <webElementGuid>2ea7d35f-f11f-49cf-88b8-f2ae88ef3205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Match'])[1]/following::div[18]</value>
+      <webElementGuid>7bc25c8d-35ba-4d96-b1bc-75d3339048a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Akun'])[3]/following::div[23]</value>
+      <webElementGuid>f79303da-913b-4b13-a4c0-b5122010f529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advance Level'])[1]/preceding::div[4]</value>
+      <webElementGuid>9853ab70-0cf8-45cb-a14a-e0f132c7041f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>3f8438f4-8ead-49d0-88fe-c9234ebe926e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'ft-event' and (text() = '
+                            day 2: data wrangling with python 
+                        ' or . = '
+                            day 2: data wrangling with python 
+                        ')]</value>
+      <webElementGuid>3d82b82c-49cd-4d0f-8816-1b5dd253dcff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

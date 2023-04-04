@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_mastering uiux using figma</name>
+   <tag></tag>
+   <elementGuidId>e6f944da-2e06-4b8b-9938-c2bca610176b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='ft-event']/p)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7a288099-5590-4a68-a568-4dd2201e2e1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>objType</value>
+      <webElementGuid>676dfb22-a380-4481-b28a-d5dd23a92457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>mastering ui/ux using figma </value>
+      <webElementGuid>7baacffc-f2d8-4914-bd4e-c1b218bf9e90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searcning-list&quot;)/div[1]/div[@class=&quot;listSearching&quot;]/div[@id=&quot;rownya&quot;]/a[1]/div[@id=&quot;ft-event&quot;]/p[@class=&quot;objType&quot;]</value>
+      <webElementGuid>e4de6609-2b4e-4023-9883-182b127cd816</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='ft-event']/p)[3]</value>
+      <webElementGuid>8f225e9d-8212-4215-9936-131a08b3f6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[2]/following::p[2]</value>
+      <webElementGuid>7f333d5c-c1e5-4d7e-998f-5e23da0977c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[1]/following::p[4]</value>
+      <webElementGuid>fa310e34-1f67-47be-a7d2-f4d95bc1d347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui/ux'])[4]/preceding::p[2]</value>
+      <webElementGuid>e65dfd94-2bcb-411b-9d50-7cf59280c1fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='mastering']/parent::*</value>
+      <webElementGuid>9b38eb8b-576c-405d-9b93-13bb307a61c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/div/p</value>
+      <webElementGuid>785d050a-f548-4b8f-b931-15aad1959dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'mastering ui/ux using figma ' or . = 'mastering ui/ux using figma ')]</value>
+      <webElementGuid>d6c43e49-9bec-421d-b49a-df5ac96abd6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

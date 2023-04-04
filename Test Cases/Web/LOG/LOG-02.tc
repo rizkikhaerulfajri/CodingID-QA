@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log in using Google API with a 
+registered E-mail having multiple Google
+ account stored in browser</description>
+   <name>LOG-02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>276e6196-2f3e-4386-8a4b-d1cb681adc25</testCaseGuid>
+</TestCaseEntity>

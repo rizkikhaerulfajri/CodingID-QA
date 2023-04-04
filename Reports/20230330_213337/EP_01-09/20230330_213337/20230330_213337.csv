@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EP_01-09,Chrome 111.0.0.0,,,2023-03-30 21:33:44,2023-03-30 21:36:48,3m - 4.111s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-01,Chrome 111.0.0.0,"Show more event available with
+ ""View More"" button",,2023-03-30 21:33:44,2023-03-30 21:34:28,44.085s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:33:45,2023-03-30 21:33:52,7.789s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:33:52,2023-03-30 21:34:02,9.178s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:02,2023-03-30 21:34:09,7.469s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:09,2023-03-30 21:34:12,2.399s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:12,2023-03-30 21:34:14,2.237s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:14,2023-03-30 21:34:18,4.542s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:18,2023-03-30 21:34:20,1.924s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-01/Page_Online event bersertifikat dari prakti_f42b96/button_Muat Lebih Banyak""))",Chrome 111.0.0.0,,,2023-03-30 21:34:20,2023-03-30 21:34:22,1.632s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:34:22,2023-03-30 21:34:28,6.353s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-02,Chrome 111.0.0.0,"""Search for event with search function
+with event title as the keyword""",,2023-03-30 21:34:28,2023-03-30 21:34:46,17.220s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:34:29,2023-03-30 21:34:33,3.765s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:34:33,2023-03-30 21:34:37,3.967s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-02/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""data wrangling"")",Chrome 111.0.0.0,,,2023-03-30 21:34:37,2023-03-30 21:34:41,4.479s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-02/Page_Online event bersertifikat dari prakti_f42b96/div_Day 2 Data Wrangling with Python       _d4413c""))",Chrome 111.0.0.0,,,2023-03-30 21:34:41,2023-03-30 21:34:45,3.203s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:34:45,2023-03-30 21:34:46,0.839s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-03,Chrome 111.0.0.0,"""Search for event with search function
+with presenter as the keyword""",,2023-03-30 21:34:46,2023-03-30 21:35:20,34.596s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:34:46,2023-03-30 21:34:50,3.342s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:34:50,2023-03-30 21:34:54,3.924s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""Denny"")",Chrome 111.0.0.0,,,2023-03-30 21:34:54,2023-03-30 21:34:57,3.163s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:34:57,2023-03-30 21:34:59,2.125s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/h3_No available event  Denny""))",Chrome 111.0.0.0,,,2023-03-30 21:34:59,2023-03-30 21:35:01,1.488s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/div_Events""))",Chrome 111.0.0.0,,,2023-03-30 21:35:01,2023-03-30 21:35:02,1.492s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""Ziyad"")",Chrome 111.0.0.0,,,2023-03-30 21:35:02,2023-03-30 21:35:05,2.812s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:35:05,2023-03-30 21:35:07,2.470s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/h3_No available event  Ziyad""))",Chrome 111.0.0.0,,,2023-03-30 21:35:07,2023-03-30 21:35:09,1.572s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/div_Events""))",Chrome 111.0.0.0,,,2023-03-30 21:35:09,2023-03-30 21:35:11,2.472s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""Eric Julianto"")",Chrome 111.0.0.0,,,2023-03-30 21:35:11,2023-03-30 21:35:14,2.905s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:35:14,2023-03-30 21:35:16,2.192s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-03/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), """")",Chrome 111.0.0.0,,,2023-03-30 21:35:16,2023-03-30 21:35:19,2.993s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:35:19,2023-03-30 21:35:20,0.757s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-04,Chrome 111.0.0.0,"""Search for event with search function
+with event date as the keyword""",,2023-03-30 21:35:20,2023-03-30 21:35:42,21.696s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:35:21,2023-03-30 21:35:23,2.446s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:35:23,2023-03-30 21:35:28,4.206s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-04/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""25 Nov"")",Chrome 111.0.0.0,,,2023-03-30 21:35:28,2023-03-30 21:35:32,3.835s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-04/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:35:32,2023-03-30 21:35:34,2.117s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-04/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""27 Oct 2022"")",Chrome 111.0.0.0,,,2023-03-30 21:35:34,2023-03-30 21:35:36,2.781s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-04/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:35:36,2023-03-30 21:35:38,1.875s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-04/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), """")",Chrome 111.0.0.0,,,2023-03-30 21:35:38,2023-03-30 21:35:41,2.835s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:35:41,2023-03-30 21:35:42,0.758s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-05,Chrome 111.0.0.0,"""Search for event with search function
+with event category as the keyword""",,2023-03-30 21:35:42,2023-03-30 21:35:56,14.259s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:35:43,2023-03-30 21:35:44,1.486s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:35:44,2023-03-30 21:35:48,4.210s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-06/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""zoom"")",Chrome 111.0.0.0,,,2023-03-30 21:35:48,2023-03-30 21:35:51,2.972s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-06/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:35:51,2023-03-30 21:35:54,2.106s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-06/Page_Online event bersertifikat dari prakti_f42b96/h3_No available event  zoom""))",Chrome 111.0.0.0,,,2023-03-30 21:35:54,2023-03-30 21:35:55,1.490s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:35:55,2023-03-30 21:35:56,1.149s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-06,Chrome 111.0.0.0,"""Search for event with search function
+with event platform as the keyword""",,2023-03-30 21:35:56,2023-03-30 21:35:57,0.608s,PASSED
+return null,Chrome 111.0.0.0,,,2023-03-30 21:35:57,2023-03-30 21:35:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-07,Chrome 111.0.0.0,"""Search for event with search function
+with event status as the keyword""",,2023-03-30 21:35:57,2023-03-30 21:36:13,16.280s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:35:58,2023-03-30 21:35:59,1.546s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:35:59,2023-03-30 21:36:04,5.029s,PASSED
+"setText(findTestObject(""Object Repository/Event Purchase/EP-07/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), ""close"")",Chrome 111.0.0.0,,,2023-03-30 21:36:04,2023-03-30 21:36:08,3.859s,PASSED
+"sendKeys(findTestObject(""Object Repository/Event Purchase/EP-07/Page_Online event bersertifikat dari prakti_f42b96/input_Events_searchInputEvent""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-03-30 21:36:08,2023-03-30 21:36:10,2.227s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-07/Page_Online event bersertifikat dari prakti_f42b96/h3_No available event  close""))",Chrome 111.0.0.0,,,2023-03-30 21:36:10,2023-03-30 21:36:12,1.585s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:36:12,2023-03-30 21:36:13,1.217s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-08,Chrome 111.0.0.0,Open event detail from /event page,,2023-03-30 21:36:13,2023-03-30 21:36:27,13.428s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:36:14,2023-03-30 21:36:16,1.757s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:36:16,2023-03-30 21:36:21,5.095s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-08/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 111.0.0.0,,,2023-03-30 21:36:21,2023-03-30 21:36:26,4.870s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:36:26,2023-03-30 21:36:27,0.958s,PASSED
+,,,,,,,
+Test Cases/Web/EP/EP-09,Chrome 111.0.0.0,"""Open event detail from another event 
+page""",,2023-03-30 21:36:27,2023-03-30 21:36:48,21.279s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 21:36:27,2023-03-30 21:36:29,2.393s,PASSED
+"navigateToUrl(""https://demo-app.online/event"")",Chrome 111.0.0.0,,,2023-03-30 21:36:29,2023-03-30 21:36:33,3.756s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-09/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 111.0.0.0,,,2023-03-30 21:36:33,2023-03-30 21:36:37,3.726s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-09/Page_Day 3 Predict using Machine Learning - Ziyad/div_Day 4 Workshop                         _1068dc""))",Chrome 111.0.0.0,,,2023-03-30 21:36:37,2023-03-30 21:36:40,3.174s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-09/Page_Day 4 Workshop - Ziyad/div_Day 3 Predict using Machine Learning   _f36cb4""))",Chrome 111.0.0.0,,,2023-03-30 21:36:40,2023-03-30 21:36:43,3.326s,PASSED
+"click(findTestObject(""Object Repository/Event Purchase/EP-09/Page_Day 3 Predict using Machine Learning - Ziyad/div_Day 2 Data Wrangling with Python       _c4c77e""))",Chrome 111.0.0.0,,,2023-03-30 21:36:43,2023-03-30 21:36:47,3.364s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 21:36:47,2023-03-30 21:36:48,1.164s,PASSED

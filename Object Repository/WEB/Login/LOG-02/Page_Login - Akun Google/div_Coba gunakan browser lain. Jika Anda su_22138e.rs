@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Coba gunakan browser lain. Jika Anda su_22138e</name>
+   <tag></tag>
+   <elementGuidId>d03f895f-bc33-49de-b271-f62024a474fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>32ee581b-4585-4d3f-8c31-eabcd8d647e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PrDSKc</value>
+      <webElementGuid>684f5508-4e85-4993-a6c6-3ca3e20293f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Coba gunakan browser lain. Jika Anda sudah menggunakan browser yang didukung, Anda dapat mencoba login lagi.</value>
+      <webElementGuid>7f2775c3-bfbc-4e7f-9ad3-546d14b364a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;view_container&quot;)/div[@class=&quot;zWl5kd&quot;]/div[@class=&quot;DRS7Fe bxPAYd k6Zj8d&quot;]/div[@class=&quot;pwWryf bxPAYd&quot;]/div[@class=&quot;Wxwduf Us7fWe JhUD8d&quot;]/div[@class=&quot;WEQkZc&quot;]/div[@class=&quot;bCAAsb&quot;]/form[1]/span[1]/section[@class=&quot;aTzEhb&quot;]/div[@class=&quot;CxRgyd&quot;]/div[1]/div[1]/div[@class=&quot;PrDSKc&quot;]</value>
+      <webElementGuid>2f942fc8-f501-4237-92f5-9dfff1594cbb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div[2]</value>
+      <webElementGuid>d38f1695-29b4-4408-9132-9de725344f20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browser atau aplikasi ini mungkin tidak aman.'])[1]/following::div[1]</value>
+      <webElementGuid>c7364403-f0da-4978-8329-f31169f742a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak dapat membuat Anda login'])[1]/following::div[10]</value>
+      <webElementGuid>9fef39a4-db94-477a-aa26-806db2b0dd30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coba lagi'])[1]/preceding::div[4]</value>
+      <webElementGuid>04f6d560-9f15-44e8-88ae-b35ff7cdab34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‪Afrikaans‬'])[1]/preceding::div[9]</value>
+      <webElementGuid>328bf111-4ada-4cdc-9c43-6f08c17b0d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Coba gunakan browser lain. Jika Anda sudah menggunakan browser yang didukung, Anda dapat mencoba login lagi.']/parent::*</value>
+      <webElementGuid>73025b78-40b1-47cf-871a-8d2a55a34de4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div[2]</value>
+      <webElementGuid>ffc8489b-d3e2-4ec7-b52c-f3de889d42c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Coba gunakan browser lain. Jika Anda sudah menggunakan browser yang didukung, Anda dapat mencoba login lagi.' or . = 'Coba gunakan browser lain. Jika Anda sudah menggunakan browser yang didukung, Anda dapat mencoba login lagi.')]</value>
+      <webElementGuid>3e8d978b-ed91-488e-b15e-b67fe1042a34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

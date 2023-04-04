@@ -6,3 +6,5 @@
 .svn/
 appium.log
 .project
+Reports/*
+/Reports

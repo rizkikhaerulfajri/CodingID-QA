@@ -24,8 +24,6 @@ WebUI.navigateToUrl('https://demo-app.online/daftar')
 
 WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Nama'), 'Rizki Khaerul Fajri')
 
-//WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_BirthDay'), '18-Feb-1997')
-
 WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Email'), 'Test@Mail.com')
 
 WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Whatsapp'), '081324387267')
@@ -38,13 +36,15 @@ WebUI.check(findTestObject('Object Repository/Web/Register/Reg_Checkbox_SyaratDa
 
 WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 
+WebUI.delay(2)
+
 // Call the reportValidity() function on the input element and capture the return value
-def isValid = WebUI.executeJavaScript('document.getElementById("name").reportValidity();', null)
+if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
+	def isValid = WebUI.executeJavaScript('document.querySelector(".form-control.datepicker").reportValidity();', null)
+	// Check that the return value is false using an assertion
+	assert !isValid : 'Validation error should be displayed'
+}
 
-// Check that the return value is false using an assertion
-assert !isValid : 'Validation error should be displayed'
+WebUI.delay(2)
 
-WebUI.delay(5)
-
-assert WebUI.getUrl() != 'https://demo-app.online/email/verify'
-
+assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')

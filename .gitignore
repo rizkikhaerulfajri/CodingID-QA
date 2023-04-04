@@ -4,3 +4,7 @@
 /.settings/
 /.classpath
 .svn/
+appium.log
+.project
+Reports/*
+/Reports

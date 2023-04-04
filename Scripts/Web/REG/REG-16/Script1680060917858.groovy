@@ -44,16 +44,16 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	
 	WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	// Call the reportValidity() function on the input element and capture the return value
 	if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
-		def isValid = WebUI.executeJavaScript('document.getElementById("name").reportValidity();', null)
+		def isValid = WebUI.executeJavaScript('document.querySelector(".form-control.datepicker").reportValidity();', null)
 		// Check that the return value is false using an assertion
 		assert !(isValid) : 'Validation error should be displayed'
 	}
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	assert WebUI.getUrl() == 'https://demo-app.online/email/verify'
 }

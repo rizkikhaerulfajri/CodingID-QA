@@ -39,17 +39,20 @@ WebUI.verifyElementNotChecked(findTestObject('Object Repository/Web/Register/Reg
 
 WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 
-WebUI.delay(1)
-
-WebUI.verifyMatch('https://demo-app.online/daftar', WebUI.getUrl(), false, FailureHandling.CONTINUE_ON_FAILURE)
-
-println('After URL Validation')
+WebUI.delay(2)
 
 // Call the reportValidity() function on the input element and capture the return value
-def isValid = WebUI.executeJavaScript('document.getElementById("inlineCheckbox1").reportValidity();', null)
+if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
+	// Call the reportValidity() function on the input element and capture the return value
+	def isValid = WebUI.executeJavaScript('document.getElementById("inlineCheckbox1").reportValidity();', null)
+	
+	// Check that the return value is false using an assertion
+	assert !isValid : 'No validation error for password field'
+}
 
-// Check that the return value is false using an assertion
-assert !isValid : 'No validation error for password field'
+WebUI.delay(2)
+
+assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')
 
 
 

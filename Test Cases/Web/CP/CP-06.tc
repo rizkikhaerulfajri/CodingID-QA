@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change the photo using a file with unsupported format (Anything except JPG, PNG, GIF, BMP, WEbP) but renamed to a supported one</description>
+   <name>CP-06</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>e7b466d0-663d-4ab5-bd79-0dd2c6a426fc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change the photo using a file with a relatively long filename</description>
+   <name>CP-07</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>861e1cde-4200-4076-8d9d-21ad1d7448bd</testCaseGuid>
+</TestCaseEntity>

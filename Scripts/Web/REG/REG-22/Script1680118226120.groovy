@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.exception.StepFailedException
+import java.time.LocalDate
+import java.time.Period
+import java.time.format.DateTimeFormatter
+import java.time.temporal.ChronoUnit
 
 WebUI.openBrowser('')
 
@@ -25,7 +29,7 @@ WebUI.navigateToUrl('https://demo-app.online/daftar')
 
 WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Nama'), 'Rizki Khaerul Fajri')
 
-WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_BirthDay'), '01-Jan-1990')
+WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_BirthDay'), '01-Jan-1900')
 
 WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Email'), 'Test@Mail.com')
 
@@ -37,14 +41,22 @@ WebUI.setText(findTestObject('Object Repository/Web/Register/Reg_InputText_Konfi
 
 WebUI.check(findTestObject('Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan'))
 
-def expectedInputBirthday = '18-Feb-1997'
+def expectedInputBirthday = '01-Jan-1900'
 def actualInputBirthday = WebUI.getAttribute(findTestObject('Object Repository/Web/Register/Reg_InputText_BirthDay'), 'value')
+println('actual: ' + actualInputBirthday)
 
-WebUI.verifyNotEqual(actualInputBirthday, expectedInputBirthday, FailureHandling.OPTIONAL)
+def formatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy")
+def inputDate = LocalDate.parse(actualInputBirthday, formatter)
+def currentDate = LocalDate.now()
+def years = ChronoUnit.YEARS.between(inputDate, currentDate)
+
+println('years: ' + years)
+
+assert years <= 100 : "The input date is not younger than 100 years."
 
 WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 assert WebUI.getUrl() == 'https://demo-app.online/email/verify'
 

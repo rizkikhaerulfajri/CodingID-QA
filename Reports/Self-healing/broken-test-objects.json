@@ -1,7 +1,7 @@
 {
   "brokenTestObjects": [
     {
-      "approved": true,
+      "approved": false,
       "testObjectId": "Object Repository/WEB/new obj/Page_Day 3 Predict using Machine Learning - Ziyad/DetEvent_Button_Beli",
       "brokenLocator": "//a[@id\u003d\u0027addCart\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -11,7 +11,7 @@
       "pathToScreenshot": "Reports/Self-healing/Object Repository/WEB/new obj/Page_Day 3 Predict using Machine Learning - Ziyad/DetEvent_Button_Beli_neighbor.png"
     },
     {
-      "approved": true,
+      "approved": false,
       "testObjectId": "Object Repository/WEB/Page_Day 3 Predict using Machine Learning - Ziyad/DetEvent_Button_Beli",
       "brokenLocator": "//a[@id\u003d\u0027addCart\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/WEB/Page_Day 3 Predict using Machine Learning - Ziyad/DetEvent_Button_Beli_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/WEB/Profile/Profile_img_profilePhoto",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[3]/section/div/div/div/div/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027image\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/WEB/Profile/Profile_img_profilePhoto_img.png"
     }
   ]
 }

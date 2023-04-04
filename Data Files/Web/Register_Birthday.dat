@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>bfb0b8ec-e178-43ae-85f6-d6c9924cf5af</dataFileGUID>
-   <dataSourceUrl>C:\Users\rizki\git\CodingID-QA\Data Files\Web\REG_Email.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/Web/REG_Birthday.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

@@ -1,0 +1,447 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REG,Chrome 111.0.0.0,,,2023-04-03 08:03:06,2023-04-03 08:18:23,15m - 16.610s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-11,Chrome 111.0.0.0,Verify 'Nama' field is working correctly with valid input,Positive,2023-04-03 08:03:06,2023-04-03 08:04:23,1m - 16.326s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:03:07,2023-04-03 08:03:09,2.408s,PASSED
+"testData = findTestData(""Data Files/Web/Register_Name"")",Chrome 111.0.0.0,,,2023-04-03 08:03:09,2023-04-03 08:03:10,0.598s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:03:10,2023-04-03 08:04:23,1m - 12.946s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-12,Chrome 111.0.0.0,Register a new user with valid credential,Positive,2023-04-03 08:04:23,2023-04-03 08:04:35,12.586s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:04:23,2023-04-03 08:04:25,1.827s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:04:25,2023-04-03 08:04:26,1.605s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:04:26,2023-04-03 08:04:28,1.253s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:04:28,2023-04-03 08:04:28,0.876s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:04:28,2023-04-03 08:04:29,0.646s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:29,2023-04-03 08:04:30,0.666s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:30,2023-04-03 08:04:30,0.654s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:04:30,2023-04-03 08:04:31,0.378s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:04:31,2023-04-03 08:04:31,0.364s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:04:31,2023-04-03 08:04:33,2.003s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:04:33,2023-04-03 08:04:33,0.042s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:04:33,2023-04-03 08:04:35,2.008s,PASSED
+"assert getUrl() == ""https://demo-app.online/email/verify""",Chrome 111.0.0.0,,,2023-04-03 08:04:35,2023-04-03 08:04:35,0.015s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-13,Chrome 111.0.0.0,New user registration with white space value in the 'Nama' field,Negative,2023-04-03 08:04:35,2023-04-03 08:04:49,14.109s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:04:35,2023-04-03 08:04:37,1.762s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:04:37,2023-04-03 08:04:39,1.661s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""        "")",Chrome 111.0.0.0,,,2023-04-03 08:04:39,2023-04-03 08:04:40,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:04:40,2023-04-03 08:04:41,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:04:41,2023-04-03 08:04:42,0.908s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:04:42,2023-04-03 08:04:42,0.664s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:42,2023-04-03 08:04:43,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:43,2023-04-03 08:04:44,0.667s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:04:44,2023-04-03 08:04:44,0.595s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:04:44,2023-04-03 08:04:45,1.045s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:04:45,2023-04-03 08:04:47,2.014s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:04:47,2023-04-03 08:04:47,0.036s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:04:47,2023-04-03 08:04:49,2.015s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:04:49,2023-04-03 08:04:49,0.007s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-14,Chrome 111.0.0.0,New user registration with special char in the 'Nama' field,Negative,2023-04-03 08:04:49,2023-04-03 08:05:04,14.833s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:04:50,2023-04-03 08:04:51,1.778s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:04:51,2023-04-03 08:04:53,1.529s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""R!zk! Kh@erul"")",Chrome 111.0.0.0,,,2023-04-03 08:04:53,2023-04-03 08:04:54,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:04:54,2023-04-03 08:04:55,0.818s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:04:55,2023-04-03 08:04:56,0.876s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:04:56,2023-04-03 08:04:56,0.665s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:56,2023-04-03 08:04:57,0.669s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:04:57,2023-04-03 08:04:58,0.676s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:04:58,2023-04-03 08:04:58,0.596s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:04:58,2023-04-03 08:05:00,1.797s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:05:00,2023-04-03 08:05:02,2.014s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:05:02,2023-04-03 08:05:02,0.007s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:05:02,2023-04-03 08:05:04,2.010s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:05:04,2023-04-03 08:05:04,0.009s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-15,Chrome 111.0.0.0,New user registration with a long name in the 'Nama' field,Negative,2023-04-03 08:05:04,2023-04-03 08:05:19,15.273s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:05:04,2023-04-03 08:05:06,1.798s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:05:06,2023-04-03 08:05:09,2.360s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Lorem ipsum dolor sit amet consectetur adipiscing elit"")",Chrome 111.0.0.0,,,2023-04-03 08:05:09,2023-04-03 08:05:10,1.219s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:05:10,2023-04-03 08:05:11,0.856s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:05:11,2023-04-03 08:05:11,0.856s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:05:11,2023-04-03 08:05:12,0.649s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:05:12,2023-04-03 08:05:13,0.661s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:05:13,2023-04-03 08:05:14,1.122s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:05:14,2023-04-03 08:05:14,0.377s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:05:14,2023-04-03 08:05:15,1.039s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:05:15,2023-04-03 08:05:17,2.004s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:05:17,2023-04-03 08:05:17,0.035s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:05:17,2023-04-03 08:05:19,2.014s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:05:19,2023-04-03 08:05:19,0.010s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-16,Chrome 111.0.0.0,Verify 'Tanggal Lahir' field is working correctly with valid inputs,Positive,2023-04-03 08:05:19,2023-04-03 08:06:21,1m - 1.834s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:05:20,2023-04-03 08:05:21,1.801s,PASSED
+"testData = findTestData(""Data Files/Web/Register_Birthday"")",Chrome 111.0.0.0,,,2023-04-03 08:05:21,2023-04-03 08:05:21,0.038s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:05:21,2023-04-03 08:06:21,59.737s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-17,Chrome 111.0.0.0,New user registration with an empty value in the 'Tanggal Lahir' field,Negative,2023-04-03 08:06:21,2023-04-03 08:06:34,12.853s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:06:21,2023-04-03 08:06:23,1.809s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:06:23,2023-04-03 08:06:25,1.654s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:06:25,2023-04-03 08:06:26,0.976s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:06:26,2023-04-03 08:06:27,0.656s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:06:27,2023-04-03 08:06:27,0.665s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:27,2023-04-03 08:06:28,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:28,2023-04-03 08:06:29,0.671s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:06:29,2023-04-03 08:06:29,0.370s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:06:29,2023-04-03 08:06:30,1.106s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:06:30,2023-04-03 08:06:32,2.003s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:06:32,2023-04-03 08:06:32,0.020s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:06:32,2023-04-03 08:06:34,2.001s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:06:34,2023-04-03 08:06:34,0.008s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-18,Chrome 111.0.0.0,New user registration with a white space value in the 'Tanggal Lahir' field,Negative,2023-04-03 08:06:34,2023-04-03 08:06:48,13.932s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:06:34,2023-04-03 08:06:36,1.784s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:06:36,2023-04-03 08:06:38,1.492s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:06:38,2023-04-03 08:06:39,1.088s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), "" "")",Chrome 111.0.0.0,,,2023-04-03 08:06:39,2023-04-03 08:06:39,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:06:39,2023-04-03 08:06:40,0.905s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:06:40,2023-04-03 08:06:41,0.666s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:41,2023-04-03 08:06:42,0.650s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:42,2023-04-03 08:06:42,0.658s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:06:42,2023-04-03 08:06:43,0.685s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:06:43,2023-04-03 08:06:44,1.050s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:06:44,2023-04-03 08:06:46,2.012s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:06:46,2023-04-03 08:06:46,0.022s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:06:46,2023-04-03 08:06:48,2.013s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:06:48,2023-04-03 08:06:48,0.008s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-19,Chrome 111.0.0.0,New user registration with lowercase character in the 'Tanggal Lahir' field,Negative,2023-04-03 08:06:48,2023-04-03 08:07:03,15.237s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:06:48,2023-04-03 08:06:50,1.806s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:06:50,2023-04-03 08:06:52,1.629s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:06:52,2023-04-03 08:06:53,0.985s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:06:53,2023-04-03 08:06:54,0.812s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:06:54,2023-04-03 08:06:54,0.868s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:06:54,2023-04-03 08:06:55,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:55,2023-04-03 08:06:56,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:06:56,2023-04-03 08:06:56,0.674s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:06:56,2023-04-03 08:06:57,0.677s,PASSED
+"expectedInputBirthday = ""18-Feb-1997""",Chrome 111.0.0.0,,,2023-04-03 08:06:57,2023-04-03 08:06:57,0.000s,PASSED
+"actualInputBirthday = getAttribute(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:06:57,2023-04-03 08:06:57,0.327s,PASSED
+"assert actualInputBirthday == expectedInputBirthday : ""Converted birthday value not as expected""",Chrome 111.0.0.0,,,2023-04-03 08:06:57,2023-04-03 08:06:57,0.000s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:06:57,2023-04-03 08:06:59,1.800s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:06:59,2023-04-03 08:07:01,2.010s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:01,2023-04-03 08:07:01,0.008s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:01,2023-04-03 08:07:03,2.003s,PASSED
+"assert getUrl() == ""https://demo-app.online/email/verify""",Chrome 111.0.0.0,,,2023-04-03 08:07:03,2023-04-03 08:07:03,0.008s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-20,Chrome 111.0.0.0,New user registration with uppercase character in the 'Tanggal Lahir' field,Negative,2023-04-03 08:07:03,2023-04-03 08:07:19,15.640s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:07:04,2023-04-03 08:07:05,1.771s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:05,2023-04-03 08:07:07,1.890s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:07:07,2023-04-03 08:07:08,1.204s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-FEB-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:07:08,2023-04-03 08:07:09,0.896s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:07:09,2023-04-03 08:07:10,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:07:10,2023-04-03 08:07:11,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:11,2023-04-03 08:07:11,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:11,2023-04-03 08:07:12,0.975s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:07:12,2023-04-03 08:07:13,0.370s,PASSED
+"expectedInputBirthday = ""18-Feb-1997""",Chrome 111.0.0.0,,,2023-04-03 08:07:13,2023-04-03 08:07:13,0.000s,PASSED
+"actualInputBirthday = getAttribute(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:07:13,2023-04-03 08:07:13,0.323s,PASSED
+"assert actualInputBirthday == expectedInputBirthday : ""Converted birthday value not as expected""",Chrome 111.0.0.0,,,2023-04-03 08:07:13,2023-04-03 08:07:13,0.000s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:07:13,2023-04-03 08:07:15,1.728s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:15,2023-04-03 08:07:17,2.012s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:17,2023-04-03 08:07:17,0.009s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:17,2023-04-03 08:07:19,2.009s,PASSED
+"assert getUrl() == ""https://demo-app.online/email/verify""",Chrome 111.0.0.0,,,2023-04-03 08:07:19,2023-04-03 08:07:19,0.007s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-21,Chrome 111.0.0.0,New user registration with invalid format in the 'Tanggal Lahir' field,Negative,2023-04-03 08:07:19,2023-04-03 08:07:33,13.992s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:07:19,2023-04-03 08:07:21,1.743s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:21,2023-04-03 08:07:22,1.557s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:07:22,2023-04-03 08:07:23,0.980s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""asdf1234"")",Chrome 111.0.0.0,,,2023-04-03 08:07:23,2023-04-03 08:07:24,0.741s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:07:24,2023-04-03 08:07:25,0.884s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:07:25,2023-04-03 08:07:26,0.673s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:26,2023-04-03 08:07:26,0.674s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:26,2023-04-03 08:07:27,0.670s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:07:27,2023-04-03 08:07:28,0.681s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:07:28,2023-04-03 08:07:29,1.092s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:29,2023-04-03 08:07:31,2.006s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:31,2023-04-03 08:07:31,0.023s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:31,2023-04-03 08:07:33,2.011s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:07:33,2023-04-03 08:07:33,0.006s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-22,Chrome 111.0.0.0,New user registration with age more than 100 in the 'Tanggal Lahir' field,Negative,2023-04-03 08:07:33,2023-04-03 08:07:47,13.744s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:07:33,2023-04-03 08:07:35,1.775s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:35,2023-04-03 08:07:37,2.170s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:07:37,2023-04-03 08:07:38,1.101s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""01-Jan-1900"")",Chrome 111.0.0.0,,,2023-04-03 08:07:38,2023-04-03 08:07:39,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:07:39,2023-04-03 08:07:40,0.873s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:07:40,2023-04-03 08:07:41,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:41,2023-04-03 08:07:41,0.667s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:41,2023-04-03 08:07:42,0.655s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:07:42,2023-04-03 08:07:43,0.592s,PASSED
+"expectedInputBirthday = ""01-Jan-1900""",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.000s,PASSED
+"actualInputBirthday = getAttribute(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.311s,PASSED
+"println(""actual: "" + actualInputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.002s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""dd-MMM-yyyy"")",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.012s,PASSED
+"inputDate = LocalDate.parse(actualInputBirthday, formatter)",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.014s,PASSED
+currentDate = LocalDate.now(),Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.004s,PASSED
+"years = YEARS.between(inputDate, currentDate)",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.005s,PASSED
+"println(""years: "" + years)",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.000s,PASSED
+"assert years <= 100 : ""The input date is not younger than 100 years.""",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:43,0.001s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:07:43,2023-04-03 08:07:45,1.768s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:45,2023-04-03 08:07:47,2.011s,PASSED
+"assert getUrl() == ""https://demo-app.online/email/verify""",Chrome 111.0.0.0,,,2023-04-03 08:07:47,2023-04-03 08:07:47,0.009s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-23,Chrome 111.0.0.0,New user registration with age less than 6 in the 'Tanggal Lahir' field,Negative,2023-04-03 08:07:47,2023-04-03 08:07:59,12.389s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:07:47,2023-04-03 08:07:49,1.784s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:07:49,2023-04-03 08:07:50,1.641s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:07:50,2023-04-03 08:07:51,0.983s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""01-Jan-2020"")",Chrome 111.0.0.0,,,2023-04-03 08:07:51,2023-04-03 08:07:52,0.790s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Mail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:07:52,2023-04-03 08:07:53,0.879s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:07:53,2023-04-03 08:07:54,0.681s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:54,2023-04-03 08:07:54,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:07:54,2023-04-03 08:07:55,0.662s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:07:55,2023-04-03 08:07:56,0.574s,PASSED
+"expectedInputBirthday = ""01-Jan-2020""",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.000s,PASSED
+"actualInputBirthday = getAttribute(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""value"")",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.326s,PASSED
+"println(""actual: "" + actualInputBirthday)",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.001s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""dd-MMM-yyyy"")",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.000s,PASSED
+"inputDate = LocalDate.parse(actualInputBirthday, formatter)",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.001s,PASSED
+currentDate = LocalDate.now(),Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.000s,PASSED
+"years = YEARS.between(inputDate, currentDate)",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.000s,PASSED
+"println(""years: "" + years)",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.001s,PASSED
+"assert years >= 6 : ""The input date is not younger than 100 years.""",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:56,0.000s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:07:56,2023-04-03 08:07:57,1.109s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:07:57,2023-04-03 08:07:59,2.015s,PASSED
+"assert getUrl() == ""https://demo-app.online/email/verify""",Chrome 111.0.0.0,,,2023-04-03 08:07:59,2023-04-03 08:07:59,0.009s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-24,Chrome 111.0.0.0,Verify 'E-mail' field is working correctly with valid inputs,Positive,2023-04-03 08:07:59,2023-04-03 08:09:15,1m - 15.496s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:07:59,2023-04-03 08:08:01,1.800s,PASSED
+"testData = findTestData(""Data Files/Web/Register_Email"")",Chrome 111.0.0.0,,,2023-04-03 08:08:01,2023-04-03 08:08:01,0.054s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:08:01,2023-04-03 08:09:15,1m - 13.402s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-25,Chrome 111.0.0.0,New user registration with empty value in the 'E-mail' field,Negative,2023-04-03 08:09:15,2023-04-03 08:09:28,13.319s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:09:15,2023-04-03 08:09:17,1.806s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:17,2023-04-03 08:09:18,1.497s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:09:18,2023-04-03 08:09:19,1.087s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:09:19,2023-04-03 08:09:20,0.838s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), """")",Chrome 111.0.0.0,,,2023-04-03 08:09:20,2023-04-03 08:09:21,0.863s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:09:21,2023-04-03 08:09:22,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:22,2023-04-03 08:09:22,0.657s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:22,2023-04-03 08:09:23,0.669s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:09:23,2023-04-03 08:09:23,0.583s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:09:23,2023-04-03 08:09:24,0.377s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:24,2023-04-03 08:09:26,2.002s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:26,2023-04-03 08:09:26,0.022s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:26,2023-04-03 08:09:28,2.004s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:09:28,2023-04-03 08:09:28,0.009s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-26,Chrome 111.0.0.0,New user registration with empty space value in the 'E-mail' field,Negative,2023-04-03 08:09:28,2023-04-03 08:09:41,13.324s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:09:28,2023-04-03 08:09:30,1.778s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:30,2023-04-03 08:09:31,1.535s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:09:31,2023-04-03 08:09:33,1.078s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:09:33,2023-04-03 08:09:33,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""     "")",Chrome 111.0.0.0,,,2023-04-03 08:09:33,2023-04-03 08:09:34,0.859s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:09:34,2023-04-03 08:09:35,0.665s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:35,2023-04-03 08:09:36,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:36,2023-04-03 08:09:36,0.666s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:09:36,2023-04-03 08:09:37,0.596s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:09:37,2023-04-03 08:09:37,0.347s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:37,2023-04-03 08:09:39,2.002s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:39,2023-04-03 08:09:39,0.022s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:39,2023-04-03 08:09:41,2.001s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:09:41,2023-04-03 08:09:41,0.009s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-27,Chrome 111.0.0.0,"New user registration with an already
+registered E-mail in the 'E-mail' field",Negative,2023-04-03 08:09:41,2023-04-03 08:09:55,14.081s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:09:41,2023-04-03 08:09:43,1.780s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:43,2023-04-03 08:09:45,1.603s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:09:45,2023-04-03 08:09:46,1.097s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:09:46,2023-04-03 08:09:47,0.837s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""rizkikhaerulfajri@gmail.com"")",Chrome 111.0.0.0,,,2023-04-03 08:09:47,2023-04-03 08:09:48,0.883s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:09:48,2023-04-03 08:09:48,0.657s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:48,2023-04-03 08:09:49,0.677s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:09:49,2023-04-03 08:09:50,0.666s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:09:50,2023-04-03 08:09:50,0.485s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:09:50,2023-04-03 08:09:51,1.103s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:51,2023-04-03 08:09:53,2.003s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:09:53,2023-04-03 08:09:53,0.020s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:09:53,2023-04-03 08:09:55,2.006s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:09:55,2023-04-03 08:09:55,0.007s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-28,Chrome 111.0.0.0,"New user registration with invalid e-mail value based on W3C HTML5 specification for input type=""email""",Negative,2023-04-03 08:09:55,2023-04-03 08:11:06,1m - 10.775s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:09:56,2023-04-03 08:09:57,1.766s,PASSED
+"testData = findTestData(""Data Files/Web/Register_InvalidEmail"")",Chrome 111.0.0.0,,,2023-04-03 08:09:57,2023-04-03 08:09:57,0.023s,PASSED
+hasError = true,Chrome 111.0.0.0,,,2023-04-03 08:09:57,2023-04-03 08:09:57,0.000s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:09:57,2023-04-03 08:11:06,1m - 8.708s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-29,Chrome 111.0.0.0,Verify 'Whatsapp' field is working correctly with valid inputs (number prefix),Positive,2023-04-03 08:11:06,2023-04-03 08:12:09,1m - 3.127s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:11:06,2023-04-03 08:11:08,1.765s,PASSED
+"testData = findTestData(""Data Files/Web/Register_Whatsapp"")",Chrome 111.0.0.0,,,2023-04-03 08:11:08,2023-04-03 08:11:08,0.027s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:11:08,2023-04-03 08:12:09,1m - 1.071s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-30,Chrome 111.0.0.0,Verify 'Whatsapp' field is working correctly with valid inputs (+ prefix),Positive,2023-04-03 08:12:09,2023-04-03 08:13:12,1m - 3.160s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:12:09,2023-04-03 08:12:11,1.825s,PASSED
+"testData = findTestData(""Data Files/Web/Register_WhatsappCountryCode"")",Chrome 111.0.0.0,,,2023-04-03 08:12:11,2023-04-03 08:12:11,0.039s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:12:11,2023-04-03 08:13:12,1m - 1.019s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-31,Chrome 111.0.0.0,New user registration with an empty value in the 'Whatsapp' field,Negative,2023-04-03 08:13:12,2023-04-03 08:13:24,11.362s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:13:13,2023-04-03 08:13:14,1.806s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:13:14,2023-04-03 08:13:16,1.588s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:13:16,2023-04-03 08:13:17,0.977s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:13:17,2023-04-03 08:13:18,0.801s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:13:18,2023-04-03 08:13:19,0.872s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), """")",Chrome 111.0.0.0,,,2023-04-03 08:13:19,2023-04-03 08:13:19,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:13:19,2023-04-03 08:13:20,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:13:20,2023-04-03 08:13:21,0.654s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:13:21,2023-04-03 08:13:21,0.686s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:13:21,2023-04-03 08:13:22,0.367s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:13:22,2023-04-03 08:13:22,0.036s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:13:22,2023-04-03 08:13:24,2.012s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:13:24,2023-04-03 08:13:24,0.007s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-32,Chrome 111.0.0.0,New user registration with a white space value in the 'Whatsapp' field,Negative,2023-04-03 08:13:24,2023-04-03 08:13:35,11.683s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:13:24,2023-04-03 08:13:26,1.801s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:13:26,2023-04-03 08:13:28,1.913s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:13:28,2023-04-03 08:13:29,0.865s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:13:29,2023-04-03 08:13:29,0.827s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:13:29,2023-04-03 08:13:30,0.877s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""     "")",Chrome 111.0.0.0,,,2023-04-03 08:13:30,2023-04-03 08:13:31,0.645s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:13:31,2023-04-03 08:13:32,0.668s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:13:32,2023-04-03 08:13:32,0.678s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:13:32,2023-04-03 08:13:33,0.706s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:13:33,2023-04-03 08:13:33,0.379s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:13:33,2023-04-03 08:13:33,0.028s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:13:33,2023-04-03 08:13:35,2.009s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:13:35,2023-04-03 08:13:35,0.006s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-33,Chrome 111.0.0.0,New user registration with a non-digit value in the 'Whatsapp' field,Negative,2023-04-03 08:13:35,2023-04-03 08:14:21,45.530s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:13:36,2023-04-03 08:13:37,1.780s,PASSED
+"testData = findTestData(""Data Files/Web/Register_WhatsappNonDigit"")",Chrome 111.0.0.0,,,2023-04-03 08:13:37,2023-04-03 08:13:38,0.030s,PASSED
+hasError = true,Chrome 111.0.0.0,,,2023-04-03 08:13:38,2023-04-03 08:13:38,0.000s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:13:38,2023-04-03 08:14:21,43.395s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-34,Chrome 111.0.0.0,New user registration with total character in the 'Whatsapp' field less than 10 (prefix number),Negative,2023-04-03 08:14:21,2023-04-03 08:14:36,15.093s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:14:21,2023-04-03 08:14:23,1.727s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:14:23,2023-04-03 08:14:25,1.704s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:14:25,2023-04-03 08:14:26,0.963s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:14:26,2023-04-03 08:14:26,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:14:26,2023-04-03 08:14:27,0.874s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081123456"")",Chrome 111.0.0.0,,,2023-04-03 08:14:27,2023-04-03 08:14:28,0.661s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:28,2023-04-03 08:14:29,0.673s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:29,2023-04-03 08:14:29,0.663s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:14:29,2023-04-03 08:14:30,0.692s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:14:30,2023-04-03 08:14:32,2.002s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:14:32,2023-04-03 08:14:34,2.007s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:14:34,2023-04-03 08:14:34,0.009s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:14:34,2023-04-03 08:14:36,2.010s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:14:36,2023-04-03 08:14:36,0.007s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-35,Chrome 111.0.0.0,New user registration with total character value in the 'Whatsapp' field less than 10 (prefix +),Negative,2023-04-03 08:14:36,2023-04-03 08:14:49,12.963s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:14:36,2023-04-03 08:14:38,1.780s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:14:38,2023-04-03 08:14:40,1.627s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:14:40,2023-04-03 08:14:41,0.988s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:14:41,2023-04-03 08:14:41,0.804s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:14:41,2023-04-03 08:14:42,0.868s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""+6281123456"")",Chrome 111.0.0.0,,,2023-04-03 08:14:42,2023-04-03 08:14:43,0.653s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:43,2023-04-03 08:14:44,0.659s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:44,2023-04-03 08:14:44,0.650s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:14:44,2023-04-03 08:14:45,0.709s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:14:45,2023-04-03 08:14:47,1.964s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:14:47,2023-04-03 08:14:47,0.010s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:14:47,2023-04-03 08:14:49,2.009s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:14:49,2023-04-03 08:14:49,0.008s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-36,Chrome 111.0.0.0,New user registration with total character value in the 'Whatsapp' field more than 12 (prefix number),Negative,2023-04-03 08:14:49,2023-04-03 08:15:02,12.960s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:14:49,2023-04-03 08:14:51,1.782s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:14:51,2023-04-03 08:14:53,1.525s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:14:53,2023-04-03 08:14:54,1.092s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:14:54,2023-04-03 08:14:54,0.832s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:14:54,2023-04-03 08:14:55,0.878s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""08112345678910"")",Chrome 111.0.0.0,,,2023-04-03 08:14:55,2023-04-03 08:14:56,0.674s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:56,2023-04-03 08:14:57,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:14:57,2023-04-03 08:14:57,0.666s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:14:57,2023-04-03 08:14:58,0.489s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:14:58,2023-04-03 08:15:00,2.073s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:15:00,2023-04-03 08:15:00,0.011s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:15:00,2023-04-03 08:15:02,2.004s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:15:02,2023-04-03 08:15:02,0.008s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-37,Chrome 111.0.0.0,New user registration with total character value in the 'Whatsapp' field more than 12 (prefix +),Negative,2023-04-03 08:15:02,2023-04-03 08:15:16,13.751s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:15:02,2023-04-03 08:15:04,1.814s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:15:04,2023-04-03 08:15:06,1.911s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:15:06,2023-04-03 08:15:07,1.319s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:15:07,2023-04-03 08:15:08,0.865s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:15:08,2023-04-03 08:15:09,0.877s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""+628132438726710"")",Chrome 111.0.0.0,,,2023-04-03 08:15:09,2023-04-03 08:15:10,0.644s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:15:10,2023-04-03 08:15:10,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:15:10,2023-04-03 08:15:11,0.994s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:15:11,2023-04-03 08:15:12,0.363s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:15:12,2023-04-03 08:15:14,2.028s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:15:14,2023-04-03 08:15:14,0.013s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:15:14,2023-04-03 08:15:16,2.002s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:15:16,2023-04-03 08:15:16,0.009s,FAILED
+,,,,,,,
+Test Cases/Web/REG/REG-38,Chrome 111.0.0.0,Verify 'Kata Sandi' dan 'Konfirmasi Kata Sandi' fields are working correctly with valid inputs,,2023-04-03 08:15:16,2023-04-03 08:16:34,1m - 18.450s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:15:16,2023-04-03 08:15:18,1.786s,PASSED
+"testData = findTestData(""Data Files/Web/Register_Password"")",Chrome 111.0.0.0,,,2023-04-03 08:15:18,2023-04-03 08:15:18,0.032s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:15:18,2023-04-03 08:16:34,1m - 16.414s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-39,Chrome 111.0.0.0,New user registration with empty value in 'Kata Sandi' and 'Konfirmasi Kata Sandi' fields,Negative,2023-04-03 08:16:34,2023-04-03 08:16:48,13.519s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:16:35,2023-04-03 08:16:36,1.799s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:16:36,2023-04-03 08:16:38,1.600s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:16:38,2023-04-03 08:16:39,0.970s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:16:39,2023-04-03 08:16:40,0.835s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:16:40,2023-04-03 08:16:41,0.863s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:16:41,2023-04-03 08:16:41,0.662s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), """")",Chrome 111.0.0.0,,,2023-04-03 08:16:41,2023-04-03 08:16:42,0.641s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), """")",Chrome 111.0.0.0,,,2023-04-03 08:16:42,2023-04-03 08:16:43,0.633s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:16:43,2023-04-03 08:16:43,0.689s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:16:43,2023-04-03 08:16:44,0.390s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:16:44,2023-04-03 08:16:46,2.009s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:16:46,2023-04-03 08:16:46,0.043s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:16:46,2023-04-03 08:16:48,2.014s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:16:48,2023-04-03 08:16:48,0.008s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-40,Chrome 111.0.0.0,New user registration with empty space value in 'Kata Sandi' and 'Konfirmasi Kata Sandi' fields,Negative,2023-04-03 08:16:48,2023-04-03 08:17:02,14.204s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:16:48,2023-04-03 08:16:50,1.776s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:16:50,2023-04-03 08:16:51,1.602s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:16:51,2023-04-03 08:16:52,0.984s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:16:52,2023-04-03 08:16:53,0.799s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:16:53,2023-04-03 08:16:54,0.903s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:16:54,2023-04-03 08:16:55,0.661s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""        "")",Chrome 111.0.0.0,,,2023-04-03 08:16:55,2023-04-03 08:16:55,0.644s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""        "")",Chrome 111.0.0.0,,,2023-04-03 08:16:55,2023-04-03 08:16:56,0.657s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:16:56,2023-04-03 08:16:57,0.690s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:16:57,2023-04-03 08:16:58,1.112s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:16:58,2023-04-03 08:17:00,2.011s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:17:00,2023-04-03 08:17:00,0.057s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:17:00,2023-04-03 08:17:02,2.002s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:17:02,2023-04-03 08:17:02,0.007s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-41,Chrome 111.0.0.0,New user registration with values in 'Kata Sandi' and 'Konfirmasi Kata Sandi' less than 8 characters,Negative,2023-04-03 08:17:02,2023-04-03 08:17:55,52.863s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:17:02,2023-04-03 08:17:04,1.795s,PASSED
+"testData = findTestData(""Data Files/Web/Register_PasswordLessChar"")",Chrome 111.0.0.0,,,2023-04-03 08:17:04,2023-04-03 08:17:04,0.022s,PASSED
+"for ([i = 1, i <= testData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-04-03 08:17:04,2023-04-03 08:17:55,50.780s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-42,Chrome 111.0.0.0,New user registration with different values in 'Kata Sandi' and 'Konfirmasi Kata Sandi',Negative,2023-04-03 08:17:55,2023-04-03 08:18:09,14.602s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:17:55,2023-04-03 08:17:57,1.817s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:17:57,2023-04-03 08:17:58,1.583s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:17:58,2023-04-03 08:17:59,0.991s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:17:59,2023-04-03 08:18:00,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:18:00,2023-04-03 08:18:01,0.888s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:18:01,2023-04-03 08:18:02,0.665s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""12345678"")",Chrome 111.0.0.0,,,2023-04-03 08:18:02,2023-04-03 08:18:02,0.650s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""87654321"")",Chrome 111.0.0.0,,,2023-04-03 08:18:02,2023-04-03 08:18:03,0.661s,PASSED
+"check(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""))",Chrome 111.0.0.0,,,2023-04-03 08:18:03,2023-04-03 08:18:04,0.689s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:18:04,2023-04-03 08:18:05,1.519s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:18:05,2023-04-03 08:18:07,2.012s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:18:07,2023-04-03 08:18:07,0.059s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:18:07,2023-04-03 08:18:09,2.007s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:18:09,2023-04-03 08:18:09,0.008s,PASSED
+,,,,,,,
+Test Cases/Web/REG/REG-43,Chrome 111.0.0.0,New user registration with unchecked 'Syarat dan Ketentuan' checkbox,Negative,2023-04-03 08:18:09,2023-04-03 08:18:23,13.291s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-03 08:18:10,2023-04-03 08:18:11,1.784s,PASSED
+"navigateToUrl(""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:18:11,2023-04-03 08:18:13,1.519s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Nama""), ""Rizki Khaerul Fajri"")",Chrome 111.0.0.0,,,2023-04-03 08:18:13,2023-04-03 08:18:14,1.096s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_BirthDay""), ""18-Feb-1997"")",Chrome 111.0.0.0,,,2023-04-03 08:18:14,2023-04-03 08:18:15,0.818s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Email""), ""Test@Example.com"")",Chrome 111.0.0.0,,,2023-04-03 08:18:15,2023-04-03 08:18:16,0.876s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_Whatsapp""), ""081324387267"")",Chrome 111.0.0.0,,,2023-04-03 08:18:16,2023-04-03 08:18:16,0.679s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:18:16,2023-04-03 08:18:17,0.649s,PASSED
+"setText(findTestObject(""Object Repository/Web/Register/Reg_InputText_KonfirmasiKataSandi""), ""testingtesting"")",Chrome 111.0.0.0,,,2023-04-03 08:18:17,2023-04-03 08:18:18,0.698s,PASSED
+"verifyElementNotChecked(findTestObject(""Object Repository/Web/Register/Reg_Checkbox_SyaratDanKetentuan""), 1)",Chrome 111.0.0.0,,,2023-04-03 08:18:18,2023-04-03 08:18:18,0.434s,PASSED
+"click(findTestObject(""Object Repository/Web/Register/Reg_Button_Daftar""))",Chrome 111.0.0.0,,,2023-04-03 08:18:18,2023-04-03 08:18:19,0.392s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:18:19,2023-04-03 08:18:21,2.015s,PASSED
+"if (getUrl() == ""https://demo-app.online/daftar"")",Chrome 111.0.0.0,,,2023-04-03 08:18:21,2023-04-03 08:18:21,0.038s,PASSED
+delay(2),Chrome 111.0.0.0,,,2023-04-03 08:18:21,2023-04-03 08:18:23,2.014s,PASSED
+"assert !(getUrl() == ""https://demo-app.online/email/verify"")",Chrome 111.0.0.0,,,2023-04-03 08:18:23,2023-04-03 08:18:23,0.010s,PASSED

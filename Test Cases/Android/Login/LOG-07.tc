@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with an empty email and or password</description>
+   <name>LOG-07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c18c29ec-a2d3-4d39-9606-98bdb0d5c068</testCaseGuid>
+</TestCaseEntity>

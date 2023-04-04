@@ -39,17 +39,17 @@ WebUI.check(findTestObject('Object Repository/Web/Register/Reg_Checkbox_SyaratDa
 
 WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 
-WebUI.delay(1)
-
-WebUI.verifyMatch('https://demo-app.online/daftar', WebUI.getUrl(), false, FailureHandling.CONTINUE_ON_FAILURE)
-
-println('After URL Validation')
-
+WebUI.delay(2)
+	
 // Call the reportValidity() function on the input element and capture the return value
-def isValid = WebUI.executeJavaScript('document.getElementById("password").reportValidity();', null)
-
-// Check that the return value is false using an assertion
-assert !isValid : 'No validation error for password field'
-
-
-
+if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
+	def isValidPassword = WebUI.executeJavaScript('document.getElementById("password").reportValidity();', null)
+	def isValidPasswordConfirm = WebUI.executeJavaScript('document.getElementById("password-confirm").reportValidity();', null)
+	// Check that the return value is false using an assertion
+	assert !isValidPassword : 'Validation error should be displayed'
+	assert !isValidPasswordConfirm : 'Validation error should be displayed'
+}
+	
+WebUI.delay(2)
+	
+assert !(WebUI.getUrl() == 'https://demo-app.online/email/verify')

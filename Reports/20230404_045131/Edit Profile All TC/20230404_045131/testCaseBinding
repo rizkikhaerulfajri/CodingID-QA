@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/Android/Login/LOG-05","testCaseId":"Test Cases/Android/Login/LOG-05","iterationVariableName":""}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF08 - Iteration 1","testCaseId":"Test Cases/Android/Edit Profile/EPF08","iterationVariableName":"","bindedValues":{"fullname":"\u0027Ari Dwi Saputra\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF08 - Iteration 2","testCaseId":"Test Cases/Android/Edit Profile/EPF08","iterationVariableName":"","bindedValues":{"fullname":"\u0027Kak Imus\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF08 - Iteration 3","testCaseId":"Test Cases/Android/Edit Profile/EPF08","iterationVariableName":"","bindedValues":{"fullname":"\u0027Kak Rizky\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF08 - Iteration 4","testCaseId":"Test Cases/Android/Edit Profile/EPF08","iterationVariableName":"","bindedValues":{"fullname":"\u0027Lorem Ipsum Sir Dolor Amet\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF09 - Iteration 1","testCaseId":"Test Cases/Android/Edit Profile/EPF09","iterationVariableName":"","bindedValues":{"fullname":"\u0027@r! Dw! $@putr@\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF09 - Iteration 2","testCaseId":"Test Cases/Android/Edit Profile/EPF09","iterationVariableName":"","bindedValues":{"fullname":"\u0027K@k !mu5\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF09 - Iteration 3","testCaseId":"Test Cases/Android/Edit Profile/EPF09","iterationVariableName":"","bindedValues":{"fullname":"\u0027K@k R!zky\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF09 - Iteration 4","testCaseId":"Test Cases/Android/Edit Profile/EPF09","iterationVariableName":"","bindedValues":{"fullname":"\u0027L0r3m !p5um S!r D0|0r 4m3t\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF10","testCaseId":"Test Cases/Android/Edit Profile/EPF10","iterationVariableName":""}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF12 - Iteration 1","testCaseId":"Test Cases/Android/Edit Profile/EPF12","iterationVariableName":"","bindedValues":{"phone":"\u0027123456789\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF12 - Iteration 2","testCaseId":"Test Cases/Android/Edit Profile/EPF12","iterationVariableName":"","bindedValues":{"phone":"\u002708123456789\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF12 - Iteration 3","testCaseId":"Test Cases/Android/Edit Profile/EPF12","iterationVariableName":"","bindedValues":{"phone":"\u00279876543210\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF12 - Iteration 4","testCaseId":"Test Cases/Android/Edit Profile/EPF12","iterationVariableName":"","bindedValues":{"phone":"\u0027021123456789\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF13 - Iteration 1","testCaseId":"Test Cases/Android/Edit Profile/EPF13","iterationVariableName":"","bindedValues":{"phone":"\u0027abc\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF13 - Iteration 2","testCaseId":"Test Cases/Android/Edit Profile/EPF13","iterationVariableName":"","bindedValues":{"phone":"\u0027abcdefghijklmn\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF13 - Iteration 3","testCaseId":"Test Cases/Android/Edit Profile/EPF13","iterationVariableName":"","bindedValues":{"phone":"\u0027!@#$%^\u0026*\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF13 - Iteration 4","testCaseId":"Test Cases/Android/Edit Profile/EPF13","iterationVariableName":"","bindedValues":{"phone":"\u002712345678\u0027"}}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF14","testCaseId":"Test Cases/Android/Edit Profile/EPF14","iterationVariableName":""}
+{"testCaseName":"Test Cases/Android/Edit Profile/EPF20","testCaseId":"Test Cases/Android/Edit Profile/EPF20","iterationVariableName":""}

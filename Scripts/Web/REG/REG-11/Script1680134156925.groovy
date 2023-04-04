@@ -44,7 +44,7 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 	
 	WebUI.click(findTestObject('Object Repository/Web/Register/Reg_Button_Daftar'))
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	// Call the reportValidity() function on the input element and capture the return value
 	if (WebUI.getUrl() == 'https://demo-app.online/daftar') {
@@ -53,7 +53,7 @@ for (def i = 1; i <= testData.getRowNumbers(); i++) {
 		assert !isValid : 'Validation error should be displayed'
 	}
 	
-	WebUI.delay(5)
+	WebUI.delay(2)
 	
 	assert WebUI.getUrl() == 'https://demo-app.online/email/verify'
 }

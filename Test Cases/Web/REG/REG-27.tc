@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>New user registration with an already
+registered E-mail in the 'E-mail' field</description>
+   <name>REG-27</name>
+   <tag>Negative</tag>
+   <comment></comment>
+   <testCaseGuid>80445632-9777-4928-af0f-605061ee4584</testCaseGuid>
+</TestCaseEntity>

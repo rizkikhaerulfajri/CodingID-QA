@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with an empty value in the 'Whatsapp' field</description>
-   <name>REG-31</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>e6927fc9-4571-40e9-9f46-bc8eb595bc79</testCaseGuid>
-</TestCaseEntity>

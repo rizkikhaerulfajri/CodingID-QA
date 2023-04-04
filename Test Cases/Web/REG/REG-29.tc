@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify 'Whatsapp' field is working correctly with valid inputs (number prefix)</description>
-   <name>REG-29</name>
-   <tag>Positive</tag>
-   <comment></comment>
-   <testCaseGuid>cd1a2130-3516-44ce-ab38-3441f84f3de8</testCaseGuid>
-</TestCaseEntity>

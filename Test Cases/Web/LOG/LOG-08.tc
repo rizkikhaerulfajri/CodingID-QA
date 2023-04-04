@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Log in using an empty 'Kata Sandi' field</description>
-   <name>LOG-08</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>62e195ac-fee7-4e84-82a5-7ada1fbc1cac</testCaseGuid>
-</TestCaseEntity>

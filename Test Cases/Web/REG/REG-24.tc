@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify 'E-mail' field is working correctly with valid inputs</description>
-   <name>REG-24</name>
-   <tag>Positive</tag>
-   <comment></comment>
-   <testCaseGuid>a810829f-8a41-4ff4-b988-5751ebba2781</testCaseGuid>
-</TestCaseEntity>

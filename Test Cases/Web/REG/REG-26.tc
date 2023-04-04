@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New user registration with empty space value in the 'E-mail' field</description>
-   <name>REG-26</name>
-   <tag>Negative</tag>
-   <comment></comment>
-   <testCaseGuid>b7d01212-5ed3-4d38-8e65-2a3856e528c3</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Register a new user using Google API with an already registered E-mail and having only one Google account stored in browser</description>
-   <name>REG-10</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5c9890a3-1c38-4b86-a641-8db71e273c50</testCaseGuid>
-</TestCaseEntity>
